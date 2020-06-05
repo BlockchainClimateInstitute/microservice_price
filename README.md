@@ -64,17 +64,26 @@ First, clone this repo and cd in this folder. You should be using Python 3.X. Cr
 ```shell
 virtualenv venv_price
 ```
-
+If virtualenv  is not installed install it by typing:
+ 
+ ```shell
+ pip install virtualenv
+``` 
 In Linux/Mac activate the virtualenv by typing:
 
 ```shell
 source venv_price/bin/activate
 ```
+In Windows  activate  the virtualenv by typing:
+
+```shell
+venv_price\Scripts\activate
+```
 
 Install all requirements:
 
 ```shell
-pip instal -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Make the virtualenv available to jupyter notebook:
