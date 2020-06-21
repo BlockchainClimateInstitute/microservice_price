@@ -30,7 +30,7 @@
 * [towardsdatascience.com](https://towardsdatascience.com/automated-valuation-model-how-it-works-in-real-estate-industry-8d082757e1ed) - Automated Valuation Model — How It Works in Real Estate Industry?
 
 ### How does it relate to BCI Risk Modeling?
-<img src="bci_flowchart_2.png" height="360" >
+<img src="bci_flowchart_2.png" height="480" >
 
 ### Interesting cross-over companies using AVM technology in the context of climate risk modeling
 * [Jupiter Intelligence](https://jupiterintel.com) - Predicting Risk in a Changing Climate: Jupiter’s AI and Scientific Models Deliver Unrivaled Power
