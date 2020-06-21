@@ -17,7 +17,7 @@
 * [Attom Data](https://www.attomdata.com/data/analytics-derived-data/avm-property-valuations/) - Utilizing more than 80 million homes in our property database across all 50 states and representing 99% of the US population, and valuation software developed by Automated Valuation Model Analytics
 
 ### Valuation Process
-<img src="valuation_process.png" height="120" >
+<img src="valuation_process.png" height="360" >
 
 ### Interesting GitHub Repositories related to AVM's
 * [Zillow-Kaggle](https://github.com/junjiedong/Zillow-Kaggle/blob/master/README.md) - This repo tackles the first round of Zillow’s Home Value Prediction Competition, which challenges competitors to predict the log error between Zestimate and the actual sale price of houses. And the submissions are evaluated based on Mean Absolute Error between the predicted log error and the actual log error. The competition was hosted from May 2017 to October 2017 on Kaggle, and the final private leaderboard was revealed after the evaluation period ended in January 2018.
@@ -30,7 +30,7 @@
 * [towardsdatascience.com](https://towardsdatascience.com/automated-valuation-model-how-it-works-in-real-estate-industry-8d082757e1ed) - Automated Valuation Model — How It Works in Real Estate Industry?
 
 ### How does it relate to BCI Risk Modeling?
-<img src="bci_flowchart_2.png" height="120" >
+<img src="bci_flowchart_2.png" height="360" >
 
 ### Interesting cross-over companies using AVM technology in the context of climate risk modeling
 * [Jupiter Intelligence](https://jupiterintel.com) - Predicting Risk in a Changing Climate: Jupiter’s AI and Scientific Models Deliver Unrivaled Power
