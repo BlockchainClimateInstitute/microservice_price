@@ -1,0 +1,1 @@
+{"Imputer": {"categorical_impute_strategy": "most_frequent", "numeric_impute_strategy": "mean", "categorical_fill_value": null, "numeric_fill_value": null}, "One Hot Encoder": {"top_n": 10, "categories": null, "drop": null, "handle_unknown": "ignore", "handle_missing": "error"}, "XGBoost Regressor": {"eta": 0.1, "max_depth": 6, "min_child_weight": 1, "n_estimators": 100}}
