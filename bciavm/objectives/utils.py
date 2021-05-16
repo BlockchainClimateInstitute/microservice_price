@@ -26,7 +26,7 @@ def _all_objectives_dict():
     all_objectives = _get_subclasses(ObjectiveBase)
     objectives_dict = {}
     for objective in all_objectives:
-        if 'bci_avm.objectives' not in objective.__module__:
+        if 'bciavm.objectives' not in objective.__module__:
             continue
         objectives_dict[objective.name.lower()] = objective
     return objectives_dict
@@ -76,7 +76,7 @@ def get_objective(objective, return_instance=False, **kwargs):
         raise TypeError("If parameter objective is not a string, it must be an instance of ObjectiveBase!")
     if objective.lower() not in all_objectives_dict:
         raise ObjectiveNotFoundError(f"{objective} is not a valid Objective! "
-                                     "Use bci_avm.objectives.get_all_objective_names()"
+                                     "Use bciavm.objectives.get_all_objective_names()"
                                      "to get a list of all valid objective names. ")
 
     objective_class = all_objectives_dict[objective.lower()]

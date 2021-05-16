@@ -39,5 +39,5 @@ class RegressionPipeline(PipelineBase):
             dict: Ordered dictionary of objective scores
         """
         objectives = self.create_objectives(objectives)
-        y_predicted = self._dask_model.predict(X)
+        y_predicted = self._component_graph.predict(X)
         return self._score_all_objectives(X, y, y_predicted, y_pred_proba=None, objectives=objectives)

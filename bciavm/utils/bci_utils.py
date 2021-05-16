@@ -219,7 +219,6 @@ def preprocess_data(data, drop_outlier=True, target='Price_p', test_size=0.15):
 
     return X_train, X_test, y_train, y_test
 
-
 def merge_train_w_lookup_table(train, lookup_table):
     if 'PROPERTY_TYPE_e__' in lookup_table.columns:
         train = train.merge(lookup_table.rename({'PROPERTY_TYPE_e__': 'PROPERTY_TYPE_e'}, axis=1),

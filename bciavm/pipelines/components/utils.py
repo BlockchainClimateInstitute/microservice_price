@@ -1,6 +1,5 @@
 import inspect
 
-from bciavm.pipelines.components.transformers.preprocessing import PreprocessTransformer
 from sklearn.base import BaseEstimator, ClassifierMixin, RegressorMixin
 from sklearn.utils.multiclass import unique_labels
 from sklearn.utils.validation import check_is_fitted
@@ -23,8 +22,6 @@ def _all_estimators_used_in_search():
 
 
 def _all_transformers():
-    # t =
-    # t.append(PreprocessTransformer)
     return get_importable_subclasses(Transformer, used_in_automl=False)
 
 
@@ -114,11 +111,11 @@ class WrappedSKClassifier(BaseEstimator, ClassifierMixin):
     """Scikit-learn classifier wrapper class."""
 
     def __init__(self, pipeline):
-        """Scikit-learn classifier wrapper class. Takes an bci_avm pipeline as input
+        """Scikit-learn classifier wrapper class. Takes an bciavm pipeline as input
             and returns a scikit-learn classifier class wrapping that pipeline.
 
         Arguments:
-            pipeline (PipelineBase or subclass obj): bci_avm pipeline
+            pipeline (PipelineBase or subclass obj): bciavm pipeline
         """
         self.pipeline = pipeline
         self._estimator_type = "classifier"
@@ -173,11 +170,11 @@ class WrappedSKRegressor(BaseEstimator, RegressorMixin):
     """Scikit-learn regressor wrapper class."""
 
     def __init__(self, pipeline):
-        """Scikit-learn regressor wrapper class. Takes an bci_avm pipeline as input
+        """Scikit-learn regressor wrapper class. Takes an bciavm pipeline as input
             and returns a scikit-learn regressor class wrapping that pipeline.
 
         Arguments:
-            pipeline (PipelineBase or subclass obj): bci_avm pipeline
+            pipeline (PipelineBase or subclass obj): bciavm pipeline
         """
         self.pipeline = pipeline
         self._estimator_type = "regressor"
@@ -210,27 +207,27 @@ class WrappedSKRegressor(BaseEstimator, RegressorMixin):
         return self.pipeline.predict(X).to_numpy()
 
 
-def scikit_learn_wrapped_estimator(bci_avm_obj):
+def scikit_learn_wrapped_estimator(bciavm_obj):
     from bciavm.pipelines.pipeline_base import PipelineBase
 
-    """Wrap an bci_avm pipeline or estimator in a scikit-learn estimator."""
-    if isinstance(bci_avm_obj, PipelineBase):
-        if bci_avm_obj.problem_type in [ProblemTypes.REGRESSION, ProblemTypes.TIME_SERIES_REGRESSION]:
-            return WrappedSKRegressor(bci_avm_obj)
-        elif bci_avm_obj.problem_type == ProblemTypes.BINARY or bci_avm_obj.problem_type == ProblemTypes.MULTICLASS:
-            return WrappedSKClassifier(bci_avm_obj)
+    """Wrap an bciavm pipeline or estimator in a scikit-learn estimator."""
+    if isinstance(bciavm_obj, PipelineBase):
+        if bciavm_obj.problem_type in [ProblemTypes.REGRESSION, ProblemTypes.TIME_SERIES_REGRESSION]:
+            return WrappedSKRegressor(bciavm_obj)
+        elif bciavm_obj.problem_type == ProblemTypes.BINARY or bciavm_obj.problem_type == ProblemTypes.MULTICLASS:
+            return WrappedSKClassifier(bciavm_obj)
     else:
-        # bci_avm Estimator
-        if bci_avm_obj.supported_problem_types == [ProblemTypes.REGRESSION, ProblemTypes.TIME_SERIES_REGRESSION]:
-            return WrappedSKRegressor(bci_avm_obj)
-        elif bci_avm_obj.supported_problem_types == [ProblemTypes.BINARY, ProblemTypes.MULTICLASS,
+        # bciavm Estimator
+        if bciavm_obj.supported_problem_types == [ProblemTypes.REGRESSION, ProblemTypes.TIME_SERIES_REGRESSION]:
+            return WrappedSKRegressor(bciavm_obj)
+        elif bciavm_obj.supported_problem_types == [ProblemTypes.BINARY, ProblemTypes.MULTICLASS,
                                                     ProblemTypes.TIME_SERIES_BINARY, ProblemTypes.TIME_SERIES_MULTICLASS]:
-            return WrappedSKClassifier(bci_avm_obj)
-    raise ValueError("Could not wrap bci_avm object in scikit-learn wrapper.")
+            return WrappedSKClassifier(bciavm_obj)
+    raise ValueError("Could not wrap bciavm object in scikit-learn wrapper.")
 
 
 def generate_component_code(element):
-    """Creates and returns a string that contains the Python imports and code required for running the bci_avm component.
+    """Creates and returns a string that contains the Python imports and code required for running the bciavm component.
 
     Arguments:
         element (component instance): The instance of the component to generate string Python code for

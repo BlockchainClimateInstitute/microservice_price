@@ -1,4 +1,5 @@
 import mlflow
+import mlflow.pyfunc
 
 # wrap the model in order to call model.avm(X)
 # which enables ParallelPostFit to be used with the predict() method

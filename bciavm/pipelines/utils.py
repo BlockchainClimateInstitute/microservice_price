@@ -2,24 +2,14 @@ import json
 
 from woodwork import logical_types
 
-from .binary_classification_pipeline import BinaryClassificationPipeline
-from .multiclass_classification_pipeline import (
-    MulticlassClassificationPipeline
-)
 from .regression_pipeline import RegressionPipeline
-from .time_series_classification_pipelines import (
-    TimeSeriesBinaryClassificationPipeline,
-    TimeSeriesMulticlassClassificationPipeline
-)
+
 from .time_series_regression_pipeline import TimeSeriesRegressionPipeline
 
 from bciavm import Boolean, Integer
-from bciavm.data_checks import DataCheckActionCode
 from bciavm.model_family import ModelFamily
 from bciavm.pipelines import PipelineBase
 from bciavm.pipelines.components import (  # noqa: F401
-    CatBoostClassifier,
-    CatBoostRegressor,
     ComponentBase,
     DateTimeFeaturizer,
     DelayedFeatureTransformer,
@@ -28,8 +18,6 @@ from bciavm.pipelines.components import (  # noqa: F401
     Estimator,
     Imputer,
     OneHotEncoder,
-    RandomForestClassifier,
-    StackedEnsembleClassifier,
     StackedEnsembleRegressor,
     StandardScaler,
     TextFeaturizer
@@ -80,7 +68,7 @@ def _get_preprocessing_components(X, y, problem_type, estimator_class):
         pp_components.append(DelayedFeatureTransformer)
 
     categorical_cols = X.ww.select('category')
-    if len(categorical_cols.columns) > 0 and estimator_class not in {CatBoostClassifier, CatBoostRegressor}:
+    if len(categorical_cols.columns) > 0:
         pp_components.append(OneHotEncoder)
 
     if estimator_class.model_family == ModelFamily.LINEAR_MODEL:
@@ -90,18 +78,11 @@ def _get_preprocessing_components(X, y, problem_type, estimator_class):
 
 def _get_pipeline_base_class(problem_type):
     """Returns pipeline base class for problem_type"""
-    if problem_type == ProblemTypes.BINARY:
-        return BinaryClassificationPipeline
-    elif problem_type == ProblemTypes.MULTICLASS:
-        return MulticlassClassificationPipeline
-    elif problem_type == ProblemTypes.REGRESSION:
+    if problem_type == ProblemTypes.REGRESSION:
         return RegressionPipeline
     elif problem_type == ProblemTypes.TIME_SERIES_REGRESSION:
         return TimeSeriesRegressionPipeline
-    elif problem_type == ProblemTypes.TIME_SERIES_BINARY:
-        return TimeSeriesBinaryClassificationPipeline
-    else:
-        return TimeSeriesMulticlassClassificationPipeline
+
 
 
 def make_pipeline(X, y, estimator, problem_type, custom_hyperparameters=None):
@@ -183,7 +164,7 @@ def make_pipeline_from_components(component_instances, problem_type, custom_name
 
 
 def generate_pipeline_code(element):
-    """Creates and returns a string that contains the Python imports and code required for running the bci_avm pipeline.
+    """Creates and returns a string that contains the Python imports and code required for running the bciavm pipeline.
 
     Arguments:
         element (pipeline instance): The instance of the pipeline to generate string Python code
@@ -244,12 +225,7 @@ def _make_stacked_ensemble_pipeline(input_pipelines, problem_type, n_jobs=-1, ra
     Returns:
         Pipeline with appropriate stacked ensemble estimator.
     """
-    if problem_type in [ProblemTypes.BINARY, ProblemTypes.MULTICLASS]:
-        return make_pipeline_from_components([StackedEnsembleClassifier(input_pipelines, n_jobs=n_jobs)], problem_type,
-                                             custom_name="Stacked Ensemble Classification Pipeline",
-                                             random_seed=random_seed)
-    else:
-        return make_pipeline_from_components([StackedEnsembleRegressor(input_pipelines, n_jobs=n_jobs)], problem_type,
+    return make_pipeline_from_components([StackedEnsembleRegressor(input_pipelines, n_jobs=n_jobs)], problem_type,
                                              custom_name="Stacked Ensemble Regression Pipeline",
                                              random_seed=random_seed)
 
@@ -265,7 +241,5 @@ def _make_component_list_from_actions(actions):
         List of components used to address the input actions
     """
     components = []
-    for action in actions:
-        if action.action_code == DataCheckActionCode.DROP_COL:
-            components.append(DropColumns(columns=action.metadata["columns"]))
+
     return components

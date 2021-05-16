@@ -18,7 +18,7 @@ from .gen_utils import (
     deprecate_arg,
     )
 from .cli_utils import (
-    get_bci_avm_root,
+    get_bciavm_root,
     get_installed_packages,
     get_sys_info,
     print_deps,

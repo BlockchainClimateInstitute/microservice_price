@@ -3,10 +3,8 @@ import os
 import warnings
 from collections import namedtuple
 from functools import reduce
-
 import numpy as np
 import pandas as pd
-import woodwork as ww
 from sklearn.utils import check_random_state
 
 from bciavm.exceptions import (
@@ -181,7 +179,7 @@ def get_importable_subclasses(base_class, used_in_automl=True):
 
     classes = []
     for cls in all_classes:
-        if 'bci_avm.pipelines' not in cls.__module__:
+        if 'bciavm.pipelines' not in cls.__module__:
             continue
         try:
             cls()

@@ -19,7 +19,7 @@ from .component_graph import ComponentGraph
 from .pipeline_base import PipelineBase
 from .regression_pipeline import RegressionPipeline
 
-from .dask_wrapper import AVMWrapper
+
 from .time_series_regression_pipeline import TimeSeriesRegressionPipeline
 from .regression import (
     BaselineRegressionPipeline,

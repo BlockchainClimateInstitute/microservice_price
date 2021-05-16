@@ -9,7 +9,7 @@ class TimeSeriesSplit(BaseCrossValidator):
     def __init__(self, max_delay=0, gap=0, n_splits=3):
         """Create a TimeSeriesSplit.
 
-        This class uses max_delay and gap values to take into account that bci_avm time series pipelines perform
+        This class uses max_delay and gap values to take into account that bciavm time series pipelines perform
         some feature and target engineering, e.g delaying input features and shifting the target variable by the
         desired amount. If the data that will be split already has all the features and appropriate target values, and
         then set max_delay and gap to 0.

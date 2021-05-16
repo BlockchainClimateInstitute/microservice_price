@@ -15,13 +15,13 @@ logger = get_logger(__file__)
 
 
 def print_info():
-    """Prints information about the system, bci_avm, and dependencies of bci_avm.
+    """Prints information about the system, bciavm, and dependencies of bciavm.
 
     Returns:
         None
     """
-    logger.info("bci_avm version: %s" % bciavm.__version__)
-    logger.info("bci_avm installation directory: %s" % get_bci_avm_root())
+    logger.info("bciavm version: %s" % bciavm.__version__)
+    logger.info("bciavm installation directory: %s" % get_bciavm_root())
     print_sys_info()
     print_deps()
 
@@ -97,10 +97,10 @@ def get_installed_packages():
     return installed_packages
 
 
-def get_bci_avm_root():
-    """Gets location where bci_avm is installed.
+def get_bciavm_root():
+    """Gets location where bciavm is installed.
 
     Returns:
-        Location where bci_avm is installed.
+        Location where bciavm is installed.
     """
     return os.path.dirname(bciavm.__file__)

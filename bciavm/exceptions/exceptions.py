@@ -14,7 +14,7 @@ class ObjectiveNotFoundError(Exception):
 
 
 class IllFormattedClassNameError(Exception):
-    """Exception to raise when a class name does not comply with bci_avm standards"""
+    """Exception to raise when a class name does not comply with bciavm standards"""
     pass
 
 

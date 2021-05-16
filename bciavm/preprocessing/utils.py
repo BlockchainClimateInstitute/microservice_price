@@ -51,7 +51,7 @@ def split_data(X, y, problem_type, problem_configuration=None, test_size=.2, ran
     Arguments:
         X (ww.DataTable, pd.DataFrame or np.ndarray): data of shape [n_samples, n_features]
         y (ww.DataColumn, pd.Series, or np.ndarray): target data of length [n_samples]
-        problem_type (str or ProblemTypes): type of supervised learning problem. see bci_avm.problem_types.problemtype.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. see bciavm.problem_types.problemtype.all_problem_types for a full list.
         problem_configuration (dict): Additional parameters needed to configure the search. For example,
             in time series problems, values should be passed in for the gap and max_delay variables.
         test_size (float): What percentage of data points should be included in the test set. Defaults to 0.2 (20%).

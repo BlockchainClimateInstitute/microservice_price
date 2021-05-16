@@ -55,7 +55,7 @@ def is_regression(problem_type):
     """Determines if the provided problem_type is a regression problem type
 
     Arguments:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See bci_avm.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See bciavm.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a regression problem type.
@@ -67,7 +67,7 @@ def is_binary(problem_type):
     """Determines if the provided problem_type is a binary classification problem type
 
     Arguments:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See bci_avm.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See bciavm.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a binary classification problem type.
@@ -79,7 +79,7 @@ def is_multiclass(problem_type):
     """Determines if the provided problem_type is a multiclass classification problem type
 
     Arguments:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See bci_avm.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See bciavm.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a multiclass classification problem type.
@@ -91,7 +91,7 @@ def is_classification(problem_type):
     """Determines if the provided problem_type is a classification problem type
 
     Arguments:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See bci_avm.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See bciavm.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a classification problem type.
@@ -103,7 +103,7 @@ def is_time_series(problem_type):
     """Determines if the provided problem_type is a time series problem type
 
     Arguments:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See bci_avm.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See bciavm.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a time series problem type.

@@ -13,7 +13,7 @@ class DFSTransformer(Transformer):
     hyperparameter_ranges = {}
 
     def __init__(self, index='index', random_seed=0, **kwargs):
-        """Allows for featuretools to be used in bci_avm.
+        """Allows for featuretools to be used in bciavm.
 
         Arguments:
             index (string): The name of the column that contains the indices. If no column with this name exists,
