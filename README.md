@@ -1,128 +1,126 @@
-Microservice Price
-==============================
+<p align="center">
+<img width=50% src="https://blockchainclimate.org/wp-content/uploads/2020/11/cropped-BCI_Logo_LR-400x333.png" alt="bciAVM" height="300"/>
+</p>
 
-MicroService to provide price estimation for real estate investments in the UK. The main objective of 
-this service is to ingest information relevant to an AVM (Automatic Valuation Model) which can then 
-provide a price estimate for a property. This price could be provided at present time, in the past and 
-potentially in the future (projections). 
+[![PyPI](https://badge.fury.io/py/bciavm.svg?maxAge=2592000)](https://badge.fury.io/py/bciavm)
+[![PyPI Stats](https://img.shields.io/badge/bciavm-avm-blue)](https://pypistats.org/packages/bciavm)
 
+The Blockchain & Climate Institute (BCI) is a progressive think tank providing leading expertise in the deployment of emerging technologies for climate and sustainability actions. 
 
-Project Organization
-------------
+As an international network of scientific and technological experts, BCI is at the forefront of innovative efforts, enabling technology transfers, to create a sustainable and clean global future.
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+# Automated Valuation Model (AVM) 
 
+#### About
+AVM is a term for a service that uses mathematical modeling combined with databases of existing properties and transactions to calculate real estate values. 
+The majority of automated valuation models (AVMs) compare the values of similar properties at the same point in time. 
+Many appraisers, and even Wall Street institutions, use this type of model to value residential properties. (see [What is an AVM](https://www.investopedia.com/terms/a/automated-valuation-model.asp) Investopedia.com)
 
-How to Start Working: virtualenv, requirements and Notebook
-------------
+For more detailed info about the AVM, please read the **About** paper in the [resources directory](https://github.com/gcode-ai/bciavm/blob/4e0816b25dae021629e406194a72d3d805faecf0/resources/2021-BCI-AVM-About.pdf).
 
-First, clone this repo and cd in this folder. You should be using Python 3.X. Create a virtual environment typing:
+### Valuation Process
+<img src="resources/valuation_process.png" height="360" >
 
+**Key Functionality**
+
+* **Supervised algorithms** 
+* **Tree-based & deep learning algorithms** 
+* **Feature engineering derived from small clusters of similar properties** 
+* **Ensemble (value blending) approaches** 
+
+## Set the required AWS Environment Variables
 ```shell
-virtualenv venv_price
-```
-If virtualenv  is not installed install it by typing:
- 
- ```shell
- pip install virtualenv
-``` 
-In Linux/Mac activate the virtualenv by typing:
-
-```shell
-source venv_price/bin/activate
-```
-In Windows  activate  the virtualenv by typing:
-
-```shell
-venv_price\Scripts\activate
+export ACCESS_KEY=YOURACCESS_KEY
+export SECRET_KEY=YOURSECRET_KEY
+export BUCKET_NAME=bci-transition-risk-data
+export TABLE_DIRECTORY=/dbfs/FileStore/tables/
 ```
 
-Install all requirements:
-
+## Install [from PyPI](https://pypi.org/project/bciavm/)
 ```shell
-pip install -r requirements.txt
+pip install bciavm
 ```
 
-Make the virtualenv available to jupyter notebook:
+## Start
 
-```shell
-python -m ipykernel install --name=venv_price
+#### Load the training data from the BCI S3 bucket
+```python
+from bciavm.core.config import your_bucket
+from bciavm.utils.bci_utils import ReadParquetFile, get_postcodeOutcode_from_postcode, get_postcodeArea_from_outcode, drop_outliers, preprocess_data
+import pandas as pd
+
+dfPricesEpc = pd.DataFrame()
+dfPrices = pd.DataFrame()
+
+yearArray = ['2020', '2019']
+for year in yearArray:
+    singlePriceEpcFile = pd.DataFrame(ReadParquetFile(your_bucket, 'epc_price_data/byDate/2021-02-04/parquet/' + year))
+    dfPricesEpc = dfPricesEpc.append(singlePriceEpcFile)
+
+dfPricesEpc['POSTCODE_OUTCODE'] = dfPricesEpc['Postcode'].apply(get_postcodeOutcode_from_postcode)
+dfPricesEpc['POSTCODE_AREA'] = dfPricesEpc['POSTCODE_OUTCODE'].apply(get_postcodeArea_from_outcode)
+dfPricesEpc.groupby('TypeOfMatching_m').count()['Postcode']
 ```
 
-You should now be able to find the "venv_price" kernel in your list of available kernels in jupyter notebook.
-Create a notebook in the corresponding folder (/notebooks) and start working on your specific task. You should
-first develop/demonstrate your work in the notebook and then we will migrate code to the source folder (/src).
-The test/sample data we will use for development/debug will be located in the data folder.
 
-
-Code Changes/Review Process
-------------
-
-This repository has 3 core branches:
-- master
-- uat
-- develop (default)
-
-Make sure to commit code to 'develop' branch only (default). We will review code and
-migrate as appropriate to "User Acceptance Test" (uat) and "Production" branches
-(master) in a progressive fashion (once tests by multiple stakeholders is complete).
-
-
-Run the FlaskApp
-------------
-
-You can test the sample FlaskRest API by typing in your command line:
-
-```shell
-python src/app.py
+#### Preprocess & split the data for training/testing
+```python
+import bciavm
+X_train, X_test, y_train, y_test = bciavm.preprocess_data(dfPricesEpc)
 ```
 
-You can check the sample API by opening your browser and going to: http://127.0.0.1:5000/
+#### Build the pipeline and get the default pipeline parameters
+```python
+from bciavm.pipelines import RegressionPipeline
+
+class AVMPipeline(RegressionPipeline):
+        custom_name = 'AVM Pipeline'
+        component_graph = {
+            "Preprocess Transformer": ["Preprocess Transformer"],
+            'Imputer': ['Imputer', "Preprocess Transformer"],
+            'One Hot Encoder': ['One Hot Encoder', "Imputer"],
+            'K Nearest Neighbors Regressor': ['K Nearest Neighbors Regressor', 'One Hot Encoder'],
+            "XGBoost Regressor": ["XGBoost Regressor", 'One Hot Encoder'],
+            'MultiLayer Perceptron Regressor': ['MultiLayer Perceptron Regressor',  'One Hot Encoder'],
+            'Final Estimator': ['Linear Regressor', "XGBoost Regressor", 'MultiLayer Perceptron Regressor', 'K Nearest Neighbors Regressor']
+        }
+    
+avm_pipeline = AVMPipeline(parameters={})
+avm_pipeline.parameters
+```
 
 
---------
+#### Fit the pipeline
+```python
+avm_pipeline.fit(X_train, y_train)
+```
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+#### Score the pipeline
+```python
+avm_pipeline.score(  X_test, 
+                     y_test, 
+                     objectives=['MAPE',
+                               'MdAPE',
+                               'ExpVariance',
+                               'MaxError',
+                               'MedianAE',
+                               'MSE',
+                               'MAE',
+                               'R2',
+                               'Root Mean Squared Error'])
+```
+
+
+## Next Steps
+Read more about bciAVM on our [documentation page](https://blockchainclimate.org/thought-leadership/#blog):
+
+### How does it relate to BCI Risk Modeling?
+<img src="resources/bci_flowchart_2.png" height="480" >
+
+
+## Technical & financial support for AVM development was provided by GCODE.ai
+<a href="https://www.gcode.ai">
+    <img src="https://staticfiles-img.s3.amazonaws.com/avm/gcode_logo.png" alt="GCODE.ai"  height="75"/>
+</a>
+
