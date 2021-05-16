@@ -165,7 +165,9 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
             self.data = self.data.append(pd.read_parquet(d))
 
 
-        t1, t2 = preprocess_data(self.data)
+        t1, t2, y1, y2 = preprocess_data(self.data)
+        t1[target] = y1
+        t2[target] = y2
         self.data = pd.concat([t1,t2])
         self.target = target
         try:

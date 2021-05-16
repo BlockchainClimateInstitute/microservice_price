@@ -10,7 +10,7 @@ import os
 # if os.uname().machine != 'arm64':
 setup(
     name='bciavm',
-    version='1.21.4',
+    version='1.21.5',
     author='Mike Casale | Blockchain Climate Institute',
     author_email='mike.casale@blockchainclimate.org',
     description='bciAVM is a machine learning pipeline used to predict property prices.',
