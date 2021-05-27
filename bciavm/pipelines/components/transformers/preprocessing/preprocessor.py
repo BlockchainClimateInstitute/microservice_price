@@ -125,8 +125,9 @@ class PreprocessTransformer(Transformer) :
             for op in ops:
 
                 # calculate the difference between the aggregate and each individual unit
-                df[col + '_' + 'minus' + '_' + op] = df[col].astype(float) - df[col + '__' + op].astype(float)
-
+                try: df[col + '_' + 'minus' + '_' + op] = df[col].astype(float) - df[col + '__' + op].astype(float)
+                except: df[col + '_' + 'minus' + '_' + op] = [np.nan for x in range(len(df))]
+                
                 # drop the aggregated features
                 df = df.drop([col + '__' + op], axis=1)
 

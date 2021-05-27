@@ -9,7 +9,7 @@ import os
 
 setup(
     name='bciavm',
-    version='1.21.8',
+    version='1.21.9',
     author='Mike Casale | Blockchain Climate Institute',
     author_email='mike.casale@blockchainclimate.org',
     description='bciAVM is a machine learning pipeline used to predict property prices.',
