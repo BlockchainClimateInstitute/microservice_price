@@ -49,6 +49,12 @@ from ..utils.gen_utils import fill_nulls
 import pkgutil
 from joblib import Parallel, delayed
 
+import dask.array as da
+import dask.dataframe as dd
+from dask.distributed import wait
+from dask_ml.wrappers import ParallelPostFit
+import dask
+
 client = MlflowClient()
 
 target = 'Price_p'
@@ -301,7 +307,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         X_t = self._component_graph.compute_final_component_features(X, y=y)
         return X_t
 
-    def avm(self, X, batch_sample_sets=1, latest_production_version=1, min_sample_sz=15, conf_min=.50) :
+    def avm(self, X, batch_sample_sets=1, latest_production_version=1, max_sample_sz=15, min_sample_sz=5, conf_min=.68):
         """Main method for the BCI avm predictions. 
 
         Arguments:
@@ -316,8 +322,12 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         if 'unit_index' not in X.columns:
             X = X.reset_index().rename({'index':'unit_index'}, axis=1)
 
+        self.master_match_keys = {}
+        self.max_sample_sz = max_sample_sz
         self.min_sample_sz = min_sample_sz
-        self.bss = batch_sample_sets
+        self.batch_sample_sets = batch_sample_sets
+        self.conf_min = conf_min
+
         if np.isnan(self.latest_production_version):
             self.latest_production_version = latest_production_version
             self.latest_staging_version = latest_production_version - 1
@@ -362,6 +372,31 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
             pass
         return infer_feature_types(predictions)
 
+    def _get_bounds(self, resp, y_predd):
+        try:
+            resp[ 'avm_lower' ] = round(
+                    resp[ 'avm' ].astype(float) + resp[ 'avm' ].astype(float) * resp[ 'avm_lower' ].astype(float),
+                    0)
+        except:
+            pass
+
+        try:
+            resp[ 'avm_upper' ] = round(
+                    resp[ 'avm' ].astype(float) + resp[ 'avm' ].astype(float) * resp[ 'avm_upper' ].astype(float),
+                    0)
+        except:
+            pass
+
+        if (y_predd.values[0] - resp[ 'avm_lower' ].values[0] ) > (resp[ 'avm_upper' ].values[0] - y_predd.values[0]):
+            fsd = y_predd.values[0] - resp[ 'avm_lower' ].values[0]
+        else:
+            fsd = resp[ 'avm_upper' ].values[0] - y_predd.values[0]
+
+        conf = 1.0 - fsd / y_predd.values[0]
+        resp['conf'] = [conf]
+
+        return resp
+
     def _conf(self, unit_index):
         """Get the upper & lower bound predictions & confidence.
 
@@ -384,11 +419,27 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         latest_staging_version = self.latest_staging_version
         y_predd, lower, upper, conf = [ np.nan ], np.nan, np.nan, np.nan
         lowers, uppers, confs, y_pred = [ ], [ ], [ ], [ ]
-        match_key = unit[ 'POSTCODE_AREA' ].astype(str)
+        match_key = unit[ 'POSTCODE_AREA' ].astype(str) + unit['NUMBER_HEATED_ROOMS_e'].astype(str) 
         match_key = match_key.values[ 0 ]
-        dfs = data[ data[ 'POSTCODE_AREA' ]==match_key]
+
         unit = infer_feature_types(unit)
         y_predd = self._component_graph.predict(unit)
+
+        if match_key in self.master_match_keys:
+            _confs = self.master_match_keys[match_key]
+            resp = pd.DataFrame({})
+            resp['unit_index'] = unit['unit_index']
+            resp['avm'] = y_predd
+            resp['avm_lower'] = _confs['avm_lower']
+            resp['avm_upper'] = _confs['avm_upper']
+            resp = self._get_bounds(resp, y_predd)
+            resp['ts'] = [ts]
+            resp['latest_production_version'] = [latest_production_version]
+            resp['latest_staging_version'] = [latest_staging_version]
+            self.l.append(resp)
+            return self
+
+        dfs = data[ (data[ 'POSTCODE_AREA' ]==unit[ 'POSTCODE_AREA' ].astype(str).values[ 0 ]) & (data[ 'NUMBER_HEATED_ROOMS_e' ]==unit[ 'NUMBER_HEATED_ROOMS_e' ].astype(str).values[ 0 ])]
 
         if len(dfs) < self.min_sample_sz:
             resp = pd.DataFrame({})
@@ -400,14 +451,15 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
             resp['ts'] = [ts]
             resp['latest_production_version'] = [latest_production_version]
             resp['latest_staging_version'] = [latest_staging_version]
-            return resp
+            self.l.append(resp)
+            return self
 
         comp_df = dfs.copy()
         y_trus_all, y_preds_all = [], []
-        for n in range(self.bss):
+        for n in range(self.batch_sample_sets):
             dfs = comp_df.sample(frac=.2, replace=True)
-            if len(dfs) > 100:
-                dfs = dfs.sample(100)
+            if len(dfs) > self.max_sample_sz:
+                dfs = dfs.sample(self.max_sample_sz)
 
             y_trus = dfs[self.target]
             dfs = infer_feature_types(dfs)
@@ -419,7 +471,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
 
         stats = (np.array([y for y in y_preds_all]) - y_trus_all) / y_trus_all
         stats = np.nan_to_num(stats)
-        confs = [.90]
+        confs = [self.conf_min]
         for alpha in confs:
             p = ((1.0 - alpha) / 2.0) * 100.0
             ylower = np.percentile(stats, p)
@@ -436,31 +488,15 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         resp[ 'avm' ] = y_predd
         resp[ 'avm_lower' ] = [ lower ]
         resp[ 'avm_upper' ] = [ upper ]
-
-        try:
-            resp[ 'avm_lower' ] = round(
-                    resp[ 'avm' ].astype(float) + resp[ 'avm' ].astype(float) * resp[ 'avm_lower' ].astype(float),
-                    0)
-        except:
-            pass
-
-        try:
-            resp[ 'avm_upper' ] = round(
-                    resp[ 'avm' ].astype(float) + resp[ 'avm' ].astype(float) * resp[ 'avm_upper' ].astype(float),
-                    0)
-        except:
-            pass
-
-        if (y_predd.values[0] - resp[ 'avm_lower' ].values[0] ) > (resp[ 'avm_upper' ].values[0] - y_predd.values[0]):
-            fsd = y_predd.values[0] - resp[ 'avm_lower' ].values[0]
-        else:
-            fsd = resp[ 'avm_upper' ].values[0] - y_predd.values[0]
-
-        conf = 1.0 - fsd / y_predd.values[0]
-        resp['conf'] = [conf]
+        resp = self._get_bounds(resp, y_predd)
         resp['ts'] = [ts]
         resp['latest_production_version'] = [latest_production_version]
         resp['latest_staging_version'] = [latest_staging_version]
+
+        self.master_match_keys[match_key] = {
+            'avm_lower': lower,
+            'avm_upper': upper
+        }
         self.l.append(resp)
         return self
 
@@ -475,29 +511,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         self.input_target_name = y.name
         self._component_graph.fit(X, y)
         self.input_feature_names = self._component_graph.input_feature_names
-        self._parallel_post_fit(X, y)
 
-    def _parallel_post_fit(self, X, y=None):
-        """Meta-estimator for parallel predict and transform.
-
-        Warning
-        This class is not appropriate for parallel or distributed training on large datasets.
-        For that, see Incremental, which provides distributed (but sequential) training.
-        If you’re doing distributed hyperparameter optimization on larger-than-memory datasets,
-        see dask_ml.model_selection.IncrementalSearch.
-
-        Arguments:
-            X (ww.DataTable, pd.DataFrame or np.ndarray): The input training data of shape [n_samples, n_features]
-            y (ww.DataColumn, pd.Series, np.ndarray): The target training data of length [n_samples]
-
-        Returns:
-            Estimator wrapped in Dask ParallelPostFit
-        """
-        wrapped_model = AVMWrapper(self)
-        wmodel = ParallelPostFit(wrapped_model)
-        wmodel.fit(X, y)
-        self._dask_component_graph = wmodel
-        return self
 
     @abstractmethod
     def fit(self, X, y):
@@ -524,29 +538,83 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         """
         X = fill_nulls(X)
         X = infer_feature_types(X)
+
         predictions = self._component_graph.predict(X)
         predictions.name = self.input_target_name
         return infer_feature_types(predictions)
 
-    def parallel_predict(self, X, columns=['unit_index', 'avm', 'avm_lower', 'avm_upper', 'conf', 'ts',
-                                                 'latest_production_version', 'latest_staging_version']):
+    def _mlflow_load_model(self):
+        """Loads model from mlflow.
+
+        Returns:
+            mlflow.pyfunc loaded model
+        """
+        return mlflow.pyfunc.load_model(
+            model_uri=f"models:/{self.model_name}/{self.model_version}"
+        )   
+
+    def _parallel_predict(self, X):
         """Make predictions using selected features.
 
         Arguments:
             X (dd.DataFrame, pd.DataFrame, or np.ndarray): Data of shape [n_samples, n_features]
-            columns (list): The list of columns to use when returning predictions
-            scheduler: The dask scheduler type.
-            n_jobs: The number of parallel jobs - should equal npartitions in the dask dataframe
+
+        Returns:
+            np.array: Predicted values.
+        """
+        
+        print('loading model from mlflow...')
+        try:
+            model = self._mlflow_load_model() 
+        except:
+            try:
+                time.sleep(60)
+                model = self._mlflow_load_model()
+            except:
+                time.sleep(60)
+                model = self._mlflow_load_model()
+
+        class avm_wrapper(mlflow.pyfunc.PythonModel):
+            def __init__(self, model):
+                self.model = model
+
+            def predict(self, X):
+                X = X.astype(dtype=self.input_example.dtypes)
+                return self.model.predict(X).values
+            
+        dask_component_graph = ParallelPostFit(avm_wrapper(model))
+        return dask_component_graph.predict(X) 
+
+
+    def parallel_predict(self, X, input_example=None, npartitions=64, model_name="avm", model_version="Production", cols=['unit_id','avm','avm_lower','avm_upper','conf','ts','latest_production_version','latest_staging_version']):
+        """Make predictions using selected features.
+
+        Arguments:
+            X (dd.DataFrame, pd.DataFrame, or np.ndarray): Data of shape [n_samples, n_features]
 
         Returns:
             pd.DataFrame: Predicted values.
         """
-        
-        def predict(X, model):
-            return model.predict(X)
 
-        predictions = X.map_partitions(predict, model=self._dask_component_graph)
-        return pd.DataFrame(predictions, columns=columns)
+        self.model_name=model_name
+        self.model_version=model_version
+        self.input_example = input_example
+
+        if not isinstance(X, dd._Frame):
+            print('Building a dask dataframe...')
+            X = dd.from_pandas(X, npartitions=npartitions)
+
+        X = dask.persist(X)
+        _ = wait(X)
+        X = X[0]
+
+        preds = X.map_partitions(
+                self._parallel_predict, meta=np.array([1])
+        )
+
+        # preds should return an array (in map_partitions is specified meta=np.array([1]))
+        return pd.DataFrame(preds.compute(), columns=cols)
+        
 
     @abstractmethod
     def score(self, X, y, objectives):

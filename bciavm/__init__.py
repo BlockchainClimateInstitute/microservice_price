@@ -27,4 +27,8 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings('ignore', 'The following selectors were not present in your DataTable')
 
+<<<<<<< Updated upstream
 __version__ = '1.21.8'
+=======
+__version__ = '1.21.10'
+>>>>>>> Stashed changes

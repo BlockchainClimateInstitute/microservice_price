@@ -154,7 +154,18 @@ def preprocess_data(data, drop_outlier=True, target='Price_p', test_size=0.15):
     data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('9th', '9')
     data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('11th', '11')
     data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('12th', '12')
-    floor_levels = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '-1']
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('13th', '13')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('14th', '14')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('15th', '15')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('16th', '16')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('17th', '17')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('18th', '18')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('19th', '19')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('20th', '20')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('21st or above', '21')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('top floor', '22')
+    data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].replace('mid floor', '3')
+    floor_levels = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17','18', '19', '20', '21', '22', '-1']
     floor_levels = [x for x in data['FLOOR_LEVEL_e'].values if x not in floor_levels]
     data['FLOOR_LEVEL_e'] = np.where(data['FLOOR_LEVEL_e'].isin(floor_levels), np.nan, data['FLOOR_LEVEL_e']).astype(
         float)

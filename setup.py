@@ -9,14 +9,18 @@ import os
 
 setup(
     name='bciavm',
+<<<<<<< Updated upstream
     version='1.21.8',
+=======
+    version='1.21.10',
+>>>>>>> Stashed changes
     author='Mike Casale | Blockchain Climate Institute',
     author_email='mike.casale@blockchainclimate.org',
     description='bciAVM is a machine learning pipeline used to predict property prices.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/BlockchainClimateInstitute/microservice_price',
-    download_url = 'https://github.com/BlockchainClimateInstitute/microservice_price/bciavm-1.21.8.tar.gz',
+    url='https://github.com/gcode-ai/bciavm',
+    download_url = 'https://github.com/user/reponame/archive/bciavm-1.21.6.tar.gz',
     install_requires=open('core-requirements.txt').readlines() + open('requirements.txt').readlines()[1:],
     tests_require=open('test-requirements.txt').readlines(),
     packages=find_packages(),
