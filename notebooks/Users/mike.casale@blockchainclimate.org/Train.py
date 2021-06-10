@@ -1,14 +1,9 @@
 # Databricks notebook source
-# MAGIC %md # BCI Price Microservice - Model Training
-# MAGIC 
-# MAGIC ## Requirements
-# MAGIC Databricks Runtime for Machine Learning 8.3 or above.
-# MAGIC * `bciavm`
-# MAGIC * `dask-ml`
-
-# COMMAND ----------
-
 # MAGIC %md
+# MAGIC # Train
+# MAGIC This notebook performs model training.
+# MAGIC To see the hyperparameter-tuning, use the **bci-avm-dask** cluster with the **Hypertuning** notebook.
+# MAGIC 
 # MAGIC <p align="center">
 # MAGIC <img width=25% src="https://blockchainclimate.org/wp-content/uploads/2020/11/cropped-BCI_Logo_LR-400x333.png" alt="bciAVM" height="300"/>
 # MAGIC </p>
