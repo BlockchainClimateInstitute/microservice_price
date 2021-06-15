@@ -104,7 +104,7 @@ from sklearn.model_selection import ShuffleSplit, StratifiedShuffleSplit
 
 MLFLOW_TRACKING_URI = os.environ["MLFLOW_TRACKING_URI"]
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
-mlflow.set_experiment('/Users/mike.casale@blockchainclimate.org/train')
+mlflow.set_experiment('/Users/mike.casale@blockchainclimate.org/Experiments/train')
 
 # COMMAND ----------
 
@@ -163,7 +163,26 @@ y_test.to_csv('/dbfs/FileStore/tables/avm/y_test.csv',index=False)
 
 # COMMAND ----------
 
-# X_train, X_test, y_train, y_test = pd.read_csv(cwd+'/data/X_train.csv'), pd.read_csv(cwd+'/data/X_test.csv'), pd.read_csv(cwd+'/data/y_train.csv'),  pd.read_csv(cwd+'/data/y_test.csv')
+import mlflow
+mlflow.set_experiment('/Users/mike.casale@blockchainclimate.org/Experiments/tune')
+best_run = mlflow.search_runs(order_by=['metrics.MdAPE ASC']).iloc[0]
+print(f'MdAPE of Best Run: {best_run["metrics.MdAPE"]}')
+
+# COMMAND ----------
+
+best_run = best_run.reset_index()
+best_run
+
+# COMMAND ----------
+
+params = {}
+for col in best_run['index'].values:
+  if 'params' in col:
+    params[col]=best_run[best_run['index']==col][0].values[0]
+
+# COMMAND ----------
+
+params
 
 # COMMAND ----------
 
@@ -171,7 +190,9 @@ from bciavm.pipelines import RegressionPipeline
 
 class Pipeline(RegressionPipeline):
     custom_name = 'AVM Pipeline'
-    component_graph = {  'Preprocess Transformer': ['Preprocess Transformer'],
+    component_graph = {  'Preprocess Transformer': [
+                             'Preprocess Transformer'
+                         ],
                          'Imputer': [
                              'Imputer', 
                              'Preprocess Transformer'
@@ -180,97 +201,30 @@ class Pipeline(RegressionPipeline):
                              'One Hot Encoder', 
                              'Imputer'
                          ],
-                         'MultiLayer Perceptron Regressor': [
-                             'MultiLayer Perceptron Regressor',
-                             'One Hot Encoder'
-                         ],
-                         'K Nearest Neighbors Regressor': [
-                             'K Nearest Neighbors Regressor',
-                             'One Hot Encoder'
-                         ],
-                         'XGBoost Regressor': [
+                         'XGB Regressor': [
                              'XGBoost Regressor', 
                              'One Hot Encoder'
-                         ],
-                         'Node 1': [
-                             'Linear Regressor',
-                             'XGBoost Regressor',
-                             'K Nearest Neighbors Regressor'
-                         ],
-                         'Node 2': [
-                             'Linear Regressor',
-                             'MultiLayer Perceptron Regressor',
-                             'K Nearest Neighbors Regressor'
-                         ],
-                         'Node 3': [
-                             'Linear Regressor',
-                             'XGBoost Regressor',
-                             'MultiLayer Perceptron Regressor'
-                         ],
-                         'Final Estimator': [
-                             'Linear Regressor', 
-                             'Node 1', 
-                             'Node 2', 
-                             'Node 3'
                          ]}
-    
-#Uses the best params from the Hypertuning Notebook
-#TODO: automate by reading best params from mlflow logged trials
+
+#Uses the best params from the Tune-Hyperparameters Notebook
 parameters = {'Imputer': {'categorical_impute_strategy': 'most_frequent',
-              'numeric_impute_strategy': 'mean',
-              'categorical_fill_value': None,
-              'numeric_fill_value': None,
+                'numeric_impute_strategy': params['params.Imputer_numeric_impute_strategy'],
+                'categorical_fill_value': None,
+                'numeric_fill_value': None,
               },
-             'One Hot Encoder': {'top_n': 6,
-              'features_to_encode': ['agg_cat'],
-              'categories': None,
-              'drop': None,
-              'handle_unknown': 'ignore',
-              'handle_missing': 'error',
+             'One Hot Encoder': {'top_n': int(params['params.One Hot Encoder_top_n']),
+                'features_to_encode': ['agg_cat'],
+                'categories': None,
+                'drop': None,
+                'handle_unknown': 'ignore',
+                'handle_missing': 'error',
               },
-             'MultiLayer Perceptron Regressor': {'activation': 'relu',
-              'solver': 'adam',
-              'alpha': 0.18448395702161716,
-              'batch_size': 290,
-              'learning_rate': 'constant',
-              'learning_rate_init': 0.06010169396395971,
-              'max_iter': 200,
-              'early_stopping': True,
-              'beta_1': 0.8,
-              'beta_2': 0.999,
-              'epsilon': 0.0001,
-              'n_iter_no_change': 10
-             },
-             'K Nearest Neighbors Regressor': {'n_neighbors': 11,
-              'weights': 'distance',
-              'algorithm': 'auto',
-              'leaf_size': 90,
-              'p': 1,
-              'metric': 'minkowski',
-              'n_jobs': 4
-             },
-             'XGBoost Regressor': {'learning_rate': 0.06325261812661621,
-                        'max_depth': 14,
-                        'min_child_weight': 0.6718934260322275,
-                        'reg_alpha': 0.043706006022706405,
-                        'reg_lambda': 0.026408282583277758,
-                        'n_estimators': 766
-             },
-             'Node 1': {'fit_intercept': True, 
-                        'normalize': False, 
-                        'n_jobs': -1
-             },
-             'Node 2': {'fit_intercept': True, 
-                        'normalize': False, 
-                        'n_jobs': -1
-             },
-             'Node 3': {'fit_intercept': True, 
-                        'normalize': False, 
-                        'n_jobs': -1
-             },
-             'Final Estimator': {'fit_intercept': True, 
-                                 'normalize': False, 
-                                 'n_jobs': -1
+             'XGB Regressor': {'learning_rate': float(params['params.XGB Regressor_learning_rate']),
+                        'max_depth': int(params['params.XGB Regressor_max_depth']),
+                        'min_child_weight': int(params['params.XGB Regressor_min_child_weight']),
+                        'reg_alpha': float(params['params.XGB Regressor_reg_alpha']),
+                        'reg_lambda': float(params['params.XGB Regressor_reg_lambda']),
+                        'n_estimators': int(params['params.XGB Regressor_n_estimators'])
              }
 }
 
@@ -281,6 +235,10 @@ avm_pipeline
 # COMMAND ----------
 
 max(y_train), min(y_train)
+
+# COMMAND ----------
+
+bciavm.__version__
 
 # COMMAND ----------
 
@@ -313,14 +271,7 @@ scores
 
 # COMMAND ----------
 
-
 input_example = X_test.dropna().sample(1)
-
-# COMMAND ----------
-
-# data = pd.read_csv('data/epcHomesToScore.csv')
-# data = bciavm.utils.bci_utils.preprocess_data(data, drop_outlier=False, split_data=False)
-# data
 
 # COMMAND ----------
 
@@ -332,22 +283,27 @@ avm_pipeline.predict(input_example)
 
 # COMMAND ----------
 
-class Model(mlflow.pyfunc.PythonModel):
+avm_pipeline.avm(input_example, batch_sample_sets=1, pred_interval=.9,  min_sample_sz=15)
+
+# COMMAND ----------
+
+class ConfModel(mlflow.pyfunc.PythonModel):
     def __init__(self, model):
         self.model = model
 
     def predict(self, X):
-        return self.model.predict(X, min_conf=0.50, )
+        return self.model.avm(X, pred_interval=.9,  min_sample_sz=15)
 
 # COMMAND ----------
 
-model2 = Model(model)
-model2.predict(input_example)
+conf_model = ConfModel(avm_pipeline)
+conf_model.predict(input_example)
 
 # COMMAND ----------
 
 mlflow.end_run()
-with mlflow.start_run(run_name='bci-test') as run:
+mlflow.set_experiment('/Users/mike.casale@blockchainclimate.org/Experiments/train')
+with mlflow.start_run(run_name='avm') as run:
     objectives = [ 'MAPE',
                    'MdAPE',
                    'ExpVariance',
@@ -361,15 +317,18 @@ with mlflow.start_run(run_name='bci-test') as run:
     for o in objectives:
         mlflow.log_metric(o, scores[o])
     
-#     mlflow.log_artifact(cwd+'/data/X_train.csv')
-#     mlflow.log_artifact(cwd+'/data/X_test.csv')
-#     mlflow.log_artifact(cwd+'/data/y_train.csv')
-#     mlflow.log_artifact(cwd+'/data/y_test.csv')
+    #log the training/testing data
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/X_train.csv')
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/X_test.csv')
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/y_train.csv')
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/y_test.csv')
     
+    #log the raw model/pipeline artifact
     mlflow.log_artifact('/dbfs/FileStore/artifacts/avm_pipeline_'+str(bciavm.__version__)+'.pkl')
     
+    #log the mlflow.sklearn flavor model with input example
     mlflow.sklearn.log_model(
-                             model,
+                             avm_pipeline,
                              "model", 
                              input_example=input_example,
                             )
@@ -383,17 +342,19 @@ from mlflow.tracking import MlflowClient
 
 mlflow.end_run()
 
-model_name='bci-test'
+model_name='avm'
 model_version = mlflow.register_model(f"runs:/{run.info.run_id}/model", model_name)
 
 client = MlflowClient()
 
-# Promote the new model version to Production
-client.transition_model_version_stage(
-  name=model_name,
-  version=int(model_version.version) - 1,
-  stage="archived"
-)
+try:
+  # Promote the new model version to Production
+  client.transition_model_version_stage(
+    name=model_name,
+    version=int(model_version.version) - 1,
+    stage="archived"
+  )
+except: pass
 
 # Promote the new model version to Production
 client.transition_model_version_stage(
@@ -404,25 +365,10 @@ client.transition_model_version_stage(
 
 # COMMAND ----------
 
-class Model(mlflow.pyfunc.PythonModel):
-    def __init__(self, model):
-        self.model = model
-
-    def predict(self, X):
-        return self.model.avm(X, 
-                              batch_sample_sets=1, 
-                              max_sample_sz=100, 
-                              min_sample_sz=15, 
-                              pred_interval=0.68, 
-                              conf_min=0.5
-                             )
-
-# COMMAND ----------
-
-conf_model = Model(model)
+# conf_model = Model(model)
 
 mlflow.end_run()
-with mlflow.start_run(run_name='bci-test') as run:
+with mlflow.start_run(run_name='avm-conf') as run:
     objectives = [ 'MAPE',
                    'MdAPE',
                    'ExpVariance',
@@ -436,13 +382,18 @@ with mlflow.start_run(run_name='bci-test') as run:
     for o in objectives:
         mlflow.log_metric(o, scores[o])
     
-#     mlflow.log_artifact(cwd+'/data/X_train.csv')
-#     mlflow.log_artifact(cwd+'/data/X_test.csv')
-#     mlflow.log_artifact(cwd+'/data/y_train.csv')
-#     mlflow.log_artifact(cwd+'/data/y_test.csv')
+    #log the training/testing data
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/X_train.csv')
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/X_test.csv')
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/y_train.csv')
+    mlflow.log_artifact('/dbfs/FileStore/tables/avm/y_test.csv')
     
+    mlflow.log_params({'max_sample_sz':100, 'min_sample_sz':15, 'pred_interval':.9, 'conf_min':.5})
+    
+    #log the raw model/pipeline artifact
     mlflow.log_artifact('/dbfs/FileStore/artifacts/avm_pipeline_'+str(bciavm.__version__)+'.pkl')
     
+    #log the mlflow.sklearn flavor model with input example
     mlflow.sklearn.log_model(
                              conf_model,
                              "model", 
@@ -459,17 +410,19 @@ from mlflow.tracking import MlflowClient
 
 mlflow.end_run()
 
-model_name='bci-conf-test'
+model_name='avm-conf'
 model_version = mlflow.register_model(f"runs:/{run.info.run_id}/model", model_name)
 
 client = MlflowClient()
 
-# Promote the new model version to Production
-# client.transition_model_version_stage(
-#   name=model_name,
-#   version=int(model_version.version) - 1,
-#   stage="archived"
-# )
+try:
+  # Promote the new model version to Production
+  client.transition_model_version_stage(
+    name=model_name,
+    version=int(model_version.version) - 1,
+    stage="archived"
+  )
+except: pass
 
 # Promote the new model version to Production
 client.transition_model_version_stage(
@@ -477,3 +430,7 @@ client.transition_model_version_stage(
   version=model_version.version,
   stage="Production"
 )
+
+# COMMAND ----------
+
+# dbutils.notebook.run("/Users/mike.casale@blockchainclimate.org/Batch Predict", 60)
