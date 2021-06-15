@@ -340,6 +340,12 @@ unics.to_parquet('/dbfs/FileStore/tables/avm/avm_conf/unics.parquet.gzip', compr
 
 # COMMAND ----------
 
+unics = dd.read_parquet('/dbfs/FileStore/tables/avm/avm_conf/unics.parquet.gzip', compression='gzip')
+unics = unics.compute()
+unics
+
+# COMMAND ----------
+
 # DBTITLE 1,Confidence Prediction
 # MAGIC %%time
 # MAGIC 
@@ -363,10 +369,82 @@ unics.to_parquet('/dbfs/FileStore/tables/avm/avm_conf/unics.parquet.gzip', compr
 
 # COMMAND ----------
 
-from bciavm.utils.bci_utils import combine_confs
+confs = dd.read_parquet('/dbfs/FileStore/tables/avm/avm_conf/confs_output.parquet.gzip', compression='gzip')
+confs = confs.compute()
+confs
 
-final_output = combine_confs(preds, confs)
-final_output
+# COMMAND ----------
+
+def correct(predictions, conf_min=0.5):
+    predictions[ 'avm' ] = round(predictions[ 'avm' ].astype(float), 0)
+    predictions[ 'conf' ] = round(predictions[ 'conf' ].astype(float), 2)
+    try :
+      predictions[ 'avm' ] = np.where(predictions[ 'avm' ].astype(float) < 0.0, np.nan, predictions[ 'avm' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_lower' ] = np.where(predictions[ 'avm_lower' ].astype(float) < 0.0, np.nan, predictions[ 'avm_lower' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_upper' ] = np.where(predictions[ 'avm_upper' ].astype(float) < 0.0, np.nan, predictions[ 'avm_upper' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_lower' ] = np.where(predictions[ 'avm_lower' ].astype(float) > predictions[ 'avm' ].astype(float), np.nan,
+                                   predictions[ 'avm_lower' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_upper' ] = np.where(predictions[ 'avm_upper' ].astype(float) < predictions[ 'avm' ].astype(float), np.nan,
+                                   predictions[ 'avm_upper' ].astype(float))
+    except :
+      pass
+    try :
+      predictions.name = self.input_target_name
+    except :
+      pass
+
+    try :
+      predictions[ 'conf' ] = np.where(predictions[ 'conf' ].astype(float) < conf_min, '< 0.5',
+                                   predictions[ 'conf' ].astype(float))
+    except :
+      pass
+    
+    predictions[ 'conf' ] = np.where(np.isnan(predictions[ 'avm_upper' ]), np.nan, predictions[ 'conf' ])
+    predictions[ 'conf' ] = np.where(np.isnan(predictions[ 'avm_lower' ]), np.nan, predictions[ 'conf' ])
+    return predictions
+
+# COMMAND ----------
+
+combined = preds.merge(confs.drop(['unit_indx', 'avm'],axis=1), on='key', how='left')
+lower = combined['avm_lower'] / combined['avm'] - 1.0  
+upper = combined['avm_upper'] / combined['avm'] - 1.0
+combined['avm_upper'] = upper
+combined['avm_lower'] = lower
+
+combined[ 'avm_lower' ] = round(
+            combined[ 'avm' ].astype(float) + combined[ 'avm' ].astype(float) * combined[ 'avm_lower' ].astype(float),
+            0)
+combined[ 'avm_upper' ] = round(
+            combined[ 'avm' ].astype(float) + combined[ 'avm' ].astype(float) * combined[ 'avm_upper' ].astype(float),
+            0)
+
+combined['fsd'] = np.where((combined[ 'avm' ] - combined[ 'avm_lower' ]) >= (combined[ 'avm_upper' ] - combined[ 'avm' ]), combined[ 'avm' ] - combined[ 'avm_lower' ], combined[ 'avm_upper' ] - combined[ 'avm' ])
+
+conf = 1.0 - combined['fsd'] / combined[ 'avm' ]
+combined['conf'] = conf
+combined = correct(combined, conf_min=0.5)
+combined = combined.drop(['latest_staging_version', 'unit_id'], axis=1)
+combined['conf'] = combined['conf'].fillna('< 0.5')
+combined['avm_lower'] = np.where(np.isnan(combined['avm_lower']), combined['avm'] - combined['fsd'], combined['avm_lower'])
+combined['avm_upper'] = np.where(np.isnan(combined['avm_upper']), combined['avm'] + combined['fsd'], combined['avm_upper'])
+combined['avm_lower'] = np.where(combined['avm_lower'] < 0, 0.0, combined['avm_lower'])
+combined = combined.drop('key',axis=1)
+combined['avm_upper'] = round(combined['avm_upper'], 0)
+combined['avm_lower'] = round(combined['avm_lower'], 0)
+combined['fsd'] = round(combined['fsd'], 0)
+combined
 
 # COMMAND ----------
 
@@ -375,23 +453,10 @@ _date
 
 # COMMAND ----------
 
-try: os.mkdir('/dbfs/FileStore/tables/avm/final_output')
-except: pass
-
-final_output.to_parquet('/dbfs/FileStore/tables/avm/final_output/final_output_'+_date+'.parquet.gzip', compression='gzip')
-final_output
+combined.to_parquet('/dbfs/FileStore/tables/avm/final_output_'+_date+'.parquet.gzip', compression='gzip')
 
 # COMMAND ----------
 
-mlflow.set_experiment('/Users/mike.casale@blockchainclimate.org/Experiments/batch-predict')
+spark_df = spark.createDataFrame(combined)
 
-with mlflow.start_run('batch-predict') as run:
-    mlflow.log_artifact('/dbfs/FileStore/tables/avm/final_output/final_output_'+_date+'.parquet.gzip')
-    
-mlflow.end_run()
-
-# COMMAND ----------
-
-spark_df = spark.createDataFrame(final_output)
-
-spark_df.write.mode("overwrite").saveAsTable("avm_output_"+_date)
+spark_df.write.mode("overwrite").saveAsTable("/dbfs/FileStore/tables/avm_output_"+_date)
