@@ -422,13 +422,10 @@ shap_interaction_values = explainer.shap_interaction_values(Xs.values)
 
 # MAGIC %md
 # MAGIC ### Figure 1: Features that lower the AVM valuation
-# MAGIC - A lower `area` feature is generally indicative of a lower AVM valuation
-# MAGIC - A lower `comparables_75_sale_price` feature is generally indicative of a lower AVM valuation
-# MAGIC - A lower `floor_number` is generally indicative of a lower AVM value
-# MAGIC - A lower `plot_size` or a *NULL (grey area)* `plot_size` is generally indicative of a lower AVM valuation
-# MAGIC - A lower `cam_fee` is generally indicative of a lower AVM value
-# MAGIC - A *False* `is_allow_foreign_owner` is generally indicative of a lower AVM value
-# MAGIC - A `month` that is *later in the year*, denoted by a higher `month` value, is generally indicative of a lower AVM value
+# MAGIC - A lower `TOTAL_FLOOR_AREA_e` feature is generally indicative of a lower AVM valuation
+# MAGIC - A lower `Price_p__median` feature is generally indicative of a lower AVM valuation
+# MAGIC - A lower `Price_p__mean` is generally indicative of a lower AVM value
+# MAGIC - A higher `Latitude_m` is generally indicative of a lower AVM value
 
 # COMMAND ----------
 
@@ -438,13 +435,7 @@ shap.summary_plot(shap_values, Xs, features)
 
 # MAGIC %md
 # MAGIC ### Figure 2: Features that increase the AVM valuation
-# MAGIC - A higher `area` feature is generally indicative of a higher AVM valuation
-# MAGIC - A higher `comparables_75_sale_price` feature is generally indicative of a higher AVM valuation
-# MAGIC - A higher `floor_number` is generally indicative of a higher AVM value
-# MAGIC - A higher `plot_size` is generally indicative of a higher AVM valuation
-# MAGIC - A higher `cam_fee` is generally indicative of a higher AVM value
-# MAGIC - A *True* `is_allow_foreign_owner` is generally indicative of a higher AVM value
-# MAGIC - A `month` that is *earlier in the year*, denoted by a lower `month` value, is generally indicative of a higher AVM value
+# MAGIC - The inverse of the above is also true.
 
 # COMMAND ----------
 
