@@ -1,6 +1,6 @@
 
 from bciavm.pipelines.components.transformers import Transformer
-
+from bciavm.utils.bci_utils import preprocess_data
 import pandas as pd
 
 class PreprocessTransformer(Transformer) :
@@ -105,6 +105,7 @@ class PreprocessTransformer(Transformer) :
         if 'POSTCODE' not in request_data.columns:
             for col in request_data.columns:
                 print(col)
+                
         request_data = request_data.merge(lookup_table, on=['POSTCODE', 'PROPERTY_TYPE_e'], how='left')
         return request_data
 
@@ -125,8 +126,9 @@ class PreprocessTransformer(Transformer) :
             for op in ops:
 
                 # calculate the difference between the aggregate and each individual unit
-                df[col + '_' + 'minus' + '_' + op] = df[col].astype(float) - df[col + '__' + op].astype(float)
-
+                try: df[col + '_' + 'minus' + '_' + op] = df[col].astype(float) - df[col + '__' + op].astype(float)
+                except: df[col + '_' + 'minus' + '_' + op] = [np.nan for x in range(len(df))]
+                
                 # drop the aggregated features
                 df = df.drop([col + '__' + op], axis=1)
 

@@ -121,23 +121,40 @@ def drop_outliers(data):
     return data
 
 
-def preprocess_data(data, drop_outlier=True, target='Price_p', test_size=0.15):
+def preprocess_data(data, drop_outlier=True, target='Price_p', test_size=0.15, split_data=True):
 
     if drop_outlier:
         data = drop_outliers(data)
 
-    match_types = ['1. Address Matched', '2. Address Matched No Spec', '3. No in Address Matched']
     keep_cols = [x for x in data.columns if '_e' in x or x in ['Longitude_m', 'Latitude_m', 'Postcode']]
-    keep_cols.append(target)
-    data = data[data['TypeOfMatching_m'].isin(match_types)]
-    data = data[keep_cols]
-    data['POSTCODE'] = data['FULLADRESS_e'].apply(get_postcode_from_address)
-    data['POSTCODE_OUTCODE'] = data['Postcode'].apply(get_postcodeOutcode_from_postcode)
-    data['POSTCODE_AREA'] = data['POSTCODE_OUTCODE'].apply(get_postcodeArea_from_outcode)
+    if target in data.columns:
+        keep_cols.append(target)
 
-    # drop outliers, convert floor level to integers
-    data['Rooms'] = (data['NUMBER_HABITABLE_ROOMS_e'].astype(float) + data['NUMBER_HEATED_ROOMS_e'].astype(
-        float)) / float(2)
+    try:
+        match_types = ['1. Address Matched', '2. Address Matched No Spec', '3. No in Address Matched']
+        data = data[data['TypeOfMatching_m'].isin(match_types)]
+    except: pass
+
+    if 'POSTCODE_AREA' in data.columns:
+        keep_cols.append('POSTCODE')
+        keep_cols.append('POSTCODE_OUTCODE')
+        keep_cols.append('POSTCODE_AREA')
+
+    data = data[[col for col in keep_cols if col in data.columns]]
+
+    if 'POSTCODE_AREA' not in data.columns:
+        try:
+            data['POSTCODE'] = data['FULLADRESS_e'].apply(get_postcode_from_address)
+            data['POSTCODE_OUTCODE'] = data['Postcode'].apply(get_postcodeOutcode_from_postcode)
+            data['POSTCODE_AREA'] = data['POSTCODE_OUTCODE'].apply(get_postcodeArea_from_outcode)
+        except: pass
+
+    try:
+        # drop outliers, convert floor level to integers
+        data['Rooms'] = (data['NUMBER_HABITABLE_ROOMS_e'].astype(float) + data['NUMBER_HEATED_ROOMS_e'].astype(
+            float)) / float(2)
+    except:
+        data['Rooms'] = data['NUMBER_HEATED_ROOMS_e'].astype(float)
 
     data['PROPERTY_TYPE_e'] = data['PROPERTY_TYPE_e'].astype(str).replace('nan', np.nan).fillna(
         'No PROPERTY_TYPE_e').astype(str)
@@ -171,28 +188,48 @@ def preprocess_data(data, drop_outlier=True, target='Price_p', test_size=0.15):
         float)
     data['NUMBER_HEATED_ROOMS_e'] = data['NUMBER_HEATED_ROOMS_e'].astype(str).replace('nan', np.nan).fillna('0').astype(
         float)
-    data = data[['POSTCODE',
-                 'POSTCODE_OUTCODE',
-                 'POSTCODE_AREA',
-                 'POSTTOWN_e',
-                 'PROPERTY_TYPE_e',
-                 'TOTAL_FLOOR_AREA_e',
-                 'NUMBER_HEATED_ROOMS_e',
-                 'FLOOR_LEVEL_e',
-                 'Latitude_m',
-                 'Longitude_m',
-                 target]]
+    if target in data.columns:
+        data = data[['POSTCODE',
+                     'POSTCODE_OUTCODE',
+                     'POSTCODE_AREA',
+                     'POSTTOWN_e',
+                     'PROPERTY_TYPE_e',
+                     'TOTAL_FLOOR_AREA_e',
+                     'NUMBER_HEATED_ROOMS_e',
+                     'FLOOR_LEVEL_e',
+                     'Latitude_m',
+                     'Longitude_m',
+                     target]]
+    else:
+        data = data[['POSTCODE',
+                     'POSTCODE_OUTCODE',
+                     'POSTCODE_AREA',
+                     'POSTTOWN_e',
+                     'PROPERTY_TYPE_e',
+                     'TOTAL_FLOOR_AREA_e',
+                     'NUMBER_HEATED_ROOMS_e',
+                     'FLOOR_LEVEL_e',
+                     'Latitude_m',
+                     'Longitude_m']]
 
-    data = data.reset_index()
-    data = data.drop('index', axis=1)
-    data = data.reset_index()
-    data = data.rename({'index': 'unit_indx'}, axis=1)
-    data = data.reset_index()
-    data = data.drop('index', axis=1)
+    if 'unit_indx' not in data.columns:
+        data = data.reset_index()
+        data = data.drop('index', axis=1)
+        data = data.reset_index()
+        data = data.rename({'index': 'unit_indx'}, axis=1)
+        data = data.reset_index()
+        data = data.drop('index', axis=1)
+
     data['TOTAL_FLOOR_AREA_e'] = data['TOTAL_FLOOR_AREA_e'].astype(float)
     data['FLOOR_LEVEL_e'] = data['FLOOR_LEVEL_e'].astype(float)
     data['NUMBER_HEATED_ROOMS_e'] = data['NUMBER_HEATED_ROOMS_e'].astype(float)
-    data[target] = data[target].astype(float)
+
+    if target in data.columns:
+        data[target] = data[target].astype(float)
+
+    if not split_data:
+        return data
+
     X = data.drop('POSTCODE_AREA', axis=1)
     y = data['POSTCODE_AREA']
     X_train, X_holdout, y_train, y_holdout = bciavm.preprocessing.utils.split_data(X, y, problem_type='multiclass',
@@ -227,8 +264,8 @@ def preprocess_data(data, drop_outlier=True, target='Price_p', test_size=0.15):
     y_test = y.iloc[test]
     X_train = X_train.drop(target, axis=1)
     X_test = X_test.drop(target, axis=1)
-
     return X_train, X_test, y_train, y_test
+    
 
 def merge_train_w_lookup_table(train, lookup_table):
     if 'PROPERTY_TYPE_e__' in lookup_table.columns:
@@ -256,3 +293,100 @@ def merge_train_w_lookup_table(train, lookup_table):
     new_X_train['density_count'] = train['density_count']
     new_X_train[target] = train[target]
     return new_X_train
+
+
+def get_bounds(resp, y_predd):
+    try:
+        resp[ 'avm_lower' ] = round(
+                resp[ 'avm' ].astype(float) + resp[ 'avm' ].astype(float) * resp[ 'avm_lower' ].astype(float),
+                0)
+    except:
+        pass
+
+    try:
+        resp[ 'avm_upper' ] = round(
+                resp[ 'avm' ].astype(float) + resp[ 'avm' ].astype(float) * resp[ 'avm_upper' ].astype(float),
+                0)
+    except:
+        pass
+
+    if (y_predd.values[0] - resp[ 'avm_lower' ].values[0] ) > (resp[ 'avm_upper' ].values[0] - y_predd.values[0]):
+        fsd = y_predd.values[0] - resp[ 'avm_lower' ].values[0]
+    else:
+        fsd = resp[ 'avm_upper' ].values[0] - y_predd.values[0]
+
+    conf = 1.0 - fsd / y_predd.values[0]
+    resp['conf'] = [conf]
+
+    return resp
+  
+  
+def correct(predictions, conf_min=0.5):
+    predictions[ 'avm' ] = round(predictions[ 'avm' ].astype(float), 0)
+    predictions[ 'conf' ] = round(predictions[ 'conf' ].astype(float), 2)
+    try :
+      predictions[ 'avm' ] = np.where(predictions[ 'avm' ].astype(float) < 0.0, np.nan, predictions[ 'avm' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_lower' ] = np.where(predictions[ 'avm_lower' ].astype(float) < 0.0, np.nan, predictions[ 'avm_lower' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_upper' ] = np.where(predictions[ 'avm_upper' ].astype(float) < 0.0, np.nan, predictions[ 'avm_upper' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_lower' ] = np.where(predictions[ 'avm_lower' ].astype(float) > predictions[ 'avm' ].astype(float), np.nan,
+                                   predictions[ 'avm_lower' ].astype(float))
+    except :
+      pass
+    try :
+      predictions[ 'avm_upper' ] = np.where(predictions[ 'avm_upper' ].astype(float) < predictions[ 'avm' ].astype(float), np.nan,
+                                   predictions[ 'avm_upper' ].astype(float))
+    except :
+      pass
+    try :
+      predictions.name = self.input_target_name
+    except :
+      pass
+
+    try :
+      predictions[ 'conf' ] = np.where(predictions[ 'conf' ].astype(float) < conf_min, '< 0.5',
+                                   predictions[ 'conf' ].astype(float))
+    except :
+      pass
+    
+    
+    return predictions
+  
+  
+def combine_confs(preds, confs):
+    ll = []
+    ct = 0
+    for unit in preds['unit_indx'].values:
+      try:
+        resp = pd.DataFrame({})
+        
+        p = preds[preds['unit_indx']==unit]
+        _key = p['key'].values[0]
+        
+        c = confs[confs['key']==_key]
+        
+        lower = 1.0 -  c['avm'] / c['avm_lower'] 
+        upper = 1.0 -  c['avm'] / c['avm_upper']
+        
+        resp['unit_indx'] = p['unit_indx']
+        resp['avm'] = p['avm']
+        resp['avm_lower'] = [lower]
+        resp['avm_upper'] = [upper]
+        
+        for _unit_id in resp['unit_indx'].unique():
+          unit = resp[resp['unit_indx']==_unit_id]
+          r = _get_bounds(unit, unit['avm'])
+          ll.append(r)
+          ct+=1
+      except: pass
+      
+    return correct(pd.concat(ll))
+      
