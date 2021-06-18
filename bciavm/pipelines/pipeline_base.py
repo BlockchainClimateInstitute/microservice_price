@@ -307,7 +307,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         X_t = self._component_graph.compute_final_component_features(X, y=y)
         return X_t
 
-    def avm(self, X, batch_sample_sets=1, latest_production_version=1, max_sample_sz=15, min_sample_sz=5, conf_min=.68):
+    def avm(self, X, batch_sample_sets=1, latest_production_version=1, max_sample_sz=100, min_sample_sz=15, pred_interval=.68, conf_min=.5):
         """Main method for the BCI avm predictions. 
 
         Arguments:
@@ -327,6 +327,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         self.min_sample_sz = min_sample_sz
         self.batch_sample_sets = batch_sample_sets
         self.conf_min = conf_min
+        self.pred_interval = pred_interval
 
         if np.isnan(self.latest_production_version):
             self.latest_production_version = latest_production_version
@@ -419,27 +420,14 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         latest_staging_version = self.latest_staging_version
         y_predd, lower, upper, conf = [ np.nan ], np.nan, np.nan, np.nan
         lowers, uppers, confs, y_pred = [ ], [ ], [ ], [ ]
-        match_key = unit[ 'POSTCODE_AREA' ].astype(str) + unit['NUMBER_HEATED_ROOMS_e'].astype(str) 
+        match_key = unit[ 'POSTCODE_AREA' ].astype(str) + unit['PROPERTY_TYPE_e'].astype(str) 
         match_key = match_key.values[ 0 ]
 
         unit = infer_feature_types(unit)
         y_predd = self._component_graph.predict(unit)
 
-        if match_key in self.master_match_keys:
-            _confs = self.master_match_keys[match_key]
-            resp = pd.DataFrame({})
-            resp['unit_index'] = unit['unit_index']
-            resp['avm'] = y_predd
-            resp['avm_lower'] = _confs['avm_lower']
-            resp['avm_upper'] = _confs['avm_upper']
-            resp = self._get_bounds(resp, y_predd)
-            resp['ts'] = [ts]
-            resp['latest_production_version'] = [latest_production_version]
-            resp['latest_staging_version'] = [latest_staging_version]
-            self.l.append(resp)
-            return self
 
-        dfs = data[ (data[ 'POSTCODE_AREA' ]==unit[ 'POSTCODE_AREA' ].astype(str).values[ 0 ]) & (data[ 'NUMBER_HEATED_ROOMS_e' ]==unit[ 'NUMBER_HEATED_ROOMS_e' ].astype(str).values[ 0 ])]
+        dfs = data[ (data[ 'POSTCODE_AREA' ].astype(str)==unit[ 'POSTCODE_AREA' ].astype(str).values[ 0 ]) & (data[ 'PROPERTY_TYPE_e' ].astype(str)==unit[ 'PROPERTY_TYPE_e' ].astype(str).values[ 0 ])]
 
         if len(dfs) < self.min_sample_sz:
             resp = pd.DataFrame({})
@@ -457,7 +445,9 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         comp_df = dfs.copy()
         y_trus_all, y_preds_all = [], []
         for n in range(self.batch_sample_sets):
-            dfs = comp_df.sample(frac=.2, replace=True)
+
+            dfs = comp_df.sample(frac=.5, replace=True)
+            
             if len(dfs) > self.max_sample_sz:
                 dfs = dfs.sample(self.max_sample_sz)
 
@@ -471,7 +461,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
 
         stats = (np.array([y for y in y_preds_all]) - y_trus_all) / y_trus_all
         stats = np.nan_to_num(stats)
-        confs = [self.conf_min]
+        confs = [self.pred_interval]
         for alpha in confs:
             p = ((1.0 - alpha) / 2.0) * 100.0
             ylower = np.percentile(stats, p)
@@ -492,11 +482,6 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         resp['ts'] = [ts]
         resp['latest_production_version'] = [latest_production_version]
         resp['latest_staging_version'] = [latest_staging_version]
-
-        self.master_match_keys[match_key] = {
-            'avm_lower': lower,
-            'avm_upper': upper
-        }
         self.l.append(resp)
         return self
 
@@ -562,7 +547,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
         Returns:
             np.array: Predicted values.
         """
-        
+
         print('loading model from mlflow...')
         try:
             model = self._mlflow_load_model() 
@@ -579,14 +564,13 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
                 self.model = model
 
             def predict(self, X):
-                X = X.astype(dtype=self.input_example.dtypes)
                 return self.model.predict(X).values
             
         dask_component_graph = ParallelPostFit(avm_wrapper(model))
         return dask_component_graph.predict(X) 
 
 
-    def parallel_predict(self, X, input_example=None, npartitions=64, model_name="avm", model_version="Production", cols=['unit_id','avm','avm_lower','avm_upper','conf','ts','latest_production_version','latest_staging_version']):
+    def parallel_predict(self, X, npartitions=64, model_name='avm', model_version='Production', context={'conf_min':0.5, 'batch_sample_sets':1, 'min_sample_sz':5, 'max_sample_sz':15, 'pred_interval':0.68}, cols=['unit_id','avm','avm_lower','avm_upper','conf','ts','latest_production_version','latest_staging_version']):
         """Make predictions using selected features.
 
         Arguments:
@@ -598,7 +582,7 @@ class PipelineBase(ABC, metaclass=PipelineBaseMeta):
 
         self.model_name=model_name
         self.model_version=model_version
-        self.input_example = input_example
+        self.context = context
 
         if not isinstance(X, dd._Frame):
             print('Building a dask dataframe...')
