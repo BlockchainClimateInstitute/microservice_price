@@ -121,6 +121,6 @@ Read more about bciAVM on our [documentation page](https://blockchainclimate.org
 
 ## Technical & financial support for AVM development was provided by CCG Analytics 
 <a href="https://www.ccganalytics.com">
-    <img src="https://github.com/BlockchainClimateInstitute/microservice_price/blob/develop/resources/ccg_logo.jpg" alt="ccganalytics.com"  height="75"/>
+    <img src="https://github.com/BlockchainClimateInstitute/microservice_price/blob/develop/resources/ccg_logo.jpg" alt="ccganalytics.com"  height="225" align="center"/>
 </a>
 
