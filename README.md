@@ -116,11 +116,11 @@ avm_pipeline.score(  X_test,
 Read more about bciAVM on our [documentation page](https://blockchainclimate.org/thought-leadership/#blog):
 
 ### How does it relate to BCI Risk Modeling?
-<img src="resources/bci_flowchart_2.png" height="480" >
+<img src="https://github.com/BlockchainClimateInstitute/microservice_price/blob/develop/resources/crrem.png" height="480" >
 
 
-## Technical & financial support for AVM development was provided by GCODE.ai
-<a href="https://www.gcode.ai">
-    <img src="https://staticfiles-img.s3.amazonaws.com/avm/gcode_logo.png" alt="GCODE.ai"  height="75"/>
+## Technical & financial support for AVM development was provided by CCG Analytics 
+<a href="https://www.ccganalytics.com">
+    <img src="https://github.com/BlockchainClimateInstitute/microservice_price/blob/develop/resources/ccg_logo.jpg" alt="ccganalytics.com"  height="75"/>
 </a>
 
