@@ -19,7 +19,7 @@ Many appraisers, and even Wall Street institutions, use this type of model to va
 For more detailed info about the AVM, please read the **About** paper in the [resources directory](https://github.com/gcode-ai/bciavm/blob/4e0816b25dae021629e406194a72d3d805faecf0/resources/2021-BCI-AVM-About.pdf).
 
 ### Valuation Process
-<img src="resources/valuation_process.png" height="360" >
+<img src="https://github.com/BlockchainClimateInstitute/microservice_price/blob/develop/resources/valuation_process.png" height="360" >
 
 **Key Functionality**
 
