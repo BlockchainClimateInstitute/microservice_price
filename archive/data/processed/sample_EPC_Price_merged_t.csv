@@ -1,0 +1,1122 @@
+Postcode,PriceAddress,EpcAddress,JaroDistance,Price,PropertyType,New,Duration,CurrentEnergyRating,PotentialEnergyRating,CurrentEnergyEfficiency,PotentialEnergyEfficiency,GlazedArea,HabitableRooms,HeatedRooms,FlatStoreyCount,TotalFloorArea,FloorLevel,PurchaseDate_year,PurchaseDate_month,PurchaseDate_day_of_week,PurchaseDate_hour,EpcInspectionDate_year,EpcInspectionDate_month,EpcInspectionDate_day_of_week,EpcInspectionDate_hour
+WV69QH,"142, CODSALL ROAD, ","142, Codsall Road, ",1.0,437500,D,N,F,D,C,55,75,Normal,8.0,8.0,,348.0,NODATA!,2020,May,Wednesday,0,2013,June,Monday,0
+WV108AB,"49, CARISBROOKE ROAD, ","49, Carisbrooke Road, Bushbury, ",0.94,140000,S,N,F,B,B,81,85,Normal,5.0,4.0,,84.0,NODATA!,2020,February,Friday,0,2016,June,Friday,0
+WV46BJ,"56, GREENOCK CRESCENT, ","56, Greenock Crescent, ",1.0,102000,F,N,L,C,C,78,79,Normal,3.0,3.0,,77.0,2nd,2020,March,Wednesday,0,2012,May,Wednesday,0
+WV112QQ,"21, RYAN AVENUE, ","21, Ryan Avenue, ",1.0,141000,S,N,F,D,C,62,79,Normal,5.0,5.0,,77.0,NODATA!,2020,May,Monday,0,2019,October,Wednesday,0
+WV147AP,"34, MARBURY DRIVE, ","34, Marbury Drive, ",1.0,122000,S,N,L,C,C,75,75,Normal,3.0,3.0,,56.5,NODATA!,2020,March,Friday,0,2011,September,Thursday,0
+WV37AZ,"30, WALFORD AVENUE, ","30, Walford Avenue, ",1.0,162000,S,N,F,D,B,68,88,Normal,4.0,4.0,,81.0,NODATA!,2020,April,Thursday,0,2019,February,Wednesday,0
+WV30NL,"45, MARKET SQUARE, ","45, Market Square, ",1.0,115000,F,N,L,C,B,73,84,Normal,3.0,3.0,,88.0,5th,2020,April,Friday,0,2019,March,Tuesday,0
+WV146HJ,"19, CHURCH GREEN, ","19, Church Green, ",1.0,106000,T,N,F,D,B,66,83,Normal,4.0,4.0,,88.0,NODATA!,2020,July,Friday,0,2019,September,Tuesday,0
+WV44SU,"37, SPRINGHILL GROVE, ","37, Springhill Grove, ",1.0,225000,S,N,F,D,C,55,74,Normal,6.0,6.0,,108.0,NODATA!,2020,June,Wednesday,0,2020,February,Thursday,0
+WV149SD,"36, HACKETT CLOSE, ","31, Hackett Close, ",0.97,38000,F,N,L,D,D,56,66,Normal,3.0,3.0,,61.6,1st,2020,July,Wednesday,0,2011,November,Tuesday,0
+WV149SD,"8, HACKETT CLOSE, ","8, Hackett Close, ",1.0,150000,T,N,F,C,B,71,85,Normal,5.0,5.0,,72.0,NODATA!,2020,April,Friday,0,2020,February,Tuesday,0
+WV38EP,"42, CRANFORD ROAD, ","42, Cranford Road, ",1.0,295000,D,N,F,E,C,53,76,Normal,7.0,7.0,,122.0,NODATA!,2020,January,Friday,0,2019,October,Friday,0
+WV109QL,"184, PARK LANE, ","184, Park Lane, ",1.0,92500,S,N,F,E,B,53,83,Normal,4.0,4.0,,73.0,NODATA!,2020,March,Friday,0,2013,April,Wednesday,0
+WV109QL,"146, PARK LANE, ","146, Park Lane, ",1.0,133000,S,N,F,E,B,49,84,Normal,4.0,4.0,,73.0,NODATA!,2020,June,Monday,0,2013,March,Friday,0
+WV68QF,"13, UPPER STREET, ","13, Upper Street, ",1.0,220000,T,N,F,E,B,49,85,Normal,4.0,4.0,,89.0,NODATA!,2020,May,Friday,0,2019,November,Wednesday,0
+WV68NJ,"24, GROVE LANE, ","24, Grove Lane, ",1.0,435000,D,N,F,E,C,50,79,Normal,8.0,8.0,,216.0,NODATA!,2020,July,Friday,0,2012,September,Saturday,0
+WV68NJ,"33, GROVE LANE, ","33, Grove Lane, ",1.0,400000,D,N,F,D,C,65,77,Normal,4.0,4.0,,157.0,NODATA!,2020,February,Thursday,0,2016,May,Wednesday,0
+WV148EW,"39, BRADLEY LANE, ","39, Bradley Lane, ",1.0,137000,S,N,F,D,B,68,84,Normal,4.0,4.0,,71.0,NODATA!,2020,June,Friday,0,2019,August,Monday,0
+WV68RD,"37, LIMES ROAD, ","37, Limes Road, ",1.0,163000,T,N,F,D,B,59,83,Normal,3.0,3.0,,52.0,NODATA!,2020,March,Friday,0,2019,June,Monday,0
+WV140AR,"4, WAPENTAKE GARDENS, ","4, Wapentake Gardens, ",1.0,192500,D,Y,F,B,A,83,94,NO DATA!,,,,85.0,NO DATA!,2020,May,Wednesday,0,2020,February,Wednesday,0
+WV140AR,"17, WAPENTAKE GARDENS, ","17, Wapentake Gardens, ",1.0,225000,D,Y,F,B,A,83,93,NO DATA!,,,,104.0,NO DATA!,2020,June,Friday,0,2020,March,Wednesday,0
+WV140AR,"3, WAPENTAKE GARDENS, ","3, Wapentake Gardens, ",1.0,180000,D,Y,F,B,A,84,95,NO DATA!,,,,85.0,NO DATA!,2020,June,Friday,0,2020,March,Wednesday,0
+WV39PX,"5, LARCHES LANE, ","5, Larches Lane, ",1.0,162500,T,N,F,D,B,66,86,Normal,5.0,5.0,,93.0,NODATA!,2020,May,Monday,0,2019,July,Tuesday,0
+WV39PX,"30, LARCHES LANE, ","30, Larches Lane, ",1.0,200000,T,N,F,D,C,61,80,Normal,5.0,5.0,,124.0,NODATA!,2020,July,Friday,0,2019,November,Tuesday,0
+WV113TW,"87A, LINTHOUSE LANE, ","87a, Linthouse Lane, ",1.0,170000,S,N,F,B,B,83,83,NO DATA!,,,,88.0,NO DATA!,2020,February,Friday,0,2013,April,Friday,0
+WV109ER,"27, RINGWOOD ROAD, ","27, Ringwood Road, ",1.0,144000,S,N,F,E,C,51,77,Normal,5.0,3.0,,76.0,NODATA!,2020,January,Friday,0,2016,March,Thursday,0
+WV38DR,"62B, BHYLLS LANE, ","62b, Bhylls Lane, ",1.0,189000,S,N,F,D,B,59,84,Normal,5.0,5.0,,84.0,NODATA!,2020,July,Friday,0,2019,December,Monday,0
+WV23AG,"48, MASON STREET, ","48, Mason Street, ",1.0,92500,T,N,F,D,B,63,84,Normal,4.0,4.0,,72.0,NODATA!,2020,May,Friday,0,2015,March,Thursday,0
+WV46LS,"9, MOUNT ROAD, ","9, Mount Road, Lanesfield, ",0.91,191000,S,N,F,D,B,57,81,More Than Typical,5.0,5.0,,76.0,NODATA!,2020,June,Thursday,0,2019,December,Wednesday,0
+WV30AR,"3, RAYLEIGH ROAD, ","3, Rayleigh Road, ",1.0,105000,S,N,F,E,C,53,75,Normal,5.0,5.0,,100.0,NODATA!,2020,June,Friday,0,2012,August,Tuesday,0
+WV146NL,"34, WILLENHALL ROAD, ","34, Willenhall Road, ",1.0,185000,D,N,F,D,B,66,81,Normal,5.0,5.0,,70.0,NODATA!,2020,January,Friday,0,2019,October,Wednesday,0
+WV112JY,"47, BARNARD ROAD, ","47, Barnard Road, ",1.0,151000,S,N,F,D,B,56,86,Normal,5.0,5.0,,94.0,NODATA!,2020,May,Thursday,0,2013,October,Monday,0
+WV38LU,"161, CASTLECROFT ROAD, ","161, Castlecroft Road, ",1.0,230000,D,N,F,E,B,46,84,Normal,4.0,4.0,,75.0,NODATA!,2020,February,Monday,0,2018,November,Friday,0
+WV44RY,"33, STOURTON DRIVE, ","33, Stourton Drive, ",1.0,154000,S,N,F,E,B,53,81,Normal,4.0,4.0,,84.0,NODATA!,2020,February,Friday,0,2017,October,Monday,0
+WV37AG,"75, JEFFCOCK ROAD, ","75 Jeffcock Road, ",0.99,200000,F,N,F,D,C,58,74,Normal,6.0,6.0,,130.0,NODATA!,2020,January,Thursday,0,2019,June,Saturday,0
+WV46EE,"766, PARKFIELD ROAD, ","766, Parkfield Road, ",1.0,62000,F,N,L,D,C,61,73,Normal,3.0,3.0,,55.0,2nd,2020,February,Friday,0,2012,September,Thursday,0
+WV148GX,"4A, CONSTANTINE WAY, ","4a, Constantine Way, ",1.0,221000,D,N,F,C,B,79,91,NO DATA!,,,,94.0,NO DATA!,2020,January,Friday,0,2015,September,Monday,0
+WV111XD,"ST. CECILIA'S, FLAT 16, OKEMENT DRIVE, ","8 St. Cecilias, Okement Drive, ",0.75,34500,F,N,L,C,C,75,80,Normal,3.0,3.0,,74.0,2nd,2020,February,Thursday,0,2015,May,Wednesday,0
+WV111XD,"ST. CECILIA'S, FLAT 14, OKEMENT DRIVE, ","4 St. Cecilias, Okement Drive, ",0.75,43000,F,N,L,C,B,78,83,Normal,3.0,3.0,,74.0,1st,2020,March,Tuesday,0,2015,May,Wednesday,0
+WV68RP,"40, MANCROFT ROAD, ","40, Mancroft Road, ",1.0,176000,T,N,F,D,D,62,64,Normal,4.0,4.0,,78.8,NO DATA!,2020,March,Friday,0,2010,November,Monday,0
+WV30HE,"60, DALTON STREET, ","64, Dalton Street, ",0.97,89100,T,N,F,D,B,62,82,Normal,5.0,5.0,,84.0,NODATA!,2020,July,Thursday,0,2016,May,Wednesday,0
+WV106XG,"15, RENTON GROVE, ","15, Renton Grove, ",1.0,147000,T,N,F,F,C,33,73,Normal,5.0,2.0,,82.0,NODATA!,2020,April,Wednesday,0,2018,November,Tuesday,0
+WV133ER,"5, FAWLEY CLOSE, ","5, Fawley Close, ",1.0,134000,S,N,F,C,B,71,88,Normal,4.0,4.0,,53.0,NODATA!,2020,March,Tuesday,0,2019,July,Saturday,0
+WV95NH,"5, WHITBURN CLOSE, ","5, Whitburn Close, ",1.0,87500,S,N,F,E,C,42,79,Normal,3.0,2.0,,77.0,NODATA!,2020,March,Friday,0,2017,March,Friday,0
+WV109AD,"44, PROLE STREET, ","44, Prole Street, ",1.0,108000,T,N,F,E,B,50,86,Normal,4.0,4.0,,75.0,NODATA!,2020,June,Friday,0,2017,April,Monday,0
+WV21AW,"121, RABY STREET, ","121, Raby Street, ",1.0,141000,T,N,F,D,B,56,84,Normal,4.0,4.0,,115.0,NODATA!,2020,January,Friday,0,2012,October,Wednesday,0
+WV14RR,"46, MOSTYN STREET, ","46, Mostyn Street, ",1.0,86000,T,N,F,D,C,63,80,Normal,4.0,4.0,,70.0,NODATA!,2020,February,Friday,0,2015,May,Tuesday,0
+WV112PZ,"2, SOUTHALL ROAD, ","2, Southall Road, ",1.0,169000,S,N,F,C,B,71,84,Normal,6.0,6.0,,107.0,NODATA!,2020,April,Monday,0,2019,September,Thursday,0
+WV30DT,"45, PENNANT COURT, ","45, Pennant Court, Penn Road, ",0.93,105000,F,N,L,F,C,35,73,Normal,3.0,3.0,,47.0,Ground,2020,July,Friday,0,2015,February,Wednesday,0
+WV46SZ,"29, BEVERLEY CRESCENT, ","29, Beverley Crescent, ",1.0,186000,S,N,F,D,B,68,83,Normal,6.0,6.0,,100.0,NODATA!,2020,March,Friday,0,2019,September,Sunday,0
+WV113JR,"67, LYNDALE DRIVE, ","67, Lyndale Drive, ",1.0,188000,S,N,F,C,B,71,86,Normal,4.0,4.0,,67.0,NODATA!,2020,May,Wednesday,0,2019,August,Thursday,0
+WV30DS,"36B, OAKLANDS ROAD, ","6, Oaklands Road, ",0.97,155000,T,N,F,E,C,41,71,Normal,8.0,8.0,,155.0,NODATA!,2020,June,Friday,0,2018,August,Wednesday,0
+WV133EJ,"48, HAWKSWELL DRIVE, ","48, Hawkswell Drive, ",1.0,129000,S,N,F,C,B,69,87,Normal,4.0,4.0,,54.0,NODATA!,2020,June,Friday,0,2020,January,Thursday,0
+WV106FD,"1, OHIO GARDENS, ","1, Ohio Gardens, ",1.0,237500,D,N,F,C,B,80,89,NO DATA!,,,,102.0,NO DATA!,2020,June,Friday,0,2017,March,Friday,0
+WV106FD,"11, OHIO GARDENS, ","11, Ohio Gardens, ",1.0,165600,T,N,F,B,A,83,94,NO DATA!,,,,85.0,NO DATA!,2020,March,Friday,0,2017,May,Thursday,0
+WV60XA,"31, HAMBROOK CLOSE, ","31, Hambrook Close, ",1.0,120000,S,N,L,C,B,72,88,Normal,5.0,5.0,,59.0,NODATA!,2020,February,Friday,0,2019,September,Friday,0
+WV106BZ,"12, RANGER DRIVE, ","12, Ranger Drive, ",1.0,239995,D,N,F,C,C,79,80,NO DATA!,,,,109.0,NO DATA!,2020,June,Tuesday,0,2014,February,Thursday,0
+WV106BZ,"88, RANGER DRIVE, ","88, Ranger Drive, ",1.0,209500,S,N,F,B,B,81,90,NO DATA!,,,,122.0,NO DATA!,2020,April,Wednesday,0,2017,February,Thursday,0
+WV69NG,"84, LYNTON AVENUE, ","84, Lynton Avenue, ",1.0,189950,S,N,F,D,D,63,67,Normal,6.0,6.0,,110.1,NO DATA!,2020,April,Wednesday,0,2009,November,Friday,0
+WV113JA,"5, ASHERIDGE CLOSE, ","5, Asheridge Close, ",1.0,167000,S,N,F,B,B,88,89,NO DATA!,,,,79.0,NO DATA!,2020,March,Wednesday,0,2014,October,Friday,0
+WV140LL,"48A, HIMLEY CLOSE, ","48a Himley Close, ",0.99,203000,S,N,F,B,B,83,83,NO DATA!,,,,88.0,NO DATA!,2020,May,Friday,0,2012,December,Tuesday,0
+WV46RX,"52, BIRMINGHAM NEW ROAD, ","52, Birmingham New Road, ",1.0,178500,S,N,F,D,B,62,82,Normal,5.0,5.0,,106.0,NODATA!,2020,July,Monday,0,2020,January,Tuesday,0
+WV46SU,"78, KENILWORTH CRESCENT, ","78, Kenilworth Crescent, Parkfields, ",0.94,74000,F,N,L,C,C,78,78,Normal,3.0,3.0,,67.0,1st,2020,January,Friday,0,2020,January,Saturday,0
+WV46QL,"91, FARRINGTON ROAD, ","91, Farrington Road, ",1.0,228000,S,N,F,D,B,68,82,Normal,5.0,5.0,,87.0,NODATA!,2020,May,Friday,0,2019,August,Friday,0
+WV46QL,"164D, FARRINGTON ROAD, ","164d, Farrington Road, ",1.0,106500,F,N,L,C,C,80,80,Normal,4.0,4.0,,55.0,1st,2020,June,Friday,0,2020,April,Thursday,0
+WV45SD,"133, MOUNT ROAD, ","133, Mount Road, Penn, ",0.95,297000,D,N,F,G,C,1,75,Normal,6.0,0.0,,138.0,NODATA!,2020,April,Friday,0,2020,March,Tuesday,0
+WV109PT,"108, OLD FALLINGS CRESCENT, ","108, Old Fallings Crescent, ",1.0,80000,T,N,F,C,B,69,83,Normal,4.0,4.0,,77.0,NODATA!,2020,January,Wednesday,0,2012,December,Monday,0
+WV146JR,"32A, BUNKERS HILL LANE, ","32a, Bunkers Hill Lane, ",1.0,70000,F,N,L,D,C,67,73,Normal,1.0,1.0,,49.0,Ground,2020,February,Friday,0,2018,June,Monday,0
+WV146JR,"56, BUNKERS HILL LANE, ","56, Bunkers Hill Lane, ",1.0,250000,D,N,F,E,E,53,54,Normal,5.0,5.0,,98.36,NO DATA!,2020,July,Friday,0,2010,November,Thursday,0
+WV22BF,"23, KIRKWALL CRESCENT, ","23, Kirkwall Crescent, ",1.0,127000,S,N,F,C,A,79,94,NO DATA!,,,,51.0,NO DATA!,2020,February,Thursday,0,2015,October,Wednesday,0
+WV106US,"38, RAKEGATE CLOSE, ","38, Rakegate Close, ",1.0,190000,D,N,F,B,B,82,82,NO DATA!,,,,83.0,NO DATA!,2020,February,Friday,0,2012,September,Monday,0
+WV106US,"22, RAKEGATE CLOSE, ","22, Rakegate Close, ",1.0,235000,D,N,F,B,B,83,83,NO DATA!,,,,97.0,NO DATA!,2020,March,Friday,0,2011,October,Monday,0
+WV60AR,"196, SWEETMAN STREET, ","196, Sweetman Street, ",1.0,87000,T,N,F,D,C,60,77,Normal,4.0,4.0,,70.0,NODATA!,2020,May,Thursday,0,2016,August,Thursday,0
+WV68ND,"91, WOODLAND AVENUE, ","91, Woodland Avenue, ",1.0,260000,S,N,F,D,B,60,81,Normal,5.0,5.0,,96.0,NODATA!,2020,February,Tuesday,0,2019,September,Monday,0
+WV23HW,"94, WANDERERS AVENUE, ","94, Wanderers Avenue, ",1.0,117000,T,N,F,D,B,68,86,Normal,5.0,5.0,,109.0,NODATA!,2020,January,Friday,0,2019,December,Monday,0
+WV148AZ,"16, DALEY ROAD, ","16, Daley Road, ",1.0,128000,T,N,F,C,B,69,85,Normal,4.0,4.0,,67.0,NODATA!,2020,March,Friday,0,2019,October,Wednesday,0
+WV106XF,"186A, RENTON ROAD, ","186a, Renton Road, ",1.0,62500,F,N,L,C,C,73,74,Normal,2.0,2.0,,47.0,1st,2020,January,Tuesday,0,2020,May,Friday,0
+WV109SQ,"106, HAWKSFORD CRESCENT, ","106, Hawksford Crescent, ",1.0,95000,S,N,F,E,B,51,82,Normal,4.0,4.0,,62.0,NODATA!,2020,July,Monday,0,2015,June,Thursday,0
+WV60NR,"156, DUNSTALL ROAD, ","156, Dunstall Road, ",1.0,190000,S,N,F,D,D,56,59,Normal,9.0,9.0,,209.01,NODATA!,2020,July,Friday,0,2011,April,Thursday,0
+WV68PH,"10, HIGH MEADOWS, ","10, High Meadows, ",1.0,352500,S,N,F,E,E,39,54,Normal,7.0,7.0,,162.0,NODATA!,2020,March,Friday,0,2019,July,Tuesday,0
+WV45LY,"12, BUTTONS FARM ROAD, ","12, Buttons Farm Road, ",1.0,325000,D,N,F,E,E,48,52,Normal,6.0,6.0,,127.34,NO DATA!,2020,January,Monday,0,2010,February,Thursday,0
+WV60PB,"52, GORSEBROOK ROAD, ","52, Gorsebrook Road, ",1.0,86250,T,N,F,C,B,70,88,Normal,5.0,5.0,,77.0,NODATA!,2020,February,Friday,0,2015,January,Saturday,0
+WV12BH,"54, DEANS ROAD, ","54, Deans Road, ",1.0,117100,S,N,F,D,B,57,82,Normal,5.0,5.0,,73.0,NODATA!,2020,April,Friday,0,2019,December,Friday,0
+WV113UA,"55, YALE DRIVE, ","55, Yale Drive, Wednesfield, ",0.91,172000,S,N,F,C,B,71,85,Normal,6.0,6.0,,75.0,NODATA!,2020,February,Thursday,0,2014,April,Tuesday,0
+WV60LH,"39, NEWBRIDGE CRESCENT, ","39, Newbridge Crescent, ",1.0,490000,D,N,F,E,C,47,74,Normal,6.0,6.0,,206.0,NODATA!,2020,February,Tuesday,0,2019,June,Friday,0
+WV69DT,"43, CONISTON ROAD, ","43, Coniston Road, ",1.0,230000,S,N,F,C,B,71,83,Normal,5.0,5.0,,93.0,NODATA!,2020,June,Monday,0,2020,February,Saturday,0
+WV24NU,"24, UPPER VILLIERS STREET, ","24, Upper Villiers Street, ",1.0,145000,S,N,F,C,B,70,86,Normal,5.0,5.0,,84.0,NODATA!,2020,February,Tuesday,0,2013,February,Saturday,0
+WV109PQ,"44, THIRD AVENUE, ","44, Third Avenue, ",1.0,102000,T,N,F,D,B,62,86,Normal,5.0,5.0,,75.0,NODATA!,2020,June,Friday,0,2019,September,Saturday,0
+WV113NE,"89, STUBBY LANE, ","89, Stubby Lane, ",1.0,140000,S,N,L,D,C,60,79,Normal,5.0,5.0,,92.0,NODATA!,2020,February,Friday,0,2019,October,Wednesday,0
+WV109HE,"29, ELSTON HALL LANE, ","29, Elston Hall Lane, ",1.0,165000,S,N,F,D,B,59,83,Normal,4.0,4.0,,82.0,NODATA!,2020,February,Friday,0,2019,October,Wednesday,0
+WV148QN,"39, SORREL DRIVE, ","39, Sorrel Drive, ",1.0,145000,T,N,F,B,A,82,96,NO DATA!,,,,64.0,NO DATA!,2020,April,Wednesday,0,2018,February,Wednesday,0
+WV106GG,"31, CROFT GARDENS, ","31, Croft Gardens, ",1.0,181500,S,N,F,B,A,84,96,NO DATA!,,,,77.0,NO DATA!,2020,June,Friday,0,2016,November,Wednesday,0
+WV106GG,"12, CROFT GARDENS, ","12, Croft Gardens, ",1.0,185000,S,N,F,B,A,84,96,NO DATA!,,,,77.0,NO DATA!,2020,March,Friday,0,2016,May,Tuesday,0
+WV100EG,"42, BURTON ROAD, ","42, Burton Road, ",1.0,107000,T,N,F,D,B,67,83,Normal,3.0,3.0,,64.0,NODATA!,2020,January,Friday,0,2018,June,Thursday,0
+WV106LH,"73, COTTAGE LANE, ","73, Cottage Lane, ",1.0,183000,T,N,F,E,C,53,80,Normal,6.0,6.0,,126.0,NODATA!,2020,June,Tuesday,0,2019,May,Thursday,0
+WV109EL,"22, STANLEY ROAD, ","22, Stanley Road, ",1.0,138000,T,N,F,C,B,74,87,Normal,3.0,3.0,,65.0,NODATA!,2020,June,Tuesday,0,2020,June,Thursday,0
+WV100AZ,"81, BROAD GAUGE WAY, ","81, Broad Gauge Way, ",1.0,110000,F,N,L,C,C,70,71,NO DATA!,,,,63.0,ground floor,2020,April,Tuesday,0,2012,April,Tuesday,0
+WV100AZ,"72, BROAD GAUGE WAY, ","72, Broad Gauge Way, ",1.0,105000,F,N,L,C,C,79,80,NO DATA!,,,,62.0,mid floor,2020,March,Friday,0,2012,May,Friday,0
+WV30RJ,"32, MERRIDALE STREET WEST, ","32, Merridale Street West, ",1.0,96000,T,N,F,D,B,61,83,Normal,5.0,5.0,,87.0,NODATA!,2020,March,Monday,0,2019,November,Tuesday,0
+WV147BS,"7, WRENBURY DRIVE, ","7, Wrenbury Drive, ",1.0,125000,T,N,L,C,C,78,79,Normal,3.0,3.0,,56.16,NO DATA!,2020,March,Monday,0,2010,September,Wednesday,0
+WV45TA,"28, WHITEHALL ROAD, ","28, Whitehall Road, ",1.0,194000,S,N,F,D,B,68,85,Normal,5.0,5.0,,83.0,NODATA!,2020,February,Friday,0,2018,November,Monday,0
+WV46AR,"434, WOLVERHAMPTON ROAD EAST, ","434, Wolverhampton Road East, ",1.0,190000,S,N,F,D,B,57,82,Normal,6.0,6.0,,94.0,NODATA!,2020,February,Friday,0,2019,July,Monday,0
+WV95RA,"43, WEYHILL CLOSE, ","43, Weyhill Close, ",1.0,63000,F,N,L,D,C,64,70,Normal,2.0,2.0,,31.0,Ground,2020,March,Friday,0,2015,February,Tuesday,0
+WV95RA,"54, WEYHILL CLOSE, ","54, Weyhill Close, ",1.0,97000,T,N,F,D,B,62,86,Normal,2.0,2.0,,44.0,NODATA!,2020,February,Friday,0,2019,October,Friday,0
+WV68JW,"31, KINFARE DRIVE, ","31, Kinfare Drive, ",1.0,120000,F,N,L,C,C,72,75,Normal,3.0,3.0,,72.0,Ground,2020,June,Friday,0,2013,August,Thursday,0
+WV38DZ,"89, BHYLLS LANE, ","89, Bhylls Lane, ",1.0,179000,S,N,F,E,B,46,83,Normal,4.0,4.0,,71.0,NODATA!,2020,May,Thursday,0,2012,April,Thursday,0
+WV38DZ,"83, BHYLLS LANE, ","83, Bhylls Lane, ",1.0,130000,S,N,F,D,B,65,84,Normal,3.0,3.0,,72.0,NODATA!,2020,January,Thursday,0,2019,November,Monday,0
+WV38DZ,"81, BHYLLS LANE, ","81, Bhylls Lane, ",1.0,185000,S,N,F,C,B,69,84,Normal,3.0,3.0,,68.0,NODATA!,2020,March,Monday,0,2019,September,Thursday,0
+WV38DZ,"77, BHYLLS LANE, ","77, Bhylls Lane, ",1.0,183900,F,N,F,D,B,67,86,Normal,4.0,4.0,,79.0,NODATA!,2020,June,Friday,0,2019,December,Wednesday,0
+WV113RR,"38, COLMAN AVENUE, ","38, Colman Avenue, ",1.0,156000,S,N,F,E,B,53,84,Normal,5.0,5.0,,90.0,NODATA!,2020,May,Friday,0,2019,November,Tuesday,0
+WV113RR,"8, COLMAN AVENUE, ","8, Colman Avenue, ",1.0,150000,T,N,F,E,B,51,81,Normal,4.0,4.0,,86.0,NODATA!,2020,May,Monday,0,2020,January,Sunday,0
+WV106GB,"53, COLUMBIA CRESCENT, ","53, Columbia Crescent, ",1.0,163000,S,N,F,C,A,79,92,NO DATA!,,,,71.0,NO DATA!,2020,March,Wednesday,0,2014,December,Thursday,0
+WV68BP,"11, SABRINA ROAD, ","11, Sabrina Road, ",1.0,300000,D,N,F,D,B,66,82,Normal,4.0,4.0,,84.0,NODATA!,2020,January,Tuesday,0,2019,October,Wednesday,0
+WV108AQ,"20, PRIMROSE AVENUE, ","20, Primrose Avenue, ",1.0,125000,T,N,F,C,B,72,84,Normal,5.0,5.0,,94.0,NODATA!,2020,February,Monday,0,2019,June,Friday,0
+WV38BA,"89, FINCHFIELD ROAD WEST, ","89, Finchfield Road West, ",1.0,350000,D,N,F,D,C,68,79,Normal,5.0,5.0,,103.0,NODATA!,2020,May,Friday,0,2019,October,Wednesday,0
+WV112PU,"10, NEWEY ROAD, ","10, Newey Road, ",1.0,125000,S,N,F,D,C,62,78,Normal,3.0,3.0,,67.0,NODATA!,2020,June,Thursday,0,2020,January,Wednesday,0
+WV146AH,"25, WELLINGTON ROAD, ","13, Wellington Road, ",0.94,185000,D,N,F,E,C,52,76,Normal,8.0,8.0,,289.0,NODATA!,2020,February,Thursday,0,2012,December,Friday,0
+WV22DL,"124, MYATT AVENUE, ","124, Myatt Avenue, ",1.0,110000,T,N,F,D,B,58,87,Normal,5.0,4.0,,74.0,NODATA!,2020,January,Friday,0,2014,January,Thursday,0
+WV30HG,"10, MANLOVE STREET, ","10, Manlove Street, ",1.0,85000,T,N,F,E,C,50,75,Normal,5.0,5.0,,88.0,NODATA!,2020,March,Friday,0,2019,January,Wednesday,0
+WV111NW,"82, WOOD END ROAD, ","82, Wood End Road, ",1.0,90000,T,N,F,F,C,28,80,Normal,5.0,2.0,,83.0,NODATA!,2020,July,Tuesday,0,2020,January,Friday,0
+WV12SG,"62, BURCOT AVENUE, ","62, Burcot Avenue, ",1.0,156000,S,N,F,E,C,53,75,Normal,5.0,5.0,,94.0,NODATA!,2020,June,Friday,0,2012,April,Tuesday,0
+WV39JW,"53, GLEN COURT, ","53, Glen Court, ",1.0,219950,S,N,F,C,B,70,83,Normal,6.0,6.0,,101.0,NODATA!,2020,March,Monday,0,2019,August,Thursday,0
+WV106NN,"562, STAFFORD ROAD, ","562, Stafford Road, ",1.0,170000,S,N,F,D,C,67,80,Normal,6.0,6.0,,116.0,NODATA!,2020,June,Friday,0,2019,September,Wednesday,0
+WV109YA,"31, HALLAM CRESCENT, ","31, Hallam Crescent, ",1.0,140000,T,N,F,D,B,65,88,Normal,4.0,4.0,,67.0,NODATA!,2020,January,Friday,0,2019,November,Friday,0
+WV106LA,"6, ATLAS CROFT, ","6, Atlas Croft, ",1.0,95000,T,N,L,D,B,62,83,Normal,3.0,3.0,,44.0,NODATA!,2020,May,Friday,0,2014,October,Saturday,0
+WV44DS,"20, LINTON ROAD, ","20, Linton Road, ",1.0,271500,S,N,F,D,C,61,72,Normal,5.0,5.0,,110.0,NODATA!,2020,February,Friday,0,2019,September,Thursday,0
+WV22DT,"3, ROOKER AVENUE, ","3, Rooker Avenue, ",1.0,115000,S,N,F,D,C,57,80,Normal,5.0,5.0,,86.0,NODATA!,2020,April,Friday,0,2014,February,Wednesday,0
+WV22BJ,"58, DIXON STREET, ","58, Dixon Street, ",1.0,87500,S,N,F,D,B,58,86,Normal,7.0,7.0,,84.0,NODATA!,2020,May,Wednesday,0,2019,December,Tuesday,0
+WV39AE,"7, OAK HILL, ","7, Oak Hill, ",1.0,212500,T,N,F,D,B,63,81,Normal,5.0,5.0,,110.0,NODATA!,2020,January,Thursday,0,2019,March,Thursday,0
+WV39AE,"13, OAK HILL, ","31, Oak Hill, ",0.98,170000,S,N,F,D,B,55,87,Normal,4.0,4.0,,66.0,NODATA!,2020,January,Wednesday,0,2013,August,Monday,0
+WV109NA,"67, HUMPHRIES ROAD, ","67, Humphries Road, ",1.0,81000,F,N,L,B,B,82,82,Normal,2.0,2.0,,60.0,1st,2020,February,Monday,0,2019,April,Friday,0
+WV46PQ,"20, WARD GROVE, ","20, Ward Grove, ",1.0,142000,T,N,F,C,B,76,89,Normal,4.0,4.0,,71.0,NODATA!,2020,February,Friday,0,2012,September,Thursday,0
+WV60LS,"87, THE LINDENS, ","87, The Lindens, Newbridge Crescent, ",0.89,70000,F,N,L,E,C,49,78,Normal,3.0,3.0,,59.0,2nd,2020,January,Thursday,0,2018,May,Wednesday,0
+WV30RR,"14, LENNOX GARDENS, ","14, Lennox Gardens, ",1.0,58000,F,N,L,D,C,56,76,Normal,2.0,1.0,,33.0,1st,2020,July,Tuesday,0,2015,February,Tuesday,0
+WV46SG,"25, BEVAN AVENUE, ","25, Bevan Avenue, ",1.0,132500,S,N,F,C,B,69,86,Normal,3.0,3.0,,71.0,NODATA!,2020,February,Friday,0,2019,November,Tuesday,0
+WV106UA,"168, PROBERT ROAD, ","168, Probert Road, ",1.0,155000,S,N,F,D,C,56,79,Normal,5.0,5.0,,68.0,NODATA!,2020,June,Tuesday,0,2020,January,Friday,0
+WV106UA,"150, PROBERT ROAD, ","150, Probert Road, ",1.0,185000,S,N,F,D,B,64,86,Normal,5.0,5.0,,70.0,NODATA!,2020,January,Friday,0,2015,March,Friday,0
+WV68PR,"THORNEYCROFT, FLAT 25, WOOD ROAD, ","Flat 52 Thorneycroft, Wood Road, ",0.84,260000,F,N,L,C,C,80,80,NO DATA!,,,,78.0,mid floor,2020,January,Tuesday,0,2018,May,Friday,0
+WV68PR,"THORNEYCROFT, FLAT 3, WOOD ROAD, ","Flat 3 Thorneycroft, Wood Road, ",0.84,249950,F,N,L,B,B,82,82,NO DATA!,,,,55.0,ground floor,2020,February,Friday,0,2018,May,Friday,0
+WV68PR,"THORNEYCROFT, FLAT 31, WOOD ROAD, ","Flat 31 Thorneycroft, Wood Road, ",0.84,315000,F,N,L,B,B,81,81,NO DATA!,,,,78.0,mid floor,2020,January,Tuesday,0,2018,October,Monday,0
+WV68PR,"THORNEYCROFT, FLAT 45, WOOD ROAD, ","Flat 45 Thorneycroft, Wood Road, ",0.84,224950,F,N,L,B,B,82,82,NO DATA!,,,,55.0,mid floor,2020,January,Friday,0,2018,September,Monday,0
+WV68PR,"THORNEYCROFT, FLAT 5, WOOD ROAD, ","Flat 5 Thorneycroft, Wood Road, ",0.84,212458,F,N,L,B,B,83,83,NO DATA!,,,,66.0,ground floor,2020,February,Friday,0,2018,May,Friday,0
+WV109AF,"36, NINE ELMS LANE, ","36, Nine Elms Lane, ",1.0,92500,T,N,F,C,B,69,89,Normal,5.0,5.0,,75.0,NODATA!,2020,January,Friday,0,2016,January,Tuesday,0
+WV46RD,"DOVEDALE COURT, FLAT 29, DOVEDALE ROAD, ","Flat 2 Dovedale Court, Dovedale Road, ",0.83,50000,F,N,L,D,C,68,78,Normal,2.0,2.0,2.0,39.3,1st,2020,January,Friday,0,2010,June,Wednesday,0
+WV68RT,"12, REGIS ROAD, ","12, Regis Road, ",1.0,210000,T,N,F,D,B,57,82,Normal,5.0,5.0,,102.0,NODATA!,2020,May,Friday,0,2018,February,Wednesday,0
+WV112HH,"15, WHITEHOUSE CRESCENT, ","15, Whitehouse Crescent, ",1.0,67000,F,N,L,D,C,62,75,Normal,2.0,2.0,,53.0,1st,2020,April,Monday,0,2014,August,Wednesday,0
+WV146BP,"21, LOWBRIDGE WALK, ","21, Lowbridge Walk, ",1.0,78000,F,N,L,C,C,76,77,Normal,2.0,2.0,,40.0,Ground,2020,February,Friday,0,2012,May,Tuesday,0
+WV112JR,"167, GRIFFITHS DRIVE, ","167, Griffiths Drive, ",1.0,113500,T,N,F,C,B,70,85,Normal,4.0,4.0,,70.0,NODATA!,2020,June,Thursday,0,2020,June,Tuesday,0
+WV140LR,"6, MERSTONE CLOSE, ","6, Merstone Close, ",1.0,36000,F,N,L,D,D,60,68,Normal,2.0,2.0,,44.0,Ground,2020,May,Tuesday,0,2019,July,Tuesday,0
+WV14AN,"6, DUNKLEY STREET, ","6, Dunkley Street, ",1.0,226500,T,N,F,E,E,44,53,Normal,6.0,6.0,,147.67,NO DATA!,2020,February,Thursday,0,2009,November,Tuesday,0
+WV133UN,"55, EVANS STREET, ","55, Evans Street, ",1.0,132000,S,N,F,C,B,70,89,Normal,5.0,5.0,,82.0,NODATA!,2020,February,Friday,0,2013,April,Wednesday,0
+WV37JG,"91, TRYSULL ROAD, ","91, Trysull Road, ",1.0,206000,S,N,F,D,B,65,84,Normal,5.0,5.0,,111.0,NODATA!,2020,March,Friday,0,2019,May,Friday,0
+WV45UZ,"PENDENE COURT, 253, FLAT 22, PENN ROAD, ","Flat 22 Pendene Court, 253, Penn Road, ",0.8,82500,F,N,L,B,B,82,84,Normal,3.0,3.0,,65.0,1st,2020,March,Tuesday,0,2018,January,Thursday,0
+WV100SE,"141, NEWBOLDS ROAD, ","141, Newbolds Road, ",1.0,165000,S,N,F,C,B,69,84,Normal,6.0,6.0,,89.0,NODATA!,2020,June,Friday,0,2020,March,Wednesday,0
+WV106SP,"46, ST ANNES ROAD, ","46, St. Annes Road, ",0.99,95000,T,N,F,E,C,42,71,Normal,4.0,4.0,,84.0,NODATA!,2020,April,Monday,0,2015,October,Thursday,0
+WV81UP,"38, LONG FURROW, ","38, Long Furrow, ",1.0,106000,T,N,F,D,B,66,84,Normal,4.0,4.0,,90.0,NODATA!,2020,June,Tuesday,0,2019,February,Tuesday,0
+WV46BF,"12, INVERKIP WALK, ","12, Inverkip Walk, ",1.0,256000,T,N,F,C,B,75,86,Normal,7.0,7.0,,127.0,NODATA!,2020,March,Tuesday,0,2014,August,Tuesday,0
+WV69JL,"16, BURLAND AVENUE, ","16, Burland Avenue, ",1.0,147000,S,N,F,F,C,21,77,Normal,5.0,2.0,,86.0,NODATA!,2020,April,Wednesday,0,2020,February,Monday,0
+WV22JY,"23, PEMBROKE AVENUE, ","23, Pembroke Avenue, ",1.0,105000,T,N,F,C,B,71,84,Normal,6.0,6.0,,111.0,NODATA!,2020,February,Friday,0,2019,January,Friday,0
+WV46DR,"52, HILTON ROAD, ","52, Hilton Road, Lanesfield, ",0.92,77000,S,N,F,E,B,46,84,Normal,4.0,2.0,,71.0,NODATA!,2020,January,Wednesday,0,2019,August,Saturday,0
+WV140HR,"29 - 31, CORONATION ROAD, ","29 Coronation Road, ",0.85,210000,O,N,F,D,C,64,74,Normal,5.0,5.0,,125.0,NODATA!,2020,April,Thursday,0,2019,June,Tuesday,0
+WV68UZ,"108, CORNWALL ROAD, ","108, Cornwall Road, ",1.0,140000,T,N,F,D,C,59,76,Normal,4.0,4.0,,78.0,NODATA!,2020,January,Tuesday,0,2019,March,Tuesday,0
+WV44AP,"31, LEIGHTON ROAD, ","31, Leighton Road, ",1.0,197000,S,N,F,G,C,14,70,Normal,5.0,4.0,,85.0,NODATA!,2020,January,Friday,0,2012,May,Wednesday,0
+WV148TU,"48, BRIERLEY LANE, ","48, Brierley Lane, ",1.0,130000,S,N,F,C,C,73,74,Normal,5.0,5.0,,91.8,NO DATA!,2020,July,Friday,0,2010,May,Saturday,0
+WV148TU,"60, BRIERLEY LANE, ","60, Brierley Lane, ",1.0,124500,S,N,F,E,B,44,83,Normal,6.0,2.0,,92.0,NODATA!,2020,February,Friday,0,2019,October,Saturday,0
+WV39RD,"13, MERRIDALE LANE, ","13, Merridale Lane, ",1.0,195000,T,N,F,D,C,56,74,Normal,8.0,8.0,,158.0,NODATA!,2020,February,Monday,0,2019,September,Monday,0
+WV140TT,"42, BAY AVENUE, ","42, Bay Avenue, ",1.0,200000,T,N,F,C,B,75,86,Normal,6.0,6.0,,94.0,NODATA!,2020,June,Friday,0,2019,December,Saturday,0
+WV140TT,"16, BAY AVENUE, ","16, Bay Avenue, ",1.0,55000,F,N,L,C,C,80,80,Normal,2.0,2.0,,37.0,3rd,2020,January,Friday,0,2019,April,Monday,0
+WV111QL,"31, SOUTH AVENUE, ","31, South Avenue, ",1.0,155000,T,N,F,D,B,63,85,Normal,6.0,6.0,,93.0,NODATA!,2020,January,Monday,0,2019,July,Thursday,0
+WV111QL,"18, SOUTH AVENUE, ","18, South Avenue, ",1.0,91000,T,N,F,D,B,57,86,Normal,6.0,6.0,,90.0,NODATA!,2020,January,Friday,0,2014,May,Tuesday,0
+WV60DS,"33, PAGET ROAD, ","3, Paget Road, ",0.98,225000,T,N,F,E,C,44,75,Normal,7.0,7.0,,175.0,NODATA!,2020,March,Friday,0,2019,April,Tuesday,0
+WV60DS,"3, PAGET ROAD, ","3, Paget Road, ",1.0,220000,S,N,F,E,C,44,75,Normal,7.0,7.0,,175.0,NODATA!,2020,February,Friday,0,2019,April,Tuesday,0
+WV68QL,"39, HANOVER COURT, ","39, Hanover Court, ",1.0,165000,D,N,F,E,B,52,84,Normal,3.0,3.0,,59.0,NODATA!,2020,March,Thursday,0,2016,January,Tuesday,0
+WV68QL,"11, HANOVER COURT, ","11, Hanover Court, ",1.0,94000,F,N,L,C,C,73,77,Normal,3.0,3.0,,54.0,1st,2020,March,Tuesday,0,2020,February,Friday,0
+WV68QL,"12, HANOVER COURT, ","12, Hanover Court, ",1.0,85000,F,N,L,C,C,69,75,Normal,3.0,3.0,,51.0,Ground,2020,February,Friday,0,2019,April,Monday,0
+WV106GH,"31, GOODWOOD DRIVE, ","31, Goodwood Drive, ",1.0,240000,D,N,F,B,A,85,94,NO DATA!,,,,114.0,NO DATA!,2020,June,Wednesday,0,2017,May,Thursday,0
+WV106GH,"21, GOODWOOD DRIVE, ","21, Goodwood Drive, ",1.0,235000,D,N,F,B,A,85,94,NO DATA!,,,,114.0,NO DATA!,2020,April,Wednesday,0,2017,April,Tuesday,0
+WV108TH,"17, ABBEYFIELD ROAD, ","17, Abbeyfield Road, ",1.0,185000,D,N,F,D,B,56,82,Normal,5.0,5.0,,75.0,NODATA!,2020,January,Thursday,0,2019,October,Monday,0
+WV60HJ,"55, HORDERN ROAD, ","55, Hordern Road, ",1.0,107000,T,N,F,D,B,66,89,Normal,4.0,4.0,,79.0,NODATA!,2020,July,Monday,0,2020,February,Thursday,0
+WV133QA,"10, PORTOBELLO CLOSE, ","10, Portobello Close, ",1.0,70000,S,N,F,D,B,58,87,Normal,5.0,5.0,,73.0,NODATA!,2020,March,Monday,0,2020,February,Friday,0
+WV22HN,"61, COTSWOLD ROAD, ","61, Cotswold Road, ",1.0,125000,S,N,F,C,B,79,89,Normal,5.0,5.0,,81.0,NODATA!,2020,July,Friday,0,2017,June,Tuesday,0
+WV22HN,"12, COTSWOLD ROAD, ","12, Cotswold Road, ",1.0,125000,S,N,F,D,B,64,83,Normal,4.0,4.0,,71.0,NODATA!,2020,July,Friday,0,2018,February,Thursday,0
+WV60HR,"96, HORDERN ROAD, ","96, Hordern Road, ",1.0,127000,S,N,F,D,B,55,86,Normal,4.0,4.0,,89.0,NODATA!,2020,January,Wednesday,0,2019,March,Wednesday,0
+WV60HR,"101, HORDERN ROAD, ","101, Hordern Road, ",1.0,101000,S,N,F,C,B,76,81,Normal,4.0,4.0,,500.0,NODATA!,2020,March,Friday,0,2019,November,Tuesday,0
+WV60HR,"101, HORDERN ROAD, ","101, Hordern Road, ",1.0,97000,S,N,F,C,B,76,81,Normal,4.0,4.0,,500.0,NODATA!,2020,February,Wednesday,0,2019,November,Tuesday,0
+WV23JB,"32, FOWLER STREET, ","32, Fowler Street, ",1.0,85000,S,N,F,D,C,59,78,Normal,4.0,4.0,,82.0,NODATA!,2020,February,Tuesday,0,2019,December,Saturday,0
+WV23JB,"90A, FOWLER STREET, ","90a, Fowler Street, ",1.0,99000,S,N,F,D,B,59,82,Normal,5.0,5.0,,77.0,NODATA!,2020,March,Friday,0,2020,January,Tuesday,0
+WV39PA,"95, CLARK ROAD, ","95, Clark Road, ",1.0,255000,S,N,F,E,C,51,73,Normal,7.0,7.0,,169.0,NODATA!,2020,February,Monday,0,2015,May,Thursday,0
+WV100AH,"201, CANNOCK ROAD, ","201, Cannock Road, ",1.0,89000,T,N,F,D,B,60,81,Normal,5.0,5.0,,89.0,NODATA!,2020,January,Friday,0,2019,October,Monday,0
+WV68AL,"4, MARTHAM DRIVE, ","4, Martham Drive, ",1.0,160000,S,N,F,D,B,63,81,Normal,5.0,5.0,,71.0,NODATA!,2020,May,Friday,0,2019,December,Wednesday,0
+WV68AL,"8, MARTHAM DRIVE, ","8, Martham Drive, ",1.0,226000,T,N,F,D,B,63,82,Normal,6.0,6.0,,86.0,NODATA!,2020,February,Friday,0,2019,August,Friday,0
+WV146RL,"244, WELLINGTON ROAD, ","244, Wellington Road, ",1.0,110000,T,N,F,D,B,56,81,Normal,6.0,6.0,,88.0,NODATA!,2020,April,Friday,0,2018,December,Wednesday,0
+WV100LQ,"35, SPRINGFIELD ROAD, ","35, Springfield Road, ",1.0,147000,S,N,F,D,B,65,83,More Than Typical,5.0,5.0,,87.0,NODATA!,2020,March,Friday,0,2019,November,Tuesday,0
+WV37HA,"123, VICTORIA ROAD, ","123, Victoria Road, Bradmore, ",0.93,130000,T,N,F,D,B,60,86,Normal,5.0,5.0,,79.0,NODATA!,2020,March,Friday,0,2019,October,Wednesday,0
+WV37HA,"129, VICTORIA ROAD, ","129, Victoria Road, Bradmore, ",0.93,100000,S,N,F,D,B,60,82,Normal,5.0,5.0,,88.0,NODATA!,2020,January,Tuesday,0,2019,September,Tuesday,0
+WV60AJ,"14, AVONDALE ROAD, ","14, Avondale Road, ",1.0,155000,T,N,F,E,D,46,66,Normal,8.0,8.0,,150.0,NODATA!,2020,April,Wednesday,0,2019,June,Wednesday,0
+WV111RU,"133, VICTORIA ROAD, ","133, Victoria Road, Wednesfield, ",0.92,99000,S,N,F,D,B,57,87,Normal,5.0,5.0,,82.0,NODATA!,2020,January,Wednesday,0,2018,November,Monday,0
+WV111RU,"15, VICTORIA ROAD, ","15, Victoria Road, Wednesfield, ",0.92,110000,T,N,F,E,C,40,78,Normal,4.0,4.0,,87.0,NODATA!,2020,January,Tuesday,0,2017,August,Tuesday,0
+WV106EY,"193, WINCHESTER ROAD, ","193, Winchester Road, ",1.0,158000,T,N,F,D,B,67,83,Normal,5.0,5.0,,87.0,NODATA!,2020,January,Friday,0,2019,May,Thursday,0
+WV106EY,"139, WINCHESTER ROAD, ","139, Winchester Road, ",1.0,224500,D,N,F,D,B,58,84,Normal,4.0,4.0,,79.0,NODATA!,2020,April,Wednesday,0,2020,January,Tuesday,0
+WV60DZ,"16, ST EDMUNDS CLOSE, ","16, St. Edmunds Close, ",0.99,85500,T,N,F,D,C,55,79,Normal,5.0,5.0,,70.0,NODATA!,2020,July,Monday,0,2015,November,Monday,0
+WV46EL,"599, PARKFIELD ROAD, ","599, Parkfield Road, ",1.0,62500,T,N,F,G,B,1,84,Normal,4.0,0.0,,83.0,NODATA!,2020,January,Friday,0,2019,October,Wednesday,0
+WV46EL,"566, PARKFIELD ROAD, ","566, Parkfield Road, ",1.0,160000,S,N,F,D,B,66,83,Normal,5.0,5.0,,116.0,NODATA!,2020,May,Thursday,0,2012,July,Tuesday,0
+WV46EL,"577, PARKFIELD ROAD, ","577, Parkfield Road, ",1.0,77000,T,N,F,D,B,61,81,Normal,5.0,5.0,,94.0,NODATA!,2020,February,Friday,0,2019,October,Thursday,0
+WV46EL,"563, PARKFIELD ROAD, ","563, Parkfield Road, ",1.0,160000,D,N,F,F,B,32,84,Normal,6.0,6.0,,93.0,NODATA!,2020,February,Tuesday,0,2017,January,Friday,0
+WV44LS,"4, WARSTONES ROAD, ","4, Warstones Road, Penn, ",0.95,200000,S,N,F,E,C,47,73,Normal,5.0,5.0,,78.0,NODATA!,2020,July,Friday,0,2020,March,Sunday,0
+WV44PH,"37, CHADWICK CLOSE, ","37, Chadwick Close, ",1.0,82000,F,N,L,C,B,74,91,Normal,3.0,3.0,,60.0,NODATA!,2020,January,Friday,0,2019,September,Tuesday,0
+WV12AJ,"98, HELMING DRIVE, ","98, Helming Drive, ",1.0,130000,S,N,F,D,B,63,89,Normal,3.0,3.0,,46.0,NODATA!,2020,February,Friday,0,2013,June,Tuesday,0
+WV68RH,"55, REGIS ROAD, ","55, Regis Road, ",1.0,140500,T,N,F,E,B,49,88,Normal,4.0,4.0,,67.0,NODATA!,2020,March,Monday,0,2019,October,Monday,0
+WV45UF,"80, WESTBOURNE ROAD, ","80, Westbourne Road, ",1.0,200200,T,N,F,D,B,64,86,Normal,6.0,6.0,,127.0,NODATA!,2020,May,Monday,0,2019,June,Saturday,0
+WV12EX,"35, MAYFIELD ROAD, ","35, Mayfield Road, ",1.0,126500,T,N,F,C,B,75,91,Normal,3.0,3.0,,59.0,NODATA!,2020,February,Friday,0,2015,February,Sunday,0
+WV22AZ,"15, BRADLEY ROAD, ","15, Bradley Road, ",1.0,105000,T,N,F,E,C,53,77,Normal,3.0,3.0,,67.0,NODATA!,2020,March,Friday,0,2019,November,Saturday,0
+WV37BZ,"24, ST PHILIPS GROVE, ","24, St. Philips Grove, ",0.99,140000,T,N,F,C,B,70,86,Normal,4.0,4.0,,70.0,NODATA!,2020,March,Wednesday,0,2019,November,Monday,0
+WV106GE,"86, COLUMBIA CRESCENT, ","86, Columbia Crescent, ",1.0,148000,T,N,F,B,A,83,97,NO DATA!,,,,59.0,NO DATA!,2020,January,Monday,0,2016,February,Monday,0
+WV106GE,"96, COLUMBIA CRESCENT, ","96, Columbia Crescent, ",1.0,255000,D,N,F,B,A,84,94,NO DATA!,,,,112.0,NO DATA!,2020,February,Thursday,0,2016,April,Monday,0
+WV109SF,"143, FIRST AVENUE, ","143, First Avenue, ",1.0,149000,T,N,F,D,B,60,85,Normal,5.0,2.0,,74.0,NODATA!,2020,January,Friday,0,2019,September,Friday,0
+WV38DU,"5, BELLENCROFT GARDENS, ","5, Bellencroft Gardens, ",1.0,276000,D,N,F,C,B,72,85,Normal,4.0,4.0,,111.0,NODATA!,2020,May,Monday,0,2014,April,Tuesday,0
+WV46EH,"614, PARKFIELD ROAD, ","614, Parkfield Road, ",1.0,80095,T,N,F,C,C,72,78,Normal,4.0,4.0,,83.6,NO DATA!,2020,April,Friday,0,2010,December,Wednesday,0
+WV46EH,"631, PARKFIELD ROAD, ","631, Parkfield Road, ",1.0,107000,T,N,F,D,B,68,85,Normal,4.0,4.0,,113.0,NODATA!,2020,April,Tuesday,0,2019,August,Friday,0
+WV12UG,"34, TREYNHAM CLOSE, ","34, Treynham Close, ",1.0,86500,T,N,L,C,C,73,78,Normal,4.0,4.0,,65.0,2nd,2020,March,Monday,0,2019,November,Friday,0
+WV45PZ,"44, SWAN BANK, ","44, Swan Bank, ",1.0,217000,T,N,F,D,B,64,84,Normal,6.0,6.0,,94.0,NODATA!,2020,January,Friday,0,2019,April,Tuesday,0
+WV45PZ,"77, SWAN BANK, ","77, Swan Bank, ",1.0,147000,S,N,F,E,B,53,83,Normal,4.0,4.0,,77.0,NODATA!,2020,May,Friday,0,2020,March,Tuesday,0
+WV45PZ,"80, SWAN BANK, ","80, Swan Bank, ",1.0,225000,S,N,F,D,C,60,76,Normal,5.0,5.0,,121.0,NODATA!,2020,January,Friday,0,2019,February,Thursday,0
+WV147ER,"51, QUEEN STREET, ","51, Queen Street, ",1.0,65000,F,N,L,C,C,72,77,Normal,3.0,3.0,,61.0,Ground,2020,February,Monday,0,2020,January,Wednesday,0
+WV39RJ,"132, MERRIDALE ROAD, ","132, Merridale Road, ",1.0,270000,S,N,F,D,B,55,81,Normal,7.0,7.0,,164.0,NODATA!,2020,January,Monday,0,2019,August,Monday,0
+WV68AF,"123, BRIDGNORTH ROAD, ","123, Bridgnorth Road, ",1.0,98000,F,N,L,E,C,52,75,Normal,3.0,3.0,,64.0,Ground,2020,June,Tuesday,0,2017,March,Tuesday,0
+WV46QH,"54, FARRINGTON ROAD, ","54, Farrington Road, ",1.0,185000,S,N,F,E,B,39,81,Normal,6.0,6.0,,89.0,NODATA!,2020,March,Friday,0,2019,November,Monday,0
+WV39HG,"15, BROADWAY, ","15, Broadway, Finchfield, ",0.91,289950,T,N,F,D,C,67,80,More Than Typical,5.0,5.0,,98.0,NODATA!,2020,May,Friday,0,2019,September,Monday,0
+WV112LG,"422, GRIFFITHS DRIVE, ","422, Griffiths Drive, ",1.0,140000,S,N,F,D,B,67,86,Normal,5.0,5.0,,81.0,NODATA!,2020,February,Friday,0,2013,May,Wednesday,0
+WV39EW,"27, THE TERRACE, ","27, The Terrace, ",1.0,173000,S,N,F,D,B,61,83,Normal,5.0,5.0,,99.0,NODATA!,2020,January,Friday,0,2019,February,Friday,0
+WV39EW,"14, THE TERRACE, ","14, The Terrace, ",1.0,195000,S,N,F,E,C,49,74,Normal,5.0,5.0,,89.0,NODATA!,2020,March,Monday,0,2019,September,Thursday,0
+WV113EZ,"24, HYLSTONE CRESCENT, ","42, Hylstone Crescent, ",0.99,103500,T,N,F,D,B,58,85,Normal,4.0,4.0,,74.0,NODATA!,2020,March,Friday,0,2014,March,Saturday,0
+WV113EZ,"71, HYLSTONE CRESCENT, ","71, Hylstone Crescent, ",1.0,135000,S,N,F,D,C,63,80,Normal,5.0,5.0,,101.0,NODATA!,2020,April,Friday,0,2014,March,Tuesday,0
+WV46DD,"133, ROTHESAY GARDENS, ","133, Rothesay Gardens, ",1.0,97000,F,N,L,B,B,81,81,Normal,3.0,3.0,,44.0,1st,2020,June,Monday,0,2019,November,Monday,0
+WV46DD,"97, ROTHESAY GARDENS, ","97, Rothesay Gardens, ",1.0,97000,F,N,L,B,B,81,82,Normal,3.0,3.0,,57.0,1st,2020,February,Thursday,0,2019,July,Monday,0
+WV46DD,"47, ROTHESAY GARDENS, ","47, Rothesay Gardens, ",1.0,100000,F,N,L,B,B,83,83,Normal,3.0,3.0,,64.0,3rd,2020,January,Friday,0,2019,August,Monday,0
+WV125UW,"54, PEACH ROAD, ","54, Peach Road, ",1.0,97500,F,N,L,D,B,64,81,Normal,3.0,3.0,2.0,57.6,1st,2020,January,Friday,0,2010,November,Friday,0
+WV22HQ,"11, ROUGH HILLS CLOSE, ","11, Rough Hills Close, ",1.0,164000,T,N,F,D,C,60,76,Normal,5.0,5.0,,96.0,NODATA!,2020,June,Monday,0,2020,January,Friday,0
+WV22HQ,"16, ROUGH HILLS CLOSE, ","16, Rough Hills Close, ",1.0,120000,T,N,F,D,B,68,85,Normal,4.0,4.0,,72.0,NODATA!,2020,February,Friday,0,2012,November,Friday,0
+WV100BN,"102, POWELL STREET, ","102, Powell Street, ",1.0,80000,T,N,F,D,B,60,85,Normal,4.0,4.0,,72.0,NODATA!,2020,February,Friday,0,2019,November,Saturday,0
+WV100RN,"16, QUEENS COURT, ","16, Queens Court, ",1.0,65000,F,N,L,D,B,55,81,Normal,3.0,1.0,,67.0,2nd,2020,April,Friday,0,2019,August,Monday,0
+WV68PT,"61, WOODFIELD HEIGHTS, ","61, Woodfield Heights, ",1.0,250000,D,N,F,D,B,67,81,Normal,5.0,5.0,,86.0,NODATA!,2020,June,Tuesday,0,2019,May,Friday,0
+WV133HT,"16, BREYDON GROVE, ","16, Breydon Grove, ",1.0,170000,S,N,F,D,B,67,81,Normal,4.0,4.0,,76.0,NODATA!,2020,January,Friday,0,2019,July,Thursday,0
+WV68HF,"15, WIGHTWICK COURT, ","15, Wightwick Court, ",1.0,155000,F,N,L,E,D,49,61,Normal,3.0,3.0,,72.0,Ground,2020,January,Thursday,0,2018,June,Friday,0
+WV108TY,"1, WEALDEN HATCH, ","1, Wealden Hatch, ",1.0,225000,D,N,F,D,B,62,84,Normal,3.0,3.0,,59.0,NODATA!,2020,February,Friday,0,2019,August,Tuesday,0
+WV111RA,"1B, PRESTWOOD ROAD, ","1b, Prestwood Road, ",1.0,145800,S,N,F,D,B,58,86,Normal,4.0,4.0,,94.0,NODATA!,2020,January,Friday,0,2016,April,Friday,0
+WV45DE,"49, HIMLEY CRESCENT, ","49, Himley Crescent, ",1.0,177000,S,N,F,D,B,57,84,Normal,5.0,5.0,,95.0,NODATA!,2020,March,Monday,0,2019,September,Thursday,0
+WV111EQ,"30, MEREDITH ROAD, ","30, Meredith Road, ",1.0,140000,S,N,F,C,B,70,85,Normal,3.0,3.0,,70.0,NODATA!,2020,May,Friday,0,2020,February,Friday,0
+WV111EQ,"1, MEREDITH ROAD, ","1, Meredith Road, ",1.0,142000,S,N,F,C,B,70,87,Normal,5.0,5.0,,79.0,NODATA!,2020,July,Friday,0,2017,October,Tuesday,0
+WV46NY,"132, BIRMINGHAM NEW ROAD, ","132, Birmingham New Road, ",1.0,91000,S,N,F,D,D,59,62,Normal,6.0,6.0,,99.26,NO DATA!,2020,February,Thursday,0,2010,March,Tuesday,0
+WV146QJ,"15, OWEN PLACE, ","15, Owen Place, ",1.0,130000,S,N,F,D,B,64,83,Normal,5.0,5.0,,79.0,NODATA!,2020,March,Tuesday,0,2019,September,Monday,0
+WV147AN,"60, ST CHADS ROAD, ","60, St. Chads Road, ",0.99,134000,S,N,F,D,B,64,88,Normal,4.0,4.0,,67.0,NODATA!,2020,March,Wednesday,0,2019,November,Friday,0
+WV147AN,"45, ST CHADS ROAD, ","45, St. Chads Road, ",0.99,122000,D,N,F,E,C,54,78,Normal,3.0,3.0,,50.0,NODATA!,2020,February,Thursday,0,2019,May,Tuesday,0
+WV38LA,"32, POOL HALL CRESCENT, ","11, Pool Hall Crescent, ",0.94,175000,S,N,F,C,B,69,85,Normal,3.0,3.0,,64.0,NODATA!,2020,March,Friday,0,2019,June,Wednesday,0
+WV44AY,"14, OSBORNE ROAD, ","14, Osborne Road, ",1.0,260000,T,N,F,D,B,60,85,Normal,5.0,5.0,,101.0,NODATA!,2020,July,Wednesday,0,2020,May,Friday,0
+WV23EW,"35, TALBOT ROAD, ","35, Talbot Road, ",1.0,135000,T,N,F,D,B,68,85,Normal,4.0,4.0,,76.0,NODATA!,2020,July,Friday,0,2019,September,Wednesday,0
+WV106SA,"203, MARSH LANE, ","203, Marsh Lane, ",1.0,179950,S,N,F,D,C,66,80,Normal,6.0,6.0,,76.0,NODATA!,2020,February,Friday,0,2019,April,Tuesday,0
+WV111NR,"8, WOOD END ROAD, ","8, Wood End Road, ",1.0,145000,S,N,F,E,B,54,85,Normal,5.0,5.0,,76.0,NODATA!,2020,January,Monday,0,2019,April,Monday,0
+WV44AR,"26, LEIGHTON ROAD, ","26, Leighton Road, ",1.0,280000,S,N,F,D,B,66,84,Normal,6.0,6.0,,107.0,NODATA!,2020,January,Friday,0,2014,February,Monday,0
+WV113BW,"9, PRITCHARD AVENUE, ","9, Pritchard Avenue, ",1.0,138000,S,N,F,F,B,26,84,Normal,4.0,2.0,,84.0,NODATA!,2020,May,Friday,0,2020,January,Friday,0
+WV112LH,"553, GRIFFITHS DRIVE, ","553, Griffiths Drive, ",1.0,74000,S,N,L,C,C,70,73,Normal,3.0,3.0,,50.0,2nd,2020,February,Friday,0,2019,August,Friday,0
+WV147NT,"64, BECKETT STREET, ","64, Beckett Street, ",1.0,103000,T,N,F,E,B,39,83,Normal,4.0,4.0,,77.0,NODATA!,2020,March,Thursday,0,2015,January,Monday,0
+WV12JA,"417, WILLENHALL ROAD, ","417, Willenhall Road, ",1.0,56000,F,N,L,C,C,74,74,Normal,2.0,2.0,,54.0,1st,2020,April,Tuesday,0,2020,February,Thursday,0
+WV38DN,"52, WYCHBURY ROAD, ","52, Wychbury Road, ",1.0,210000,S,N,F,D,B,65,85,More Than Typical,5.0,5.0,,90.0,NODATA!,2020,March,Wednesday,0,2019,September,Tuesday,0
+WV30AL,"80, OWEN ROAD, ","80, Owen Road, ",1.0,106000,T,N,F,E,C,54,76,Normal,5.0,5.0,,134.0,NODATA!,2020,May,Friday,0,2016,April,Monday,0
+WV100QJ,"59, LAWRENCE AVENUE, ","59, Lawrence Avenue, Heath Town, ",0.93,140000,T,N,F,E,B,50,84,Normal,6.0,5.0,,81.0,NODATA!,2020,February,Friday,0,2013,October,Thursday,0
+WV100QJ,"23, LAWRENCE AVENUE, ","23, Lawrence Avenue, Heath Town, ",0.93,90000,S,N,F,E,C,46,75,Normal,4.0,4.0,,84.0,NODATA!,2020,January,Friday,0,2015,December,Thursday,0
+WV60HZ,"45, CROWTHER ROAD, ","45, Crowther Road, ",1.0,154000,T,N,F,E,C,40,77,Normal,4.0,4.0,,104.0,NODATA!,2020,January,Thursday,0,2020,May,Wednesday,0
+WV60HZ,"13, CROWTHER ROAD, ","13, Crowther Road, ",1.0,197500,T,N,F,E,C,41,70,Normal,6.0,6.0,,115.0,NODATA!,2020,March,Friday,0,2019,November,Thursday,0
+WV113SX,"2, SEATON CLOSE, ","2, Seaton Close, ",1.0,134000,T,N,F,D,B,62,87,Normal,4.0,4.0,,52.0,NODATA!,2020,March,Friday,0,2019,October,Monday,0
+WV37LY,"77, COALWAY ROAD, ","77, Coalway Road, ",1.0,281000,D,N,F,E,B,40,81,Normal,5.0,5.0,,102.0,NODATA!,2020,May,Friday,0,2019,February,Friday,0
+WV140UG,"5, MORVILLE CROFT, ","5, Morville Croft, ",1.0,73000,F,N,L,C,C,71,79,Normal,3.0,3.0,,50.0,Ground,2020,January,Monday,0,2013,August,Sunday,0
+WV112QJ,"61, PEACOCK AVENUE, ","61, Peacock Avenue, ",1.0,138000,T,N,F,E,B,46,81,Normal,4.0,4.0,,69.0,NODATA!,2020,February,Wednesday,0,2014,May,Monday,0
+WV125YR,"31, GURNARD CLOSE, ","31, Gurnard Close, ",1.0,130000,T,N,F,C,B,71,86,Normal,5.0,4.0,,75.0,NODATA!,2020,July,Friday,0,2019,April,Thursday,0
+WV125YR,"47, GURNARD CLOSE, ","47, Gurnard Close, ",1.0,180000,S,N,F,D,C,67,69,Normal,4.0,4.0,,72.0,NODATA!,2020,January,Monday,0,2011,July,Thursday,0
+WV106JQ,"24, JONES ROAD, ","24, Jones Road, ",1.0,91500,T,N,F,F,C,35,76,Normal,4.0,4.0,,70.0,NODATA!,2020,February,Monday,0,2015,September,Wednesday,0
+WV100AT,"54, TUMBLER GROVE, ","54, Tumbler Grove, ",1.0,235000,S,N,F,C,B,79,86,Normal,7.0,7.0,,161.0,NODATA!,2020,January,Friday,0,2019,October,Monday,0
+WV100AT,"50, TUMBLER GROVE, ","50, Tumbler Grove, ",1.0,160000,T,N,F,C,B,78,88,Normal,6.0,6.0,,119.0,NODATA!,2020,February,Tuesday,0,2019,September,Monday,0
+WV111NH,"5A, AMOS LANE, ","5a, Amos Lane, ",1.0,76000,F,N,L,C,C,71,77,Normal,2.0,2.0,2.0,38.46,1st,2020,May,Friday,0,2010,July,Wednesday,0
+WV44HY,"25, FANCOURT AVENUE, ","25, Fancourt Avenue, ",1.0,210000,T,N,F,D,C,57,78,Normal,5.0,5.0,,90.0,NODATA!,2020,February,Friday,0,2019,March,Tuesday,0
+WV44HY,"76, FANCOURT AVENUE, ","76, Fancourt Avenue, ",1.0,210000,S,N,F,D,B,61,83,Normal,4.0,4.0,,94.0,NODATA!,2020,May,Monday,0,2016,June,Monday,0
+WV44HY,"31, FANCOURT AVENUE, ","31, Fancourt Avenue, ",1.0,275000,D,N,F,D,B,68,81,Normal,5.0,5.0,,93.0,NODATA!,2020,June,Wednesday,0,2012,July,Wednesday,0
+WV44HY,"12, FANCOURT AVENUE, ","12, Fancourt Avenue, ",1.0,227000,T,N,F,D,C,63,77,Normal,4.0,4.0,,106.0,NODATA!,2020,June,Wednesday,0,2013,August,Friday,0
+WV44HY,"32, FANCOURT AVENUE, ","32, Fancourt Avenue, ",1.0,184000,S,N,F,E,B,52,83,Normal,4.0,4.0,,84.0,NODATA!,2020,May,Tuesday,0,2019,October,Monday,0
+WV108LB,"100, MORETON ROAD, ","100, Moreton Road, ",1.0,143500,S,N,F,D,B,60,84,Normal,5.0,5.0,,85.0,NODATA!,2020,March,Friday,0,2019,September,Wednesday,0
+WV108LB,"106, MORETON ROAD, ","106, Moreton Road, ",1.0,165000,S,N,F,D,B,67,86,Normal,5.0,5.0,,85.0,NODATA!,2020,June,Friday,0,2020,January,Tuesday,0
+WV68XB,"10, CORNWALL ROAD, ","10, Cornwall Road, ",1.0,125000,T,N,F,E,B,47,83,Normal,4.0,4.0,,81.0,NODATA!,2020,April,Tuesday,0,2014,June,Tuesday,0
+WV109AR,"2, PROSSER STREET, ","2, Prosser Street, ",1.0,75000,T,N,F,D,C,58,80,Normal,6.0,6.0,,95.0,NODATA!,2020,February,Monday,0,2013,December,Monday,0
+WV46QW,"34, SUTTON COURT, ","34, Sutton Court, ",1.0,77000,F,N,L,E,D,40,62,Normal,2.0,2.0,,40.0,1st,2020,February,Friday,0,2019,March,Saturday,0
+WV30DB,"9, YEW STREET, ","9, Yew Street, ",1.0,164000,S,N,F,E,C,54,74,Normal,5.0,5.0,,107.0,NODATA!,2020,April,Thursday,0,2016,January,Tuesday,0
+WV133TX,"40, ARNHEM ROAD, ","40, Arnhem Road, ",1.0,91000,D,N,F,D,C,60,77,Normal,3.0,3.0,,61.0,NODATA!,2020,May,Thursday,0,2015,October,Tuesday,0
+WV100BT,"85, LESLIE ROAD, ","85, Leslie Road, ",1.0,90000,T,N,F,D,B,56,84,Normal,5.0,5.0,,93.0,NODATA!,2020,March,Friday,0,2014,September,Thursday,0
+WV106QU,"9, ROMSEY GROVE, ","9, Romsey Grove, ",1.0,144000,S,N,F,E,B,51,85,Normal,3.0,3.0,,70.0,NODATA!,2020,June,Monday,0,2020,January,Wednesday,0
+WV12SY,"3, HOLLOWAY STREET, ","3, Holloway Street, ",1.0,70000,T,N,F,E,B,50,88,Normal,4.0,4.0,,78.0,NODATA!,2020,April,Friday,0,2020,February,Monday,0
+WV106RS,"21, MCLEAN ROAD, ","21, McLean Road, ",1.0,128000,S,N,F,D,B,58,84,Normal,5.0,5.0,,77.0,NODATA!,2020,April,Thursday,0,2014,March,Tuesday,0
+WV69NB,"216, ALDERSLEY ROAD, ","216, Aldersley Road, ",1.0,135000,T,N,F,E,D,43,63,Normal,6.0,5.0,,74.7,NO DATA!,2020,January,Friday,0,2010,March,Monday,0
+WV69NB,"224, ALDERSLEY ROAD, ","224, Aldersley Road, ",1.0,119000,T,N,F,D,B,61,87,Normal,4.0,4.0,,75.0,NODATA!,2020,February,Friday,0,2019,August,Saturday,0
+WV111RH,"339, PRESTWOOD ROAD, ","339, Prestwood Road, ",1.0,110000,T,N,F,E,B,41,82,Normal,5.0,5.0,,74.0,NODATA!,2020,January,Thursday,0,2014,November,Monday,0
+WV12AZ,"51, LEWIS AVENUE, ","51, Lewis Avenue, ",1.0,108000,T,N,F,C,C,74,75,Normal,3.0,3.0,,69.6,NO DATA!,2020,January,Tuesday,0,2011,February,Thursday,0
+WV30LQ,"148, LEA ROAD, ","148, Lea Road, ",1.0,184000,S,N,F,E,C,49,75,Normal,7.0,7.0,,190.0,NODATA!,2020,January,Friday,0,2014,April,Monday,0
+WV30LQ,"149, LEA ROAD, ","149, Lea Road, ",1.0,196500,S,N,F,E,C,48,75,Normal,7.0,7.0,,190.0,NODATA!,2020,February,Friday,0,2014,April,Monday,0
+WV109AB,"23, SMESTOW STREET, ","23, Smestow Street, ",1.0,69000,T,N,F,E,B,53,87,Normal,4.0,4.0,,73.0,NODATA!,2020,March,Monday,0,2019,November,Friday,0
+WV44TE,"62, FAIRVIEW ROAD, ","62, Fairview Road, Penn, ",0.95,200000,S,N,F,D,B,64,85,Normal,6.0,6.0,,88.0,NODATA!,2020,June,Friday,0,2020,February,Monday,0
+WV44TE,"82, FAIRVIEW ROAD, ","82, Fairview Road, Penn, ",0.95,170000,S,N,F,D,C,59,75,Normal,6.0,6.0,,106.0,NODATA!,2020,March,Monday,0,2017,November,Thursday,0
+WV60LR,"22, THE LINDENS, ","22, The Lindens, Newbridge Crescent, ",0.89,75000,F,N,L,E,C,46,78,Normal,3.0,3.0,,59.0,2nd,2020,January,Friday,0,2020,June,Saturday,0
+WV60LR,"58, THE LINDENS, ","58, The Lindens, Newbridge Crescent, ",0.89,66000,F,N,L,D,C,65,79,Normal,6.0,6.0,,125.0,NODATA!,2020,March,Monday,0,2018,December,Thursday,0
+WV21DS,"72, VICARAGE ROAD, ","72, Vicarage Road, ",1.0,78000,T,N,F,D,B,68,84,Normal,5.0,5.0,,86.0,NODATA!,2020,June,Monday,0,2015,April,Tuesday,0
+WV45AN,"118, ROSEMARY CRESCENT WEST, ","118, Rosemary Crescent West, ",1.0,161000,T,N,F,E,B,50,84,Normal,5.0,2.0,,87.0,NODATA!,2020,May,Friday,0,2020,February,Monday,0
+WV14AT,"55, BRIGHT STREET, ","55, Bright Street, ",1.0,73000,T,N,F,D,B,66,85,Normal,5.0,5.0,,84.0,NODATA!,2020,January,Wednesday,0,2019,August,Wednesday,0
+WV108TB,"2, BLACKBROOK WAY, ","2, Blackbrook Way, ",1.0,194000,S,N,F,D,C,55,75,Normal,5.0,5.0,,80.0,NODATA!,2020,April,Friday,0,2019,October,Thursday,0
+WV30AJ,"110, OWEN ROAD, ","110, Owen Road, ",1.0,110000,T,N,F,D,B,63,82,Normal,5.0,5.0,,107.0,NODATA!,2020,May,Friday,0,2014,July,Tuesday,0
+WV30AJ,"103, OWEN ROAD, ","103, Owen Road, ",1.0,102000,T,N,F,E,B,53,83,Normal,5.0,5.0,,79.0,NODATA!,2020,January,Friday,0,2019,July,Thursday,0
+WV30AJ,"123, OWEN ROAD, ","123, Owen Road, ",1.0,102000,T,N,F,D,B,66,89,Normal,5.0,5.0,,91.0,NODATA!,2020,February,Friday,0,2015,May,Thursday,0
+WV39NL,"9, CRANMORE ROAD, ","9, Cranmore Road, ",1.0,155000,T,N,F,D,B,55,81,Normal,5.0,5.0,,105.0,NODATA!,2020,January,Friday,0,2018,July,Monday,0
+WV45BT,"34, ROSEMARY AVENUE, ","34, Rosemary Avenue, ",1.0,235000,D,N,F,D,B,57,81,Normal,6.0,6.0,,105.0,NODATA!,2020,March,Friday,0,2019,November,Friday,0
+WV45BT,"8, ROSEMARY AVENUE, ","8, Rosemary Avenue, ",1.0,240000,D,N,F,E,C,40,76,Normal,5.0,5.0,,116.0,NODATA!,2020,July,Friday,0,2020,June,Tuesday,0
+WV60TL,"26, ROXBY GARDENS, ","26, Roxby Gardens, ",1.0,86000,S,N,F,D,B,68,88,Normal,4.0,4.0,,63.0,NODATA!,2020,January,Monday,0,2019,September,Wednesday,0
+WV12AS,"21, RUDGE AVENUE, ","21, Rudge Avenue, ",1.0,97000,S,N,F,E,B,47,85,Normal,4.0,4.0,,70.0,NODATA!,2020,June,Friday,0,2019,December,Tuesday,0
+WV12AS,"7, RUDGE AVENUE, ","7, Rudge Avenue, ",1.0,146000,S,N,F,D,B,63,81,Normal,3.0,3.0,,70.0,NODATA!,2020,June,Friday,0,2020,February,Wednesday,0
+WV146DW,"12, OAKLANDS GREEN, ","12, Oaklands Green, ",1.0,126000,T,N,F,B,B,87,90,Normal,5.0,5.0,,84.0,NODATA!,2020,January,Wednesday,0,2015,May,Monday,0
+WV45UD,"11, BELMONT ROAD, ","11, Belmont Road, ",1.0,150000,T,N,F,E,C,44,76,Normal,5.0,5.0,,104.0,NODATA!,2020,January,Friday,0,2019,June,Monday,0
+WV45UD,"45, BELMONT ROAD, ","45, Belmont Road, ",1.0,145000,T,N,F,D,B,61,87,Normal,4.0,4.0,,73.0,NODATA!,2020,March,Thursday,0,2020,February,Friday,0
+WV45EN,"14, FENMERE CLOSE, ","14, Fenmere Close, ",1.0,185000,S,N,F,D,C,63,79,Normal,5.0,5.0,,75.0,NODATA!,2020,April,Thursday,0,2019,December,Monday,0
+WV45EN,"26, FENMERE CLOSE, ","26, Fenmere Close, ",1.0,270000,D,N,F,D,C,68,80,Normal,6.0,6.0,,117.0,NODATA!,2020,May,Friday,0,2017,April,Thursday,0
+WV46DA,"23, NEWMAN AVENUE, ","23, Newman Avenue, ",1.0,90000,S,N,F,C,B,69,85,Normal,5.0,4.0,,74.0,NODATA!,2020,March,Friday,0,2019,August,Thursday,0
+WV68TR,"39, CRANMERE AVENUE, ","39, Cranmere Avenue, ",1.0,470000,D,N,F,D,C,65,75,Normal,9.0,9.0,,152.0,NODATA!,2020,June,Monday,0,2020,January,Monday,0
+WV68TR,"41, CRANMERE AVENUE, ","41, Cranmere Avenue, ",1.0,407000,D,N,F,D,B,60,82,Normal,6.0,6.0,,131.0,NODATA!,2020,February,Friday,0,2019,August,Tuesday,0
+WV149PT,"8, FOSTER AVENUE, ","8, Foster Avenue, ",1.0,153000,T,N,F,D,C,58,74,Normal,5.0,5.0,,83.0,NODATA!,2020,June,Wednesday,0,2014,September,Wednesday,0
+WV109QH,"69, PARK LANE, ","69, Park Lane, ",1.0,108000,S,N,F,E,B,51,88,Normal,4.0,1.0,,78.0,NODATA!,2020,March,Friday,0,2020,January,Wednesday,0
+WV109RE,"15, MASSBROOK GROVE, ","15, Massbrook Grove, ",1.0,139000,S,N,F,E,B,53,83,Normal,8.0,8.0,,110.0,NODATA!,2020,June,Friday,0,2019,October,Thursday,0
+WV109RE,"3, MASSBROOK GROVE, ","13, Massbrook Grove, ",0.98,150000,S,N,F,E,B,51,84,Normal,5.0,5.0,,91.0,NODATA!,2020,July,Wednesday,0,2020,February,Monday,0
+WV44QX,"11, ARLEY GROVE, ","11, Arley Grove, ",1.0,152500,T,N,F,D,C,59,75,More Than Typical,5.0,5.0,,80.0,NODATA!,2020,January,Friday,0,2019,August,Tuesday,0
+WV44QX,"15, ARLEY GROVE, ","15, Arley Grove, ",1.0,140000,S,N,F,C,B,69,84,Normal,5.0,5.0,,83.0,NODATA!,2020,June,Friday,0,2020,February,Thursday,0
+WV60LT,"11, THE COURTLANDS, ","11, The Courtlands, ",1.0,108000,F,N,L,D,C,59,77,Normal,3.0,3.0,,58.0,2nd,2020,July,Friday,0,2013,December,Thursday,0
+WV60LT,"6, THE COURTLANDS, ","6, The Courtlands, ",1.0,82300,F,N,L,D,C,59,74,Normal,3.0,3.0,,58.0,2nd,2020,February,Friday,0,2019,August,Monday,0
+WV12RJ,"10, STANTON ROAD, ","10, Stanton Road, ",1.0,81500,S,N,F,D,B,56,87,Normal,4.0,3.0,,75.0,NODATA!,2020,May,Tuesday,0,2019,March,Wednesday,0
+WV45NY,"27, PETERDALE DRIVE, ","27, Peterdale Drive, ",1.0,230000,T,N,F,D,C,58,70,Normal,5.0,5.0,,101.0,NODATA!,2020,July,Thursday,0,2020,March,Tuesday,0
+WV69AT,"6, CHURCH HILL ROAD, ","6, Church Hill Road, ",1.0,356000,D,N,F,D,C,58,78,Normal,8.0,8.0,,134.0,NODATA!,2020,June,Monday,0,2019,August,Friday,0
+WV39AZ,"184, WESTACRE CRESCENT, ","184, Westacre Crescent, ",1.0,162000,S,N,F,D,B,67,84,Normal,5.0,5.0,,66.0,NODATA!,2020,January,Tuesday,0,2019,August,Monday,0
+WV148DA,"22, WILLIS PEARSON AVENUE, ","22, Willis Pearson Avenue, ",1.0,86000,O,N,F,D,B,62,84,Normal,4.0,4.0,,26.0,NODATA!,2020,July,Monday,0,2020,January,Thursday,0
+WV113NL,"42, STUBBY LANE, ","42, Stubby Lane, ",1.0,175000,S,N,F,D,B,63,85,Normal,4.0,4.0,,69.0,NODATA!,2020,June,Friday,0,2020,February,Saturday,0
+WV113NL,"28, STUBBY LANE, ","28, Stubby Lane, ",1.0,178000,S,N,F,D,B,59,85,Normal,5.0,5.0,,68.0,NODATA!,2020,June,Friday,0,2019,November,Wednesday,0
+WV113NL,"53, STUBBY LANE, ","53, Stubby Lane, ",1.0,179995,S,N,F,C,B,69,85,Normal,5.0,5.0,,76.0,NODATA!,2020,March,Friday,0,2019,December,Friday,0
+WV37JL,"170, TRYSULL ROAD, ","170, Trysull Road, ",1.0,338000,D,N,F,C,C,69,77,Normal,5.0,5.0,,144.0,NODATA!,2020,January,Friday,0,2019,April,Friday,0
+WV112PS,"39, PARRY ROAD, ","39, Parry Road, ",1.0,86000,F,N,L,C,C,71,75,Normal,2.0,2.0,,50.0,1st,2020,January,Friday,0,2019,August,Thursday,0
+WV30BF,"BELVEDERE RESIDENCE, 16, CHAPEL ASH, ","5 Belvedere Residence, Chapel Ash, ",0.81,95371,F,Y,L,E,C,53,79,Normal,3.0,3.0,,70.0,1st,2020,April,Wednesday,0,2019,August,Wednesday,0
+WV113EH,"9, GADSBY AVENUE, ","9, Gadsby Avenue, ",1.0,135000,S,N,F,F,C,27,77,Normal,6.0,4.0,,67.0,NODATA!,2020,March,Friday,0,2013,March,Tuesday,0
+WV68NT,"BEWICK COURT, FLAT 7, THE HOLLOWAY, ","8 Bewick Court, The Holloway, ",0.76,155000,F,N,L,B,B,83,85,Normal,3.0,3.0,3.0,60.86,1st,2020,February,Friday,0,2009,June,Monday,0
+WV44LE,"203, WARSTONES ROAD, ","203, Warstones Road, Penn, ",0.96,160500,T,N,F,D,D,61,66,Normal,4.0,3.0,,72.9,NODATA!,2020,June,Wednesday,0,2011,December,Tuesday,0
+WV37AF,"138, JEFFCOCK ROAD, ","138, Jeffcock Road, ",1.0,100000,T,N,F,D,B,61,83,Normal,10.0,10.0,,89.0,NODATA!,2020,May,Thursday,0,2020,March,Thursday,0
+WV37BY,"56, CHURCH WALK, ","56, Church Walk, Penn Fields, ",0.91,200000,S,N,F,C,C,76,76,Normal,4.0,4.0,,84.04,NODATA!,2020,January,Friday,0,2011,July,Thursday,0
+WV37BY,"60, CHURCH WALK, ","60, Church Walk, Penn Fields, ",0.91,170000,T,N,F,C,B,77,87,Normal,5.0,5.0,,120.0,NODATA!,2020,February,Friday,0,2019,March,Monday,0
+WV37BY,"26, CHURCH WALK, ","26, Church Walk, Penn Fields, ",0.91,236500,T,N,F,E,C,46,73,Normal,5.0,5.0,,95.0,NODATA!,2020,March,Friday,0,2016,April,Friday,0
+WV37BY,"31, CHURCH WALK, ","31, Church Walk, Penn Fields, ",0.91,226000,S,N,F,E,C,54,73,Normal,6.0,6.0,,101.0,NODATA!,2020,January,Friday,0,2019,July,Saturday,0
+WV112JS,"179, GRIFFITHS DRIVE, ","179, Griffiths Drive, ",1.0,152000,S,N,F,E,C,50,79,Normal,4.0,4.0,,92.0,NODATA!,2020,July,Monday,0,2014,April,Monday,0
+WV60QJ,"66, CRADDOCK STREET, ","66, Craddock Street, ",1.0,110000,T,N,F,D,B,66,84,Normal,5.0,5.0,,99.0,NODATA!,2020,April,Thursday,0,2016,February,Wednesday,0
+WV81UX,"38, WHEATSHEAF ROAD, ","38, Wheatsheaf Road, ",1.0,65000,F,N,L,D,C,64,78,Normal,4.0,3.0,,62.0,1st,2020,March,Friday,0,2019,September,Monday,0
+WV69AP,"26B, CLIFTON ROAD, ","26b, Clifton Road, ",1.0,500000,D,N,F,D,C,61,74,Normal,6.0,6.0,,185.0,NODATA!,2020,February,Tuesday,0,2019,April,Thursday,0
+WV69AP,"NEWLANDS HOUSE, 40, CLIFTON ROAD, ","2 Croome House, Clifton Road, ",0.75,800000,D,N,F,E,E,39,51,Normal,3.0,3.0,2.0,108.73,1st,2020,January,Tuesday,0,2008,October,Monday,0
+WV108UG,"2, BARNABY SQUARE, ","2, Barnaby Square, ",1.0,220000,D,N,F,D,B,65,84,Normal,4.0,4.0,,79.0,NODATA!,2020,February,Friday,0,2019,October,Wednesday,0
+WV95SA,"35, FUCHSIA DRIVE, ","35, Fuchsia Drive, Pendeford, ",0.93,195000,D,N,F,C,B,69,86,Normal,5.0,5.0,,79.0,NODATA!,2020,March,Thursday,0,2018,September,Sunday,0
+WV44YR,"27, WARNFORD WALK, ","27, Warnford Walk, ",1.0,150000,T,N,F,E,C,48,75,Normal,5.0,2.0,,89.0,NODATA!,2020,February,Friday,0,2013,October,Friday,0
+WV45AG,"11, PATRICIA AVENUE, ","11, Patricia Avenue, ",1.0,210000,T,N,F,D,B,60,82,Normal,5.0,5.0,,98.0,NODATA!,2020,January,Wednesday,0,2019,September,Wednesday,0
+WV81XF,"36, GRANGEFIELD CLOSE, ","36, Grangefield Close, ",1.0,60000,F,N,L,C,C,77,79,Normal,3.0,3.0,,54.0,1st,2020,February,Wednesday,0,2019,May,Monday,0
+WV100NF,"2A, THORNEYCROFT LANE, ","2a, Thorneycroft Lane, ",1.0,130000,S,N,F,D,C,55,77,Normal,4.0,4.0,,75.0,NODATA!,2020,February,Monday,0,2019,July,Friday,0
+WV100NF,"46, THORNEYCROFT LANE, ","46, Thorneycroft Lane, ",1.0,87000,T,N,F,E,B,43,81,Normal,5.0,5.0,,72.0,NODATA!,2020,April,Friday,0,2019,December,Monday,0
+WV148DF,"32, MERVYN ROAD, ","32, Mervyn Road, ",1.0,143250,S,N,F,D,B,58,84,Normal,4.0,4.0,,79.0,NODATA!,2020,February,Friday,0,2019,September,Thursday,0
+WV68JJ,"8, WOODHOUSE ROAD, ","8, Woodhouse Road, ",1.0,152000,S,N,F,D,B,56,83,Normal,3.0,3.0,,72.0,NODATA!,2020,June,Friday,0,2019,February,Monday,0
+WV24PN,"46, GOLDTHORN ROAD, ","46, Goldthorn Road, ",1.0,185000,S,N,F,E,C,54,78,Normal,3.0,3.0,,104.0,NODATA!,2020,July,Friday,0,2015,March,Friday,0
+WV60SP,"108, DUNSTALL HILL, ","108, Dunstall Hill, ",1.0,120000,T,N,F,E,B,47,82,Normal,5.0,5.0,,88.0,NODATA!,2020,April,Friday,0,2019,May,Friday,0
+WV109EN,"49, STANLEY ROAD, ","49, Stanley Road, ",1.0,215000,D,N,F,D,B,59,83,Normal,6.0,6.0,,99.0,NODATA!,2020,February,Friday,0,2014,August,Wednesday,0
+WV12QZ,"24, COLLIERY ROAD, ","24, Colliery Road, ",1.0,96000,T,N,F,D,B,66,87,Normal,5.0,5.0,,81.0,NODATA!,2020,March,Wednesday,0,2019,July,Wednesday,0
+WV148EF,"12, EDINBURGH ROAD, ","12, Edinburgh Road, ",1.0,155000,D,N,F,D,B,63,89,Normal,4.0,4.0,,50.0,NODATA!,2020,July,Friday,0,2016,January,Friday,0
+WV112PY,"51, GORSE ROAD, ","51, Gorse Road, ",1.0,169995,S,N,F,C,B,71,85,Normal,5.0,5.0,,92.0,NODATA!,2020,June,Friday,0,2014,May,Friday,0
+WV146RS,"22, HADLEY ROAD, ","22, Hadley Road, ",1.0,168500,S,N,F,D,B,61,84,More Than Typical,5.0,5.0,,105.0,NODATA!,2020,July,Friday,0,2019,August,Wednesday,0
+WV38AR,"25, WOODLAND ROAD, ","25, Woodland Road, ",1.0,266000,T,N,F,E,B,54,81,Normal,5.0,5.0,,89.0,NODATA!,2020,February,Friday,0,2019,February,Saturday,0
+WV125YP,"19, GOREY CLOSE, ","19, Gorey Close, ",1.0,210000,T,N,F,D,B,66,85,Normal,6.0,6.0,,82.0,NODATA!,2020,June,Monday,0,2020,March,Monday,0
+WV45SJ,"6, SAFFRON GARDENS, ","6, Saffron Gardens, ",1.0,225100,D,N,F,D,B,65,86,Normal,3.0,3.0,,53.0,NODATA!,2020,February,Friday,0,2019,November,Monday,0
+WV109AZ,"40, COMET DRIVE, ","40, Comet Drive, ",1.0,147500,S,Y,F,A,A,95,96,NO DATA!,,,,61.0,NO DATA!,2020,March,Monday,0,2020,February,Thursday,0
+WV109AZ,"25, COMET DRIVE, ","25, Comet Drive, ",1.0,219995,D,Y,F,B,A,91,92,NO DATA!,,,,90.0,NO DATA!,2020,February,Friday,0,2019,November,Tuesday,0
+WV22RN,"44, CONINGSBY DRIVE, ","44, Coningsby Drive, ",1.0,225000,D,N,F,C,B,79,88,NO DATA!,,,,114.0,NO DATA!,2020,February,Wednesday,0,2015,June,Monday,0
+WV22RN,"30, CONINGSBY DRIVE, ","30, Coningsby Drive, ",1.0,178000,S,N,F,C,B,79,91,NO DATA!,,,,84.0,NO DATA!,2020,February,Wednesday,0,2015,June,Wednesday,0
+WV112JT,"292, GRIFFITHS DRIVE, ","292, Griffiths Drive, ",1.0,72500,F,N,L,D,C,58,79,Normal,2.0,2.0,2.0,53.32,Ground,2020,February,Wednesday,0,2010,October,Monday,0
+WV106XD,"270, RENTON ROAD, ","270, Renton Road, ",1.0,75000,F,N,L,C,C,72,76,Normal,2.0,2.0,,39.0,1st,2020,July,Thursday,0,2019,October,Thursday,0
+WV60PS,"113, LEICESTER STREET, ","113, Leicester Street, ",1.0,95000,S,N,F,E,C,41,75,Normal,7.0,7.0,,125.0,NODATA!,2020,January,Friday,0,2013,September,Thursday,0
+WV60PS,"112, LEICESTER STREET, ","112, Leicester Street, ",1.0,134000,S,N,F,D,B,57,83,Normal,5.0,5.0,,104.0,NODATA!,2020,July,Wednesday,0,2017,August,Thursday,0
+WV60PS,"112, LEICESTER STREET, ","112, Leicester Street, ",1.0,85000,S,N,F,D,B,57,83,Normal,5.0,5.0,,104.0,NODATA!,2020,May,Thursday,0,2017,August,Thursday,0
+WV113EU,"27, HYDE ROAD, ","27, Hyde Road, ",1.0,165000,S,N,F,D,B,62,85,Normal,5.0,5.0,,82.0,NODATA!,2020,January,Thursday,0,2019,April,Monday,0
+WV113EU,"44, HYDE ROAD, ","44, Hyde Road, ",1.0,150000,S,N,F,D,B,65,88,Normal,5.0,5.0,,81.0,NODATA!,2020,March,Friday,0,2020,February,Tuesday,0
+WV113EU,"41, HYDE ROAD, ","41, Hyde Road, ",1.0,125000,T,N,F,F,B,35,87,Normal,4.0,1.0,,70.0,NODATA!,2020,June,Friday,0,2019,December,Monday,0
+WV109AS,"51, PROSSER STREET, ","51, Prosser Street, ",1.0,65000,T,N,F,D,B,62,86,Normal,5.0,5.0,,68.0,NODATA!,2020,March,Wednesday,0,2016,September,Thursday,0
+WV39AW,"36, WHITE OAK DRIVE, ","36, White Oak Drive, ",1.0,75000,F,N,L,C,C,71,74,Normal,2.0,2.0,,51.0,Ground,2020,April,Tuesday,0,2020,January,Tuesday,0
+WV39SB,"54, MERRIDALE ROAD, ","54, Merridale Road, ",1.0,220000,T,N,F,D,C,68,79,Normal,6.0,6.0,,150.0,NODATA!,2020,July,Friday,0,2016,July,Monday,0
+WV112LQ,"474, GRIFFITHS DRIVE, ","474, Griffiths Drive, ",1.0,102000,S,N,F,D,B,68,84,Normal,4.0,4.0,,70.0,NODATA!,2020,June,Tuesday,0,2019,October,Thursday,0
+WV112LQ,"463, GRIFFITHS DRIVE, ","463, Griffiths Drive, ",1.0,127000,S,N,F,D,C,62,80,Normal,3.0,3.0,,74.0,NODATA!,2020,March,Tuesday,0,2014,August,Wednesday,0
+WV112LQ,"510, GRIFFITHS DRIVE, ","510, Griffiths Drive, ",1.0,97000,S,N,F,G,B,14,87,Normal,4.0,1.0,,66.0,NODATA!,2020,June,Wednesday,0,2019,September,Thursday,0
+WV109AG,"50, CROWTHER STREET, ","50, Crowther Street, ",1.0,60000,T,N,F,E,B,45,86,Normal,4.0,4.0,,61.0,NODATA!,2020,January,Tuesday,0,2014,April,Tuesday,0
+WV109YF,"16, MICKLEY AVENUE, ","16, Mickley Avenue, ",1.0,80000,S,N,F,E,B,54,82,Normal,5.0,5.0,,84.0,NODATA!,2020,January,Friday,0,2015,September,Tuesday,0
+WV113ND,"5, WALTON HALL GARDENS, ","5, Walton Hall Gardens, ",1.0,180000,S,N,F,B,A,83,96,NO DATA!,,,,68.0,NO DATA!,2020,April,Friday,0,2017,May,Friday,0
+WV68DE,"57, PERTON ROAD, ","57, Perton Road, ",1.0,600000,D,N,F,D,C,57,75,Normal,8.0,8.0,,205.0,NODATA!,2020,July,Thursday,0,2018,January,Thursday,0
+WV60RY,"37, NEWHAMPTON ROAD WEST, ","37, Newhampton Road West, ",1.0,69000,T,N,F,D,C,57,79,Normal,4.0,4.0,,79.0,NODATA!,2020,January,Thursday,0,2019,August,Friday,0
+WV60ND,"36, DUNSTALL AVENUE, ","36, Dunstall Avenue, ",1.0,155000,S,N,F,D,B,60,84,Normal,4.0,4.0,,84.0,NODATA!,2020,January,Thursday,0,2018,October,Monday,0
+WV39EB,"1, HAVISHAM DRIVE, ","1, Havisham Drive, ",1.0,737500,D,N,F,B,B,86,86,NO DATA!,,,,257.0,NO DATA!,2020,February,Friday,0,2013,January,Thursday,0
+WV140BY,"6E, ALICE STREET, ","6e, Alice Street, ",1.0,90000,F,N,L,D,D,67,68,Normal,3.0,3.0,,60.0,Ground,2020,June,Friday,0,2017,June,Friday,0
+WV12NX,"81A, ESSINGTON WAY, ","81a, Essington Way, ",1.0,62000,F,N,L,C,C,69,73,Normal,2.0,2.0,,45.0,1st,2020,March,Wednesday,0,2019,October,Tuesday,0
+WV106UE,"7, PROBERT ROAD, ","7, Probert Road, ",1.0,140000,S,N,F,D,B,65,83,More Than Typical,4.0,4.0,,78.0,NODATA!,2020,January,Friday,0,2019,August,Wednesday,0
+WV106UE,"43, PROBERT ROAD, ","43, Probert Road, ",1.0,180000,S,N,F,D,C,68,71,Normal,5.0,5.0,,88.05,NO DATA!,2020,January,Thursday,0,2011,April,Monday,0
+WV60BG,"12, NEWBRIDGE MEWS, ","12, Newbridge Mews, Tettenhall Road, ",0.91,112000,F,N,L,E,D,46,67,Normal,3.0,3.0,,65.0,2nd,2020,January,Friday,0,2019,March,Tuesday,0
+WV100NG,"28, VICTORIA ROAD, ","35b Victoria Road, ",0.89,126500,T,N,F,G,C,16,77,Normal,3.0,3.0,,57.0,Ground,2020,March,Monday,0,2015,July,Monday,0
+WV37BT,"25, BIRCHES BARN AVENUE, ","25, Birches Barn Avenue, ",1.0,195000,S,N,F,D,B,58,84,Normal,6.0,6.0,,86.0,NODATA!,2020,June,Friday,0,2019,August,Monday,0
+WV37BT,"6, BIRCHES BARN AVENUE, ","6, Birches Barn Avenue, ",1.0,143000,S,N,F,D,B,59,84,Normal,5.0,5.0,,99.0,NODATA!,2020,January,Friday,0,2019,April,Friday,0
+WV68RQ,"22, GRANGE ROAD, ","22, Grange Road, Tettenhall, ",0.92,320000,D,N,F,E,C,40,76,Normal,7.0,7.0,,175.0,NODATA!,2020,February,Friday,0,2014,January,Friday,0
+WV146RZ,"26, BAILEY ROAD, ","26, Bailey Road, ",1.0,130000,S,N,F,F,C,33,80,Normal,5.0,3.0,,83.0,NODATA!,2020,January,Friday,0,2013,June,Monday,0
+WV12AW,"270, DEANS ROAD, ","270, Deans Road, ",1.0,165000,S,N,F,D,B,66,82,Normal,4.0,4.0,,89.0,NODATA!,2020,February,Friday,0,2013,May,Monday,0
+WV109EW,"142, FORDHOUSE ROAD, ","142, Fordhouse Road, ",1.0,130000,S,N,F,E,B,50,82,Normal,5.0,5.0,,81.0,NODATA!,2020,February,Friday,0,2013,November,Tuesday,0
+WV106EL,"23, SANDON ROAD, ","23, Sandon Road, ",1.0,141700,S,N,F,D,B,59,83,More Than Typical,5.0,5.0,,80.0,NODATA!,2020,May,Friday,0,2019,November,Tuesday,0
+WV140UN,"102, WESTON DRIVE, ","102, Weston Drive, ",1.0,271000,D,N,F,D,B,61,82,Normal,7.0,7.0,,103.0,NODATA!,2020,March,Thursday,0,2019,August,Thursday,0
+WV44TA,"47, HILSTON AVENUE, ","47, Hilston Avenue, ",1.0,185000,S,N,F,D,B,58,86,Normal,5.0,5.0,,72.0,NODATA!,2020,July,Friday,0,2017,February,Friday,0
+WV148GL,"15, CRANTOCK GARDENS, ","15 Crantock Gardens, ",0.99,245000,D,N,F,C,B,79,81,NO DATA!,,,,112.94,NO DATA!,2020,January,Friday,0,2011,January,Wednesday,0
+WV45RQ,"48, DEWSBURY DRIVE, ","48, Dewsbury Drive, ",1.0,235000,D,N,F,D,B,65,83,Normal,4.0,4.0,,90.0,NODATA!,2020,April,Friday,0,2019,March,Monday,0
+WV106EG,"64, AKRON DRIVE, ","64, Akron Drive, ",1.0,158000,S,N,F,C,A,79,92,NO DATA!,,,,71.0,NO DATA!,2020,February,Friday,0,2016,May,Tuesday,0
+WV106EG,"47, AKRON DRIVE, ","47, Akron Drive, ",1.0,164000,T,N,F,C,C,79,80,NO DATA!,,,,74.0,NO DATA!,2020,March,Friday,0,2013,November,Monday,0
+WV113BX,"45, DAVENPORT ROAD, ","45, Davenport Road, Wednesfield, ",0.92,137500,T,N,F,D,B,65,85,Normal,4.0,4.0,,77.0,NODATA!,2020,May,Thursday,0,2018,October,Tuesday,0
+WV140NG,"64, HALL PARK STREET, ","64, Hall Park Street, ",1.0,143950,S,Y,F,B,A,82,96,NO DATA!,,,,63.0,NO DATA!,2020,January,Friday,0,2019,September,Monday,0
+WV140NG,"17, HALL PARK STREET, ","17, Hall Park Street, ",1.0,123500,T,N,F,D,B,56,81,Normal,6.0,6.0,,96.0,NODATA!,2020,January,Friday,0,2019,August,Monday,0
+WV68QZ,"7, LIMES ROAD, ","7, Limes Road, ",1.0,177500,T,N,F,D,B,67,87,Normal,3.0,3.0,,74.0,NODATA!,2020,May,Thursday,0,2020,February,Monday,0
+WV68UR,"110, WROTTESLEY ROAD WEST, ","110, Wrottesley Road West, ",1.0,582000,D,N,F,E,C,49,74,Normal,9.0,9.0,,192.0,NODATA!,2020,February,Tuesday,0,2012,April,Wednesday,0
+WV38DW,"18, NORTHFIELD GROVE, ","18, Northfield Grove, ",1.0,232000,S,N,F,D,B,59,85,Normal,5.0,5.0,,84.0,NODATA!,2020,August,Tuesday,0,2014,May,Friday,0
+WV39AJ,"5, WESTACRE CRESCENT, ","5, Westacre Crescent, ",1.0,120000,T,N,F,D,B,67,86,Normal,5.0,5.0,,79.0,NODATA!,2020,January,Tuesday,0,2019,September,Monday,0
+WV60BQ,"160, TETTENHALL ROAD, ","160, Tettenhall Road, ",1.0,188500,T,N,F,F,C,26,70,Normal,7.0,3.0,,138.0,NODATA!,2020,March,Thursday,0,2012,June,Tuesday,0
+WV111HL,"72, PRESTWOOD ROAD WEST, ","72, Prestwood Road West, ",1.0,191000,S,N,F,E,B,49,84,Normal,5.0,5.0,,97.0,NODATA!,2020,January,Friday,0,2017,March,Thursday,0
+WV44SZ,"36, HILSTON AVENUE, ","36, Hilston Avenue, ",1.0,195000,S,N,F,D,B,57,83,Normal,5.0,5.0,,74.0,NODATA!,2020,June,Friday,0,2014,August,Thursday,0
+WV44SZ,"20, HILSTON AVENUE, ","20, Hilston Avenue, ",1.0,185000,S,N,F,E,C,52,78,Normal,5.0,5.0,,59.0,NODATA!,2020,February,Thursday,0,2013,April,Friday,0
+WV24PU,"2, ROOKERY LANE, ","2, Rookery Lane, ",1.0,265000,D,N,F,D,C,55,77,Normal,5.0,5.0,,116.0,NODATA!,2020,July,Wednesday,0,2019,September,Monday,0
+WV60LL,"5, PINEWAYS DRIVE, ","5, Pineways Drive, ",1.0,320000,D,N,F,E,C,51,69,Normal,7.0,7.0,,160.0,NODATA!,2020,May,Friday,0,2019,December,Thursday,0
+WV38ND,"226, CASTLECROFT ROAD, ","226, Castlecroft Road, ",1.0,197000,S,N,F,D,C,55,80,Normal,6.0,6.0,,127.0,NODATA!,2020,June,Monday,0,2016,February,Sunday,0
+WV106XL,"10, ELMDON CLOSE, ","10, Elmdon Close, ",1.0,155000,S,N,F,C,B,69,82,Normal,4.0,4.0,,84.0,NODATA!,2020,January,Friday,0,2019,September,Wednesday,0
+WV106XL,"9, ELMDON CLOSE, ","9, Elmdon Close, ",1.0,117000,S,N,F,D,B,63,85,Normal,5.0,5.0,,85.0,NODATA!,2020,March,Monday,0,2019,May,Wednesday,0
+WV12BD,"175, DEANS ROAD, ","175, Deans Road, ",1.0,145000,S,N,F,D,C,61,76,Normal,4.0,4.0,,83.0,NODATA!,2020,June,Monday,0,2017,March,Monday,0
+WV68SU,"39, REDHOUSE ROAD, ","39, Redhouse Road, ",1.0,285000,S,N,F,F,B,38,81,Normal,7.0,7.0,,124.0,NODATA!,2020,May,Friday,0,2019,December,Thursday,0
+WV30HJ,"87, BURLEIGH ROAD, ","87, Burleigh Road, ",1.0,145000,T,N,F,E,B,53,85,Normal,3.0,3.0,,136.0,NODATA!,2020,February,Friday,0,2015,February,Monday,0
+WV30HJ,"101, BURLEIGH ROAD, ","101, Burleigh Road, ",1.0,99950,S,N,F,D,B,62,85,Normal,3.0,3.0,,66.0,NODATA!,2020,April,Wednesday,0,2020,February,Wednesday,0
+WV30HJ,"45, BURLEIGH ROAD, ","45, Burleigh Road, ",1.0,54000,T,N,F,E,D,48,61,Normal,5.0,5.0,,82.99,NO DATA!,2020,January,Friday,0,2010,June,Thursday,0
+WV30HJ,"97, BURLEIGH ROAD, ","97, Burleigh Road, ",1.0,128000,T,N,F,D,B,62,86,Normal,5.0,5.0,,88.0,NODATA!,2020,February,Friday,0,2019,July,Saturday,0
+WV81UN,"7, BARNWOOD ROAD, ","7, Barnwood Road, ",1.0,114000,T,N,F,D,B,55,85,Normal,4.0,4.0,,88.0,NODATA!,2020,February,Friday,0,2017,August,Thursday,0
+WV30HW,"28, BURLEIGH ROAD, ","28, Burleigh Road, ",1.0,90000,T,N,F,D,C,57,73,Normal,6.0,6.0,,103.0,NODATA!,2020,February,Friday,0,2016,June,Thursday,0
+WV30HW,"44, BURLEIGH ROAD, ","44, Burleigh Road, ",1.0,100000,T,N,F,D,B,58,84,Normal,5.0,5.0,,76.0,NODATA!,2020,April,Thursday,0,2015,December,Monday,0
+WV30HW,"4A, BURLEIGH ROAD, ","4a, Burleigh Road, ",1.0,80000,T,N,F,D,B,68,88,Normal,5.0,5.0,,85.0,NODATA!,2020,April,Friday,0,2019,December,Friday,0
+WV109RA,"32, INCHLAGGAN ROAD, ","32, Inchlaggan Road, ",1.0,107000,S,N,F,F,B,31,90,Normal,5.0,2.0,,71.0,NODATA!,2020,July,Monday,0,2020,February,Thursday,0
+WV109RA,"32, INCHLAGGAN ROAD, ","32, Inchlaggan Road, ",1.0,85000,S,N,F,F,B,31,90,Normal,5.0,2.0,,71.0,NODATA!,2020,March,Friday,0,2020,February,Thursday,0
+WV13EB,"19, ALBION STREET, ","9, Albion Street, ",0.98,108000,F,N,L,D,C,66,78,Normal,3.0,3.0,4.0,61.4,Ground,2020,January,Wednesday,0,2010,October,Friday,0
+WV113AQ,"97, SPRINGHILL ROAD, ","97, Springhill Road, ",1.0,165000,T,N,F,D,B,62,81,Normal,5.0,5.0,,83.0,NODATA!,2020,January,Wednesday,0,2019,June,Friday,0
+WV45DW,"9, NEVILLE AVENUE, ","9, Neville Avenue, ",1.0,205000,S,N,F,D,B,65,84,Normal,5.0,5.0,,80.0,NODATA!,2020,February,Friday,0,2019,October,Thursday,0
+WV108NY,"36, WATERHEAD DRIVE, ","36, Waterhead Drive, ",1.0,179950,S,N,F,C,B,69,83,Normal,5.0,5.0,,82.0,NODATA!,2020,May,Friday,0,2020,January,Tuesday,0
+WV37ET,"29, CHURCH ROAD, ","29, Church Road, Bradmore, ",0.93,174000,S,N,F,E,C,42,80,Normal,5.0,5.0,,97.0,NODATA!,2020,June,Friday,0,2013,February,Monday,0
+WV45DT,"11, DUDDING ROAD, ","11, Dudding Road, ",1.0,182500,S,N,F,E,B,44,84,Normal,4.0,4.0,,83.0,NODATA!,2020,May,Thursday,0,2014,July,Tuesday,0
+WV133PD,"46, UPLANDS ROAD, ","46, Uplands Road, ",1.0,162000,S,N,F,D,C,58,80,Normal,5.0,5.0,,87.0,NODATA!,2020,January,Friday,0,2017,February,Thursday,0
+WV44PJ,"67, CHADWICK CLOSE, ","67, Chadwick Close, ",1.0,71500,F,N,L,D,C,66,75,Normal,2.0,2.0,,53.0,1st,2020,March,Thursday,0,2019,July,Wednesday,0
+WV108BN,"72, OLD FALLINGS LANE, ","72, Old Fallings Lane, ",1.0,125000,S,N,F,D,B,60,82,Normal,6.0,6.0,,104.0,NODATA!,2020,July,Friday,0,2019,September,Wednesday,0
+WV21DB,"19, GORDON STREET, ","19, Gordon Street, ",1.0,154000,S,N,F,B,B,83,83,NO DATA!,,,,78.0,NO DATA!,2020,May,Friday,0,2013,March,Friday,0
+WV21DB,"49, GORDON STREET, ","49, Gordon Street, ",1.0,80000,T,N,F,F,B,29,86,Normal,5.0,2.0,,81.0,NODATA!,2020,March,Thursday,0,2019,November,Wednesday,0
+WV21DB,"49, GORDON STREET, ","49, Gordon Street, ",1.0,68000,T,N,F,F,B,29,86,Normal,5.0,2.0,,81.0,NODATA!,2020,January,Monday,0,2019,November,Wednesday,0
+WV111RZ,"2, VICTORIA ROAD, ","2, Victoria Road, Wednesfield, ",0.92,245000,D,N,F,D,B,67,82,Normal,6.0,6.0,,102.0,NODATA!,2020,June,Tuesday,0,2017,August,Wednesday,0
+WV111RZ,"32, VICTORIA ROAD, ","32, Victoria Road, Wednesfield, ",0.92,110000,S,N,F,D,D,55,65,Normal,4.0,4.0,,76.12,NODATA!,2020,April,Friday,0,2011,July,Friday,0
+WV39DY,"11, WATERDALE, ","11, Waterdale, ",1.0,440000,D,N,F,D,C,68,80,More Than Typical,6.0,6.0,,134.0,NODATA!,2020,February,Friday,0,2014,July,Tuesday,0
+WV22RP,"2, KENLEY AVENUE, ","2, Kenley Avenue, ",1.0,172000,S,N,L,C,B,78,90,Normal,6.0,6.0,,95.0,NODATA!,2020,May,Friday,0,2019,November,Tuesday,0
+WV39LR,"2, ABBOTS WAY, ","2, Abbots Way, ",1.0,115000,T,N,F,E,B,48,83,Normal,6.0,4.0,,100.0,NODATA!,2020,June,Wednesday,0,2019,March,Tuesday,0
+WV39LR,"14, ABBOTS WAY, ","14, Abbots Way, ",1.0,43000,T,N,L,D,A,60,99,Normal,1.0,1.0,,28.0,NODATA!,2020,April,Friday,0,2019,July,Wednesday,0
+WV100EJ,"34, GROSVENOR STREET, ","34, Grosvenor Street, ",1.0,90000,T,N,F,D,B,60,84,Normal,5.0,5.0,,79.0,NODATA!,2020,July,Friday,0,2014,February,Tuesday,0
+WV100EJ,"24, GROSVENOR STREET, ","24, Grosvenor Street, ",1.0,115000,S,N,F,E,B,51,82,Normal,6.0,5.0,,92.0,NODATA!,2020,July,Friday,0,2015,January,Saturday,0
+WV46SL,"10, GENGE AVENUE, ","10, Genge Avenue, ",1.0,117000,S,N,F,D,B,68,82,Normal,5.0,5.0,,108.0,NODATA!,2020,January,Friday,0,2019,November,Wednesday,0
+WV46SL,"15C, GENGE AVENUE, ","15c, Genge Avenue, ",1.0,170000,D,N,F,B,A,84,94,NO DATA!,,,,113.0,NO DATA!,2020,February,Thursday,0,2019,November,Monday,0
+WV113ST,"53, ELLARDS DRIVE, ","53, Ellards Drive, ",1.0,165000,T,N,F,D,C,65,78,Normal,5.0,5.0,,114.5,NODATA!,2020,April,Friday,0,2012,February,Tuesday,0
+WV60QR,"19, MANBY CLOSE, ","19, Manby Close, ",1.0,56000,F,N,L,D,C,55,79,Normal,3.0,3.0,,73.0,Ground,2020,June,Friday,0,2015,July,Wednesday,0
+WV37JJ,"10, GAIL PARK, ","10, Gail Park, ",1.0,230000,S,N,F,D,C,67,77,Normal,5.0,5.0,,102.0,NODATA!,2020,April,Friday,0,2019,September,Monday,0
+WV37JJ,"21, GAIL PARK, ","21, Gail Park, ",1.0,118000,F,N,L,C,C,80,80,Normal,3.0,3.0,,61.0,1st,2020,March,Tuesday,0,2016,October,Sunday,0
+WV69EX,"26, ALAMEDA GARDENS, ","26, Alameda Gardens, ",1.0,132000,T,N,L,C,C,77,79,Normal,3.0,3.0,,57.6,NODATA!,2020,July,Friday,0,2011,April,Thursday,0
+WV95PY,"4, HOWLAND CLOSE, ","4, Howland Close, ",1.0,165000,S,N,F,D,B,68,84,Normal,5.0,5.0,,60.0,NODATA!,2020,March,Friday,0,2019,October,Wednesday,0
+WV21EL,"231, ALL SAINTS ROAD, ","231, All Saints Road, ",1.0,124000,S,N,F,D,B,57,85,Normal,5.0,5.0,,92.0,NODATA!,2020,May,Friday,0,2019,August,Wednesday,0
+WV146LJ,"6, CENTRAL AVENUE, ","6, Central Avenue, ",1.0,150000,D,N,F,E,C,45,78,Normal,5.0,5.0,,100.0,NODATA!,2020,January,Wednesday,0,2019,October,Tuesday,0
+WV95QY,"18, MARHOLM CLOSE, ","18, Marholm Close, ",1.0,79000,T,N,F,C,C,76,79,Normal,2.0,2.0,,37.54,NO DATA!,2020,July,Friday,0,2010,November,Wednesday,0
+WV133EZ,"81, WAITE ROAD, ","81, Waite Road, ",1.0,255000,D,N,F,C,B,69,85,Normal,7.0,7.0,,113.0,NODATA!,2020,July,Friday,0,2019,November,Monday,0
+WV113TR,"231, LINTHOUSE LANE, ","231, Linthouse Lane, ",1.0,172500,S,N,F,D,B,66,82,Normal,4.0,4.0,,77.0,NODATA!,2020,April,Monday,0,2019,October,Wednesday,0
+WV108TS,"1, WESTERING PARKWAY, ","1, Westering Parkway, ",1.0,189995,D,N,F,D,B,63,83,Normal,5.0,5.0,,76.0,NODATA!,2020,June,Friday,0,2018,March,Tuesday,0
+WV108TS,"8, WESTERING PARKWAY, ","8, Westering Parkway, ",1.0,189950,D,N,F,D,B,66,82,Normal,6.0,6.0,,79.0,NODATA!,2020,February,Friday,0,2019,October,Wednesday,0
+WV148BG,"98, MELDON DRIVE, ","98, Meldon Drive, ",1.0,90000,T,N,F,D,B,68,83,Normal,4.0,4.0,,98.0,NODATA!,2020,July,Friday,0,2012,August,Wednesday,0
+WV109LJ,"25, JULIET GROVE, ","25, Juliet Grove, ",1.0,143000,T,N,F,C,B,69,85,Normal,5.0,5.0,,102.0,NODATA!,2020,April,Thursday,0,2019,August,Thursday,0
+WV100SB,"12, NEWBOLDS ROAD, ","12, Newbolds Road, ",1.0,175000,S,N,F,D,B,63,83,Normal,6.0,6.0,,101.0,NODATA!,2020,March,Friday,0,2019,December,Monday,0
+WV111NL,"44, WOOD AVENUE, ","44, Wood Avenue, ",1.0,135000,S,N,F,D,D,62,63,Normal,3.0,3.0,,58.48,NODATA!,2020,January,Friday,0,2012,February,Tuesday,0
+WV111NL,"30, WOOD AVENUE, ","30, Wood Avenue, ",1.0,151000,S,N,F,D,B,61,90,Normal,3.0,3.0,,59.0,NODATA!,2020,June,Monday,0,2015,February,Wednesday,0
+WV12EE,"1, HURSTBOURNE CRESCENT, ","1, Hurstbourne Crescent, ",1.0,171000,S,N,F,B,B,83,83,NO DATA!,,,,97.0,NO DATA!,2020,April,Friday,0,2012,June,Thursday,0
+WV133EN,"146, HAWKSWELL DRIVE, ","146, Hawkswell Drive, ",1.0,160000,S,N,F,D,B,58,85,Normal,5.0,5.0,,66.0,NODATA!,2020,March,Wednesday,0,2013,August,Monday,0
+WV23DJ,"25, CURZON STREET, ","25, Curzon Street, ",1.0,100000,T,N,F,D,B,63,86,Normal,5.0,5.0,,98.0,NODATA!,2020,February,Tuesday,0,2014,August,Monday,0
+WV60EY,"40, REANSWAY SQUARE, ","40, Reansway Square, ",1.0,130000,D,N,F,D,B,64,82,Much More Than Typical,4.0,4.0,,67.0,NODATA!,2020,May,Friday,0,2019,March,Sunday,0
+WV14AQ,"3, DRUMMOND STREET, ","3, Drummond Street, ",1.0,100000,T,N,F,E,B,52,82,Normal,5.0,5.0,,124.0,NODATA!,2020,February,Friday,0,2014,July,Thursday,0
+WV100SZ,"69, HATTON CRESCENT, ","69, Hatton Crescent, ",1.0,185000,S,N,F,D,B,59,85,Normal,5.0,5.0,,73.0,NODATA!,2020,May,Friday,0,2016,February,Wednesday,0
+WV146LE,"6, PORTWAY ROAD, ","6, Portway Road, ",1.0,108000,S,N,F,E,C,43,77,Normal,4.0,4.0,,80.0,NODATA!,2020,April,Friday,0,2019,June,Friday,0
+WV30ED,"157, PENN ROAD, ","157, Penn Road, ",1.0,60000,T,N,L,D,C,67,78,Normal,2.0,2.0,,40.0,Ground,2020,January,Friday,0,2014,July,Tuesday,0
+WV12NY,"1, SYDENHAM ROAD, ","1, Sydenham Road, ",1.0,141000,S,N,F,D,C,64,79,Normal,6.0,6.0,,122.0,NODATA!,2020,January,Monday,0,2013,September,Tuesday,0
+WV68QY,"2, NURSERY WALK, ","2, Nursery Walk, ",1.0,207000,T,N,F,F,B,34,81,Normal,4.0,4.0,,79.0,NODATA!,2020,April,Wednesday,0,2019,October,Monday,0
+WV12QB,"33, CAVENDISH GARDENS, ","33, Cavendish Gardens, ",1.0,140000,T,N,F,D,B,63,89,Normal,6.0,5.0,,85.0,NODATA!,2020,March,Tuesday,0,2014,April,Tuesday,0
+WV38AA,"34, UPLANDS AVENUE, ","34, Uplands Avenue, ",1.0,261000,S,N,F,D,B,60,86,Normal,5.0,5.0,,85.0,NODATA!,2020,June,Friday,0,2019,December,Sunday,0
+WV38AA,"36, UPLANDS AVENUE, ","36, Uplands Avenue, ",1.0,260000,S,N,F,F,C,33,78,Normal,5.0,5.0,,86.0,NODATA!,2020,July,Friday,0,2019,December,Monday,0
+WV100AX,"63, BROAD GAUGE WAY, ","63, Broad Gauge Way, ",1.0,100000,F,N,L,C,B,80,81,NO DATA!,,,,62.0,mid floor,2020,May,Friday,0,2012,May,Friday,0
+WV14PD,"72, HARROW STREET, ","72, Harrow Street, ",1.0,125000,T,N,F,D,C,59,80,Normal,5.0,5.0,,93.0,NODATA!,2020,April,Friday,0,2019,July,Monday,0
+WV106EP,"15, HARROWBY ROAD, ","15, Harrowby Road, ",1.0,125000,S,N,F,E,B,50,87,Normal,5.0,5.0,,84.0,NODATA!,2020,January,Thursday,0,2019,September,Friday,0
+WV108TW,"55, GATCOMBE CLOSE, ","55, Gatcombe Close, ",1.0,165000,S,N,F,C,B,71,86,Normal,5.0,5.0,,77.0,NODATA!,2020,March,Thursday,0,2014,June,Monday,0
+WV46AL,"2, GREENLY ROAD, ","2, Greenly Road, ",1.0,102000,S,N,F,E,B,50,85,Normal,4.0,4.0,,87.0,NODATA!,2020,July,Wednesday,0,2020,February,Friday,0
+WV46AL,"2, GREENLY ROAD, ","2, Greenly Road, ",1.0,96000,S,N,F,E,B,50,85,Normal,4.0,4.0,,87.0,NODATA!,2020,March,Thursday,0,2020,February,Friday,0
+WV38EE,"33, FINCHFIELD LANE, ","33, Finchfield Lane, ",1.0,280000,D,N,F,E,B,48,81,Normal,5.0,5.0,,105.0,NODATA!,2020,February,Monday,0,2018,December,Tuesday,0
+WV149UZ,"36, MILLER CRESCENT, ","36, Miller Crescent, ",1.0,170000,S,N,F,D,B,63,86,Normal,4.0,4.0,,85.0,NODATA!,2020,March,Monday,0,2017,May,Tuesday,0
+WV39JY,"16, PENTLAND GARDENS, ","16, Pentland Gardens, ",1.0,250000,D,N,F,D,C,55,80,Normal,5.0,5.0,,102.0,NODATA!,2020,February,Tuesday,0,2019,May,Thursday,0
+WV30EX,"127, LIME STREET, ","127, Lime Street, ",1.0,94000,T,N,F,D,C,64,80,Normal,4.0,4.0,,71.0,NODATA!,2020,February,Friday,0,2019,November,Friday,0
+WV30HQ,"177, OWEN ROAD, ","177, Owen Road, ",1.0,118000,T,N,F,D,C,55,75,Normal,5.0,5.0,,125.0,NODATA!,2020,June,Tuesday,0,2020,February,Wednesday,0
+WV44QL,"65, CLAVERLEY DRIVE, ","65, Claverley Drive, ",1.0,100000,S,N,F,D,C,58,78,Normal,5.0,5.0,,84.0,NODATA!,2020,July,Friday,0,2012,June,Friday,0
+WV111DG,"38, MILL LANE, ","38, Mill Lane, Wednesfield, ",0.91,150000,S,N,F,D,B,58,82,Normal,5.0,5.0,,87.0,NODATA!,2020,June,Wednesday,0,2020,March,Thursday,0
+WV111DG,"2A, MILL LANE, ","2a, Mill Lane, Wednesfield, ",0.86,194000,D,N,F,C,C,71,75,Normal,4.0,4.0,,77.0,NO DATA!,2020,February,Friday,0,2011,April,Monday,0
+WV140TW,"22, GREENWAY ROAD, ","22, Greenway Road, ",1.0,157500,T,N,F,B,A,81,93,NO DATA!,,,,76.0,NO DATA!,2020,February,Monday,0,2014,April,Thursday,0
+WV140TW,"2, GREENWAY ROAD, ","2, Greenway Road, ",1.0,157500,T,N,F,C,B,77,91,NO DATA!,,,,84.0,NO DATA!,2020,February,Tuesday,0,2014,May,Tuesday,0
+WV108EL,"98, WENTWORTH ROAD, ","98, Wentworth Road, ",1.0,135000,T,N,F,D,B,67,85,Normal,5.0,5.0,,89.0,NODATA!,2020,January,Friday,0,2019,August,Thursday,0
+WV60RR,"123, NEWHAMPTON ROAD WEST, ","123, Newhampton Road West, ",1.0,70000,T,N,F,E,B,41,84,Normal,4.0,4.0,,70.0,NODATA!,2020,July,Wednesday,0,2020,March,Thursday,0
+WV60RR,"143, NEWHAMPTON ROAD WEST, ","143, Newhampton Road West, ",1.0,145500,S,N,F,D,C,55,75,Normal,7.0,7.0,,132.0,NODATA!,2020,February,Wednesday,0,2019,November,Wednesday,0
+WV133TU,"6, ALAMEIN ROAD, ","36, Alamein Road, ",0.98,80000,T,N,F,D,B,62,84,Normal,5.0,5.0,,88.0,NODATA!,2020,February,Wednesday,0,2013,June,Monday,0
+WV113JQ,"25, HOPTON CRESCENT, ","25, Hopton Crescent, ",1.0,165250,S,N,F,D,C,64,70,Normal,4.0,4.0,,78.7,NODATA!,2020,June,Wednesday,0,2011,November,Wednesday,0
+WV113JQ,"72, HOPTON CRESCENT, ","72, Hopton Crescent, ",1.0,237000,S,N,F,C,B,73,84,Normal,6.0,6.0,,116.0,NODATA!,2020,January,Thursday,0,2019,August,Tuesday,0
+WV12JQ,"260, WILLENHALL ROAD, ","260, Willenhall Road, ",1.0,90000,F,N,L,C,C,72,79,Normal,3.0,3.0,,61.0,2nd,2020,March,Friday,0,2012,May,Monday,0
+WV12JQ,"250, WILLENHALL ROAD, ","250, Willenhall Road, ",1.0,84500,F,N,L,D,C,68,70,Normal,3.0,3.0,,60.0,Ground,2020,May,Friday,0,2013,November,Thursday,0
+WV12JQ,"224, WILLENHALL ROAD, ","224, Willenhall Road, ",1.0,87000,F,N,L,E,E,47,47,Normal,6.0,6.0,,114.42,NO DATA!,2020,March,Wednesday,0,2010,October,Sunday,0
+WV68PE,"6, BEECHWOOD COURT, ","6, Beechwood Court, Corfton Drive, ",0.91,125000,F,N,L,D,C,67,77,Normal,3.0,3.0,,63.0,Ground,2020,March,Wednesday,0,2015,September,Thursday,0
+WV68PE,"17, BEECHWOOD COURT, ","17, Beechwood Court, Corfton Drive, ",0.92,130000,F,N,L,C,C,69,73,Normal,3.0,3.0,3.0,59.5,Ground,2020,January,Thursday,0,2010,July,Friday,0
+WV44RJ,"6, SWANCOTE DRIVE, ","6, Swancote Drive, ",1.0,70000,F,N,L,E,C,50,71,Normal,2.0,2.0,,51.0,Ground,2020,July,Thursday,0,2019,September,Friday,0
+WV68SG,"49, WROTTESLEY ROAD, ","49, Wrottesley Road, ",1.0,500000,D,N,F,D,C,67,78,Normal,6.0,6.0,,171.0,NODATA!,2020,February,Friday,0,2012,July,Monday,0
+WV106QE,"545, STAFFORD ROAD, ","545, Stafford Road, ",1.0,129000,S,N,F,D,B,59,85,Normal,5.0,5.0,,78.0,NODATA!,2020,January,Friday,0,2019,October,Wednesday,0
+WV106QE,"545, STAFFORD ROAD, ","545, Stafford Road, ",1.0,131000,S,N,F,D,B,59,85,Normal,5.0,5.0,,78.0,NODATA!,2020,March,Friday,0,2019,October,Wednesday,0
+WV111EJ,"47, BEALEYS AVENUE, ","47, Bealeys Avenue, ",1.0,145000,T,N,F,D,C,58,70,Normal,4.0,4.0,,96.72,NO DATA!,2020,February,Monday,0,2010,September,Wednesday,0
+WV45HZ,"4, WHEATHILL CLOSE, ","4, Wheathill Close, ",1.0,217500,S,N,F,D,B,63,81,Normal,4.0,4.0,,95.0,NODATA!,2020,February,Friday,0,2020,February,Wednesday,0
+WV106DX,"14, BURNHAM AVENUE, ","14, Burnham Avenue, ",1.0,190000,S,N,F,D,B,61,82,Normal,6.0,6.0,,104.0,NODATA!,2020,May,Thursday,0,2020,February,Tuesday,0
+WV23DL,"73, CURZON STREET, ","73, Curzon Street, ",1.0,85000,T,N,F,G,C,1,79,Normal,5.0,0.0,,81.0,NODATA!,2020,May,Tuesday,0,2020,February,Wednesday,0
+WV106AA,"31, LYMER ROAD, ","31, Lymer Road, ",1.0,117000,S,N,F,D,B,61,86,Normal,5.0,5.0,,85.0,NODATA!,2020,January,Thursday,0,2017,March,Thursday,0
+WV108EU,"13, NORTHWOOD PARK ROAD, ","13, Northwood Park Road, ",1.0,75000,F,N,L,D,C,59,78,Normal,2.0,2.0,2.0,44.37,Ground,2020,January,Friday,0,2009,October,Thursday,0
+WV39AQ,"53, WHITE OAK DRIVE, ","53, White Oak Drive, ",1.0,192500,S,N,F,D,C,62,71,Normal,7.0,7.0,,121.0,NODATA!,2020,January,Friday,0,2012,April,Monday,0
+WV68PZ,"10, THE OLD MANOR, ","10, The Old Manor, Woodfield Heights, ",0.9,136000,F,N,L,C,C,77,77,Normal,3.0,3.0,,65.0,1st,2020,July,Friday,0,2019,November,Tuesday,0
+WV46SQ,"121, KENILWORTH CRESCENT, ","110 Kenilworth Crescent, ",0.96,110000,S,N,F,C,C,75,77,Normal,3.0,3.0,,64.0,1st,2020,February,Monday,0,2019,April,Monday,0
+WV14SQ,"WEST PARK COURT, FLAT 17, CONNAUGHT ROAD, ","Flat 17 West Park Court, Connaught Road, ",0.85,72000,F,N,L,D,C,58,77,Normal,3.0,3.0,,58.0,2nd,2020,March,Friday,0,2014,February,Monday,0
+WV44YH,"39, SUNDRIDGE WALK, ","39, Sundridge Walk, ",1.0,65500,F,N,L,C,C,72,77,Normal,2.0,1.0,,50.0,Ground,2020,February,Friday,0,2019,April,Saturday,0
+WV22LN,"3, GEORGE STREET, ","3, George Street, Ettingshall, ",0.92,115000,T,N,F,D,C,64,78,Normal,4.0,4.0,,69.0,NODATA!,2020,January,Thursday,0,2019,September,Wednesday,0
+WV60UX,"5, VIADUCT DRIVE, ","5, Viaduct Drive, ",1.0,125000,S,N,F,C,B,70,88,Normal,4.0,4.0,,55.0,NODATA!,2020,January,Friday,0,2019,October,Wednesday,0
+WV60UX,"18, VIADUCT DRIVE, ","18, Viaduct Drive, ",1.0,178000,S,N,F,C,B,69,83,Normal,6.0,6.0,,90.0,NODATA!,2020,July,Wednesday,0,2019,January,Tuesday,0
+WV22AN,"28, TURNHOUSE CRESCENT, ","28 Turnhouse Crescent, ",0.99,163000,S,N,F,B,A,81,93,NO DATA!,,,,85.0,NO DATA!,2020,February,Friday,0,2016,August,Thursday,0
+WV100LJ,"66, SPRINGFIELD ROAD, ","66, Springfield Road, ",1.0,125000,S,N,F,D,B,62,86,Normal,5.0,5.0,,99.0,NODATA!,2020,April,Thursday,0,2016,March,Thursday,0
+WV68NA,"17, DOVECOTE CLOSE, ","17, Dovecote Close, ",1.0,225000,D,N,F,E,C,52,80,Normal,5.0,5.0,,86.0,NODATA!,2020,January,Thursday,0,2019,October,Monday,0
+WV46HH,"12, MARTIN STREET, ","12 Martin Street, ",0.99,80000,T,N,F,C,B,71,85,Normal,5.0,5.0,,88.0,NODATA!,2020,July,Monday,0,2020,March,Thursday,0
+WV46HH,"21E, MARTIN STREET, ","21e, Martin Street, ",1.0,87000,S,N,F,E,B,50,86,Normal,5.0,5.0,,80.0,NODATA!,2020,July,Monday,0,2014,July,Monday,0
+WV44YX,"69, LANGLEY ROAD, ","69, Langley Road, ",1.0,153500,T,N,F,C,B,70,88,Normal,4.0,4.0,,86.0,NODATA!,2020,February,Friday,0,2014,November,Thursday,0
+WV14RH,"244, STAVELEY ROAD, ","244, Staveley Road, ",1.0,117500,S,N,F,E,D,50,59,Normal,5.0,5.0,,104.5,NO DATA!,2020,February,Friday,0,2011,March,Thursday,0
+WV37AJ,"55, SKIDMORE AVENUE, ","55, Skidmore Avenue, ",1.0,132000,T,N,F,D,B,68,88,More Than Typical,5.0,5.0,,86.0,NODATA!,2020,March,Friday,0,2020,January,Tuesday,0
+WV46AP,"478, WOLVERHAMPTON ROAD EAST, ","478, Wolverhampton Road East, ",1.0,85000,S,N,L,D,C,57,75,Normal,3.0,3.0,,65.0,Ground,2020,March,Friday,0,2019,September,Wednesday,0
+WV46AP,"530, WOLVERHAMPTON ROAD EAST, ","530, Wolverhampton Road East, ",1.0,167250,S,N,F,D,C,60,78,Normal,6.0,6.0,,92.0,NODATA!,2020,February,Tuesday,0,2013,October,Thursday,0
+WV60EQ,"77, NEWBRIDGE STREET, ","77, Newbridge Street, ",1.0,132000,T,N,F,D,C,68,69,Normal,5.0,5.0,,108.3,NO DATA!,2020,March,Monday,0,2011,March,Wednesday,0
+WV60EQ,"46, NEWBRIDGE STREET, ","46, Newbridge Street, ",1.0,149000,T,N,F,D,B,62,84,Normal,4.0,4.0,,87.0,NODATA!,2020,March,Thursday,0,2019,February,Monday,0
+WV113AZ,"49C, SHARDLOW ROAD, ","49c, Shardlow Road, ",1.0,190000,S,N,F,B,A,81,92,NO DATA!,,,,91.0,NO DATA!,2020,June,Friday,0,2013,April,Friday,0
+WV113AZ,"45, SHARDLOW ROAD, ","45, Shardlow Road, ",1.0,230000,S,N,F,D,B,57,84,Normal,5.0,5.0,,108.0,NODATA!,2020,February,Friday,0,2019,September,Friday,0
+WV60NQ,"1, APPLETREE GROVE, ","1, Appletree Grove, ",1.0,145000,S,N,F,D,B,68,81,Normal,6.0,6.0,,111.0,NODATA!,2020,July,Thursday,0,2019,January,Monday,0
+WV81XZ,"3, COLDRIDGE CLOSE, ","3, Coldridge Close, Pendeford, ",0.93,140000,T,N,F,C,B,73,86,Normal,5.0,5.0,,106.0,NODATA!,2020,February,Friday,0,2019,August,Tuesday,0
+WV108JY,"407, BUSHBURY LANE, ","407, Bushbury Lane, ",1.0,137500,T,N,F,D,B,60,85,Normal,4.0,4.0,,92.0,NODATA!,2020,February,Friday,0,2019,August,Friday,0
+WV133TR,"32, HILL ROAD, ","32, Hill Road, ",1.0,144000,T,N,F,E,B,54,81,Normal,5.0,5.0,,84.0,NODATA!,2020,June,Friday,0,2019,November,Thursday,0
+WV111ED,"15, BLACKWOOD AVENUE, ","15, Blackwood Avenue, ",1.0,129950,S,N,F,G,C,3,78,Normal,3.0,0.0,,89.0,NODATA!,2020,June,Friday,0,2015,April,Wednesday,0
+WV111ED,"16, BLACKWOOD AVENUE, ","16, Blackwood Avenue, ",1.0,140000,S,N,F,C,C,71,71,Normal,3.0,3.0,,64.66,NO DATA!,2020,March,Friday,0,2010,September,Monday,0
+WV60EG,"32, NEWBRIDGE STREET, ","32, Newbridge Street, ",1.0,150000,S,N,F,C,B,73,83,Normal,7.0,7.0,,117.0,NODATA!,2020,March,Tuesday,0,2019,December,Monday,0
+WV140LA,"110, DUDLEY STREET, ","110, Dudley Street, ",1.0,135000,S,N,F,D,B,63,86,Normal,5.0,3.0,,82.0,NODATA!,2020,February,Thursday,0,2019,May,Wednesday,0
+WV21EJ,"67, ALL SAINTS ROAD, ","67, All Saints Road, ",1.0,62000,T,N,F,G,C,15,71,Normal,4.0,0.0,,92.0,NODATA!,2020,January,Friday,0,2019,December,Wednesday,0
+WV68SF,"30, WROTTESLEY ROAD, ","30, Wrottesley Road, ",1.0,277500,D,N,F,E,B,48,81,Normal,7.0,7.0,,197.0,NODATA!,2020,June,Monday,0,2019,April,Friday,0
+WV14SP,"19, LOWER VAUXHALL, ","19, Lower Vauxhall, ",1.0,102000,T,N,F,E,C,43,74,Normal,5.0,4.0,,89.0,NODATA!,2020,June,Friday,0,2016,June,Wednesday,0
+WV113DA,"34, WRIGHT AVENUE, ","34, Wright Avenue, ",1.0,126500,T,N,F,E,B,46,81,Normal,5.0,5.0,,86.0,NODATA!,2020,February,Friday,0,2016,December,Friday,0
+WV106EJ,"46, WINCHESTER ROAD, ","46, Winchester Road, ",1.0,180000,S,N,F,E,B,41,87,Normal,5.0,5.0,,82.0,NODATA!,2020,May,Thursday,0,2019,June,Wednesday,0
+WV46QJ,"11, FARRINGTON ROAD, ","11, Farrington Road, ",1.0,230000,S,N,F,C,B,71,86,Normal,4.0,4.0,,73.0,NODATA!,2020,April,Friday,0,2019,December,Monday,0
+WV108UQ,"24, WISTWOOD HAYES, ","24, Wistwood Hayes, ",1.0,205000,D,N,F,D,B,63,86,Normal,5.0,5.0,,64.0,NODATA!,2020,August,Tuesday,0,2013,June,Wednesday,0
+WV12TG,"16, GIFFARD ROAD, ","16, Giffard Road, Stow Heath, ",0.92,115000,S,N,F,C,B,74,88,Normal,4.0,4.0,,80.0,NODATA!,2020,May,Friday,0,2020,March,Monday,0
+WV38EF,"24, FINCHFIELD LANE, ","24, Finchfield Lane, ",1.0,180000,D,N,F,D,C,63,75,Normal,10.0,10.0,,298.0,NODATA!,2020,March,Monday,0,2020,March,Saturday,0
+WV133HA,"2, WAITE ROAD, ","2, Waite Road, ",1.0,130000,S,N,F,D,B,61,87,Normal,5.0,5.0,,80.0,NODATA!,2020,March,Friday,0,2016,August,Tuesday,0
+WV106DW,"56, GREEN DRIVE, ","56, Green Drive, ",1.0,140000,S,N,F,D,B,58,85,Normal,5.0,4.0,,77.0,NODATA!,2020,February,Monday,0,2019,October,Wednesday,0
+WV106DW,"54, GREEN DRIVE, ","54, Green Drive, ",1.0,169995,S,N,F,F,F,24,24,Normal,5.0,1.0,,68.79,NO DATA!,2020,March,Thursday,0,2010,June,Wednesday,0
+WV46BY,"136, HILTON ROAD, ","136, Hilton Road, Lanesfield, ",0.92,110000,S,N,F,D,B,60,87,Normal,5.0,5.0,,74.0,NODATA!,2020,March,Thursday,0,2012,December,Friday,0
+WV46BY,"176, HILTON ROAD, ","176, Hilton Road, Lanesfield, ",0.92,140500,S,N,F,D,B,63,81,Normal,4.0,4.0,,93.0,NODATA!,2020,May,Thursday,0,2015,February,Monday,0
+WV113EN,"345, LICHFIELD ROAD, ","345, Lichfield Road, ",1.0,135000,S,N,F,D,B,68,85,Normal,3.0,3.0,,66.0,NODATA!,2020,January,Friday,0,2019,November,Wednesday,0
+WV95LJ,"8, LESSCROFT CLOSE, ","8, Lesscroft Close, ",1.0,190000,D,N,F,E,C,52,78,Normal,5.0,5.0,,91.0,NODATA!,2020,January,Wednesday,0,2014,November,Tuesday,0
+WV39JP,"6, NEVIS COURT, ","6, Nevis Court, ",1.0,145950,T,N,F,E,C,49,72,Normal,4.0,4.0,,99.48,NODATA!,2020,January,Tuesday,0,2011,June,Wednesday,0
+WV39AN,"15, BROUGHTON ROAD, ","15, Broughton Road, ",1.0,172000,S,N,F,D,B,63,85,Normal,5.0,5.0,,77.0,NODATA!,2020,February,Friday,0,2013,June,Thursday,0
+WV39AN,"9, BROUGHTON ROAD, ","9, Broughton Road, ",1.0,163500,T,N,F,C,C,70,75,Normal,4.0,4.0,,70.3,NO DATA!,2020,June,Monday,0,2010,May,Monday,0
+WV45UN,"12A, WESTBOURNE ROAD, ","12a, Westbourne Road, ",1.0,90000,T,N,F,D,B,59,85,Normal,5.0,5.0,,78.0,NODATA!,2020,January,Friday,0,2019,February,Thursday,0
+WV113TY,"32, PRESTWOOD AVENUE, ","32, Prestwood Avenue, ",1.0,120000,S,N,F,D,C,56,79,Normal,5.0,5.0,,71.0,NODATA!,2020,August,Monday,0,2020,February,Tuesday,0
+WV14TD,"36, FLAT 6, PARK DALE EAST, ","Flat 6, 36 Park Dale East, ",0.94,68500,F,N,L,E,C,52,75,Normal,3.0,3.0,3.0,56.26,2nd,2020,March,Monday,0,2010,February,Thursday,0
+WV22NU,"120, WARD STREET, ","120, Ward Street, ",1.0,236000,D,N,F,B,A,84,94,NO DATA!,,,,99.0,NO DATA!,2020,March,Monday,0,2018,August,Wednesday,0
+WV106DB,"112, RANGER DRIVE, ","112, Ranger Drive, ",1.0,250000,D,N,F,B,A,83,94,NO DATA!,,,,105.0,NO DATA!,2020,May,Friday,0,2016,December,Friday,0
+WV44PR,"74, WARSTONES DRIVE, ","74, Warstones Drive, ",1.0,60000,S,N,F,D,D,63,65,Normal,5.0,4.0,,90.72,NODATA!,2020,February,Friday,0,2012,February,Monday,0
+WV112HF,"5, LEVESON ROAD, ","5, Leveson Road, ",1.0,155000,S,N,F,D,C,65,80,Normal,6.0,6.0,,96.0,NODATA!,2020,April,Friday,0,2020,January,Friday,0
+WV108DZ,"12, BENTLEY ROAD, ","12, Bentley Road, ",1.0,152000,S,N,F,C,B,69,82,Normal,4.0,3.0,,84.0,NODATA!,2020,June,Friday,0,2020,January,Tuesday,0
+WV22JP,"UNIT 1, ETTINGSHALL ROAD, ","Kaloma, Ettingshall Road, ",0.76,75000,O,N,F,E,C,54,78,Normal,5.0,5.0,,118.0,NODATA!,2020,June,Friday,0,2013,June,Tuesday,0
+WV22JP,"UNIT 2, ETTINGSHALL ROAD, ","Kaloma, Ettingshall Road, ",0.76,75000,O,N,F,E,C,54,78,Normal,5.0,5.0,,118.0,NODATA!,2020,July,Monday,0,2013,June,Tuesday,0
+WV44BJ,"143, WINDSOR AVENUE, ","143, Windsor Avenue, ",1.0,156000,S,N,F,D,B,62,84,Normal,5.0,5.0,,108.0,NODATA!,2020,January,Friday,0,2020,February,Thursday,0
+WV44BJ,"143, WINDSOR AVENUE, ","143, Windsor Avenue, ",1.0,197000,S,N,F,D,B,62,84,Normal,5.0,5.0,,108.0,NODATA!,2020,April,Tuesday,0,2020,February,Thursday,0
+WV108BX,"186, OLD FALLINGS LANE, ","186, Old Fallings Lane, ",1.0,160000,S,N,F,D,D,58,59,Normal,5.0,5.0,,76.96,NODATA!,2020,February,Friday,0,2011,November,Wednesday,0
+WV108BX,"124, OLD FALLINGS LANE, ","124, Old Fallings Lane, ",1.0,125000,S,N,F,C,C,69,75,Normal,4.0,4.0,,90.5,NO DATA!,2020,April,Wednesday,0,2010,September,Friday,0
+WV108BX,"130, OLD FALLINGS LANE, ","130, Old Fallings Lane, ",1.0,95000,S,N,F,D,B,60,86,Normal,5.0,5.0,,81.0,NODATA!,2020,July,Tuesday,0,2020,June,Wednesday,0
+WV68RR,"3, MANCROFT GARDENS, ","3, Mancroft Gardens, ",1.0,275000,S,N,F,D,B,65,82,Normal,4.0,4.0,,71.0,NODATA!,2020,January,Thursday,0,2018,July,Monday,0
+WV12HU,"165, WILLENHALL ROAD, ","165, Willenhall Road, ",1.0,75000,T,N,F,E,D,43,62,Normal,4.0,4.0,,86.68,NO DATA!,2020,February,Friday,0,2010,June,Tuesday,0
+WV140TX,"81, GREENWAY ROAD, ","81, Greenway Road, ",1.0,103500,F,N,L,B,B,82,82,NO DATA!,,,,71.0,top floor,2020,January,Friday,0,2015,October,Monday,0
+WV45AH,"3, PARK DRIVE, ","3, Park Drive, ",1.0,305000,D,N,F,D,B,61,85,Normal,5.0,5.0,,128.0,NODATA!,2020,March,Monday,0,2018,November,Friday,0
+WV148GZ,"25, HARLYN CLOSE, ","25, Harlyn Close, ",1.0,115000,T,N,F,C,A,70,93,Normal,3.0,3.0,,58.0,NODATA!,2020,June,Friday,0,2014,March,Wednesday,0
+WV12LQ,"4, COVENTRY STREET, ","4, Coventry Street, ",1.0,131000,T,N,F,B,A,84,97,NO DATA!,,,,63.0,NO DATA!,2020,March,Friday,0,2015,December,Wednesday,0
+WV147AU,"55, MARBURY DRIVE, ","55, Marbury Drive, ",1.0,187500,S,N,F,D,C,60,79,Normal,4.0,4.0,,99.0,NODATA!,2020,January,Friday,0,2014,December,Saturday,0
+WV24NB,"113, LOWER VILLIERS STREET, ","113, Lower Villiers Street, ",1.0,245000,S,N,F,D,C,68,79,Normal,9.0,9.0,,147.0,NODATA!,2020,January,Friday,0,2018,October,Monday,0
+WV60HF,"27, HORDERN ROAD, ","27, Hordern Road, ",1.0,108000,S,N,F,D,B,61,85,Normal,5.0,5.0,,71.0,NODATA!,2020,January,Wednesday,0,2020,January,Wednesday,0
+WV108JX,"481, BUSHBURY LANE, ","481, Bushbury Lane, ",1.0,125000,S,N,F,D,B,59,81,Normal,4.0,4.0,,81.0,NODATA!,2020,January,Friday,0,2019,August,Thursday,0
+WV60PP,"190, LEICESTER STREET, ","190, Leicester Street, ",1.0,95000,T,N,F,E,C,54,76,Normal,6.0,5.0,,93.0,NODATA!,2020,January,Tuesday,0,2014,June,Friday,0
+WV22PJ,"8, FILTON PLACE, ","8, Filton Place, ",1.0,134500,T,N,F,B,A,82,97,NO DATA!,,,,50.0,NO DATA!,2020,January,Friday,0,2018,November,Thursday,0
+WV100BS,"153, POWELL STREET, ","153, Powell Street, ",1.0,85500,T,N,F,D,B,63,87,Normal,4.0,4.0,,77.0,NODATA!,2020,June,Friday,0,2014,June,Thursday,0
+WV68XA,"13, CORNWALL ROAD, ","13, Cornwall Road, ",1.0,97000,T,N,F,E,B,49,82,Normal,5.0,5.0,,76.0,NODATA!,2020,July,Thursday,0,2018,April,Monday,0
+WV46QT,"106, GROSVENOR ROAD, ","106, Grosvenor Road, Ettingshall Park, ",0.91,176500,T,N,L,E,C,52,76,Normal,5.0,5.0,,76.0,NODATA!,2020,February,Wednesday,0,2019,September,Thursday,0
+WV148RT,"2, CHATWIN PLACE, ","2, Chatwin Place, ",1.0,133000,T,N,F,D,B,60,91,Normal,5.0,5.0,,68.0,NODATA!,2020,March,Monday,0,2019,August,Friday,0
+WV95NB,"9, RYHOPE WALK, ","9, Ryhope Walk, ",1.0,66500,F,N,L,C,C,72,75,Normal,3.0,3.0,,65.0,Ground,2020,March,Wednesday,0,2019,November,Tuesday,0
+WV39EH,"11, PICKWICK GARDENS, ","11, Pickwick Gardens, ",1.0,527000,D,N,F,B,A,84,92,NO DATA!,,,,164.0,NO DATA!,2020,May,Friday,0,2014,November,Wednesday,0
+WV109LS,"14, WELBECK AVENUE, ","14, Welbeck Avenue, ",1.0,100000,T,N,F,D,B,60,82,Normal,5.0,5.0,,88.0,NODATA!,2020,April,Friday,0,2019,July,Tuesday,0
+WV109LS,"7, WELBECK AVENUE, ","7, Welbeck Avenue, ",1.0,139000,S,N,F,D,B,67,86,Normal,5.0,5.0,,116.0,NODATA!,2020,July,Monday,0,2020,May,Thursday,0
+WV22RR,"4, KIRTON PLACE, ","4, Kirton Place, ",1.0,162750,S,N,F,B,B,81,81,NO DATA!,,,,84.0,NO DATA!,2020,February,Friday,0,2014,March,Friday,0
+WV39NN,"73, CRANMORE ROAD, ","73, Cranmore Road, ",1.0,200000,S,N,F,C,B,76,83,Normal,7.0,7.0,,184.0,NODATA!,2020,February,Wednesday,0,2019,September,Sunday,0
+WV39NN,"63, CRANMORE ROAD, ","63, Cranmore Road, ",1.0,138000,S,N,F,E,B,47,87,Normal,5.0,4.0,,77.0,NODATA!,2020,January,Friday,0,2019,April,Monday,0
+WV12DH,"44A, PLASCOM ROAD, ","42, Plascom Road, ",0.85,67000,F,N,L,E,C,41,72,Normal,5.0,5.0,,85.0,NODATA!,2020,June,Monday,0,2014,April,Tuesday,0
+WV146QD,"16, CLEMENT ROAD, ","16, Clement Road, ",1.0,150000,T,N,F,E,C,49,80,Normal,6.0,6.0,,108.0,NODATA!,2020,February,Friday,0,2015,March,Friday,0
+TS36LP,"36, CONYERS WAY, ","51 Conyers Way, Trinity Gardens, ",0.75,49000,T,N,F,B,B,83,84,NO DATA!,,,,70.4,NO DATA!,2020,January,Friday,0,2010,May,Friday,0
+WV146RT,"19, NELSON AVENUE, ","19, Nelson Avenue, ",1.0,80000,S,N,F,E,B,42,82,Normal,5.0,5.0,,77.0,NODATA!,2020,July,Friday,0,2014,January,Wednesday,0
+WV68HB,"MILESTONE COURT, FLAT 49, LIME TREE AVENUE, ","Flat 49 Milestone Court, Lime Tree Avenue, ",0.84,137500,F,N,L,C,C,71,76,Normal,3.0,3.0,,87.0,1st,2020,February,Wednesday,0,2019,October,Wednesday,0
+WV68HB,"GROSVENOR COURT, FLAT 17, LIME TREE AVENUE, ","Flat 17 Grosvenor Court, Lime Tree Avenue, ",0.84,150000,F,N,L,F,E,30,40,Normal,3.0,3.0,3.0,73.6,2nd,2020,January,Friday,0,2010,April,Monday,0
+WV113DB,"25, MOATHOUSE LANE EAST, ","25, Moathouse Lane East, Wednesfield, ",0.93,125000,T,N,F,D,B,67,85,Normal,4.0,4.0,,72.0,NODATA!,2020,January,Friday,0,2019,October,Wednesday,0
+WV111AA,"124, BLACKHALVE LANE, ","124, Blackhalve Lane, ",1.0,151000,S,N,F,C,B,70,87,Normal,3.0,3.0,,66.0,NODATA!,2020,July,Friday,0,2012,April,Saturday,0
+WV68UA,"15, KEEPERS LANE, ","15, Keepers Lane, ",1.0,1100000,D,N,F,C,B,75,81,Normal,8.0,8.0,,220.0,NODATA!,2020,June,Monday,0,2017,March,Thursday,0
+WV68LL,"11, ORMES LANE, ","11, Ormes Lane, ",1.0,375000,D,N,F,E,B,50,81,Normal,7.0,7.0,,165.0,NODATA!,2020,August,Tuesday,0,2019,May,Tuesday,0
+WV38DX,"50, BHYLLS CRESCENT, ","50, Bhylls Crescent, ",1.0,249500,S,N,F,D,B,66,86,Normal,5.0,5.0,,95.0,NODATA!,2020,February,Tuesday,0,2019,October,Thursday,0
+WV112QN,"112, PEACOCK AVENUE, ","112, Peacock Avenue, ",1.0,132000,S,N,F,D,B,66,87,Normal,3.0,3.0,,67.0,NODATA!,2020,January,Friday,0,2014,June,Monday,0
+WV146JY,"143, BUNKERS HILL LANE, ","143, Bunkers Hill Lane, ",1.0,262000,D,N,F,D,C,66,79,Normal,6.0,6.0,,114.0,NODATA!,2020,February,Friday,0,2019,June,Friday,0
+WV39QS,"8, HARTLEY STREET, ","8, Hartley Street, ",1.0,147000,T,N,F,E,C,40,73,Normal,7.0,7.0,,135.0,NODATA!,2020,April,Monday,0,2013,April,Thursday,0
+WV106EN,"34, SANDON ROAD, ","34, Sandon Road, ",1.0,170000,S,N,F,D,B,64,85,Normal,4.0,4.0,,88.0,NODATA!,2020,May,Friday,0,2020,January,Thursday,0
+WV37EW,"112, CHURCH ROAD, ","114, Church Road, Bradmore, ",0.88,74000,S,N,F,D,C,57,78,Normal,5.0,5.0,,160.0,NODATA!,2020,February,Monday,0,2012,July,Thursday,0
+WV68UG,"31, YEW TREE LANE, ","31, Yew Tree Lane, ",1.0,279950,D,N,F,D,B,62,81,Normal,4.0,4.0,,81.0,NODATA!,2020,July,Friday,0,2020,May,Tuesday,0
+WV133LH,"747, WILLENHALL ROAD, ","747, Willenhall Road, ",1.0,64995,F,N,L,C,C,77,77,Normal,3.0,3.0,,61.0,2nd,2020,January,Friday,0,2013,January,Tuesday,0
+WV69QQ,"164, CODSALL ROAD, ","164, Codsall Road, ",1.0,415000,D,N,F,E,D,52,67,Normal,7.0,7.0,,199.0,NODATA!,2020,January,Friday,0,2013,October,Thursday,0
+WV38JX,"29, CASTLECROFT LANE, ","29, Castlecroft Lane, ",1.0,237500,S,N,F,F,D,37,68,Normal,6.0,6.0,,119.0,NODATA!,2020,February,Friday,0,2019,September,Thursday,0
+WV95NU,"34, EMSWORTH CRESCENT, ","34, Emsworth Crescent, ",1.0,156000,S,N,F,C,B,70,90,Normal,4.0,4.0,,70.0,NODATA!,2020,June,Friday,0,2019,October,Tuesday,0
+WV69PW,"64, TYNINGHAME AVENUE, ","64, Tyninghame Avenue, ",1.0,385000,D,N,F,D,B,67,82,Normal,7.0,7.0,,138.0,NODATA!,2020,March,Friday,0,2014,November,Monday,0
+WV68JU,"3, WOODEND PLACE, ","3, Woodend Place, ",1.0,179950,T,N,F,D,B,66,83,Normal,5.0,5.0,,111.0,NODATA!,2020,January,Friday,0,2019,October,Thursday,0
+WV147PA,"39, ASHLEY STREET, ","39, Ashley Street, ",1.0,65000,T,N,F,E,B,51,81,Normal,5.0,5.0,,79.0,NODATA!,2020,January,Friday,0,2019,August,Tuesday,0
+WV45DA,"3, HIMLEY CRESCENT, ","3, Himley Crescent, ",1.0,327500,D,N,F,E,C,42,69,Normal,6.0,6.0,,123.2,NO DATA!,2020,February,Friday,0,2010,May,Friday,0
+WV44LA,"251, WARSTONES ROAD, ","251, Warstones Road, Penn, ",0.96,188000,S,N,F,E,C,44,79,Normal,5.0,5.0,,104.0,NODATA!,2020,February,Friday,0,2013,August,Friday,0
+WV111YD,"272, WOOD END ROAD, ","252, Wood End Road, ",0.97,275000,O,N,F,D,C,56,77,Normal,6.0,6.0,,100.0,1st,2020,March,Tuesday,0,2014,April,Monday,0
+WV111YD,"426, WOOD END ROAD, ","426, Wood End Road, ",1.0,220000,S,N,F,E,C,54,73,Normal,6.0,6.0,,133.0,NODATA!,2020,January,Monday,0,2019,September,Monday,0
+WV111YD,"398, WOOD END ROAD, ","398, Wood End Road, ",1.0,325000,D,N,F,D,B,66,81,Normal,6.0,6.0,,113.0,NODATA!,2020,June,Friday,0,2020,March,Monday,0
+WV113AL,"139, SPRINGHILL ROAD, ","139, Springhill Road, ",1.0,216500,T,N,L,D,B,67,83,Normal,6.0,6.0,,106.0,NODATA!,2020,January,Monday,0,2019,October,Tuesday,0
+WV113AL,"222, SPRINGHILL ROAD, ","222, Springhill Road, ",1.0,180000,D,N,F,D,B,64,85,More Than Typical,4.0,4.0,,61.0,NODATA!,2020,May,Wednesday,0,2019,February,Friday,0
+WV68SL,"62A, WOODTHORNE ROAD SOUTH, ","62a, Woodthorne Road South, ",1.0,385000,D,N,F,D,B,66,82,Normal,5.0,5.0,,104.0,NODATA!,2020,March,Thursday,0,2019,November,Tuesday,0
+WV111UB,"9, BOLTON ROAD, ","9, Bolton Road, ",1.0,146000,S,N,F,D,D,65,67,Normal,4.0,4.0,,88.16,NO DATA!,2020,January,Friday,0,2009,April,Friday,0
+WV23DW,"71, BYRNE ROAD, ","71, Byrne Road, ",1.0,71500,T,N,F,G,B,12,87,Normal,3.0,0.0,,71.0,NODATA!,2020,July,Monday,0,2020,February,Saturday,0
+WV46NE,"116, MOUNT ROAD, ","116, Mount Road, Lanesfield, ",0.92,140000,S,N,F,D,B,62,84,Normal,5.0,4.0,,61.0,NODATA!,2020,February,Friday,0,2018,January,Wednesday,0
+WV100LZ,"115, BUSHBURY ROAD, ","115, Bushbury Road, ",1.0,124000,S,N,F,D,B,60,85,Normal,5.0,5.0,,74.0,NODATA!,2020,January,Thursday,0,2019,July,Tuesday,0
+WV100LZ,"67, BUSHBURY ROAD, ","67, Bushbury Road, ",1.0,120000,D,N,F,E,E,43,46,Normal,4.0,4.0,,70.73,NODATA!,2020,May,Tuesday,0,2012,January,Friday,0
+WV100LZ,"93, BUSHBURY ROAD, ","93, Bushbury Road, ",1.0,915000,S,N,F,D,B,67,81,Normal,3.0,3.0,,53.0,Ground,2020,June,Tuesday,0,2018,November,Friday,0
+WV112QH,"7, WHISTON AVENUE, ","7, Whiston Avenue, ",1.0,159950,S,N,F,D,B,61,83,Normal,5.0,2.0,,90.0,NODATA!,2020,June,Monday,0,2013,April,Thursday,0
+WV81UE,"27, SMALLWOOD ROAD, ","27, Smallwood Road, Pendeford, ",0.93,117000,T,N,F,C,B,69,83,Normal,5.0,5.0,,79.0,NODATA!,2020,June,Thursday,0,2018,May,Tuesday,0
+WV100SF,"80, NEWBOLDS ROAD, ","80, Newbolds Road, ",1.0,106000,S,N,F,D,B,65,84,Normal,4.0,4.0,,74.0,NODATA!,2020,June,Friday,0,2018,November,Friday,0
+WV100SF,"126, NEWBOLDS ROAD, ","126, Newbolds Road, ",1.0,205000,S,N,F,C,B,69,83,Normal,6.0,6.0,,87.0,NODATA!,2020,March,Friday,0,2015,August,Thursday,0
+WV12DN,"19, EAST PARK WAY, ","19, East Park Way, ",1.0,135000,T,N,F,C,B,69,83,Normal,4.0,4.0,,89.0,NODATA!,2020,February,Thursday,0,2018,November,Wednesday,0
+WV100QF,"306, WOLVERHAMPTON ROAD, ","306, Wolverhampton Road, Heath Town, ",0.94,130000,T,N,F,E,C,54,79,Normal,5.0,2.0,,89.0,NODATA!,2020,July,Friday,0,2019,October,Thursday,0
+WV13SA,"24, DUKE STREET, ","24, Duke Street, ",1.0,150000,S,N,F,C,C,73,75,Normal,5.0,5.0,,86.8,NO DATA!,2020,February,Monday,0,2010,May,Saturday,0
+WV68LX,"33, FOLEY AVENUE, ","33, Foley Avenue, ",1.0,370000,D,N,F,D,C,61,74,Normal,8.0,8.0,,169.0,NODATA!,2020,July,Friday,0,2019,June,Tuesday,0
+WV68LX,"27, FOLEY AVENUE, ","27, Foley Avenue, ",1.0,289000,D,N,F,E,C,40,78,Normal,5.0,5.0,,98.0,NODATA!,2020,May,Friday,0,2016,November,Monday,0
+WV22AX,"21, UXBRIDGE CLOSE, ","21, Uxbridge Close, ",1.0,145000,T,N,F,B,A,83,95,NO DATA!,,,,85.0,NO DATA!,2020,January,Monday,0,2016,December,Friday,0
+WV38EN,"1A, GLENDALE CLOSE, ","1a, Glendale Close, ",1.0,205000,D,N,F,D,B,65,86,Normal,3.0,3.0,,62.0,NODATA!,2020,January,Thursday,0,2019,February,Thursday,0
+WV60AW,"15, ALLEN ROAD, ","15, Allen Road, ",1.0,130000,D,N,F,C,C,69,69,Normal,8.0,8.0,,139.2,NO DATA!,2020,January,Friday,0,2010,March,Wednesday,0
+WV37HZ,"8, WREKIN DRIVE, ","8, Wrekin Drive, Bradmore, ",0.93,133000,T,N,F,D,B,67,84,Normal,5.0,5.0,,87.0,NODATA!,2020,January,Friday,0,2019,October,Tuesday,0
+WV95QL,"23, LEYBOURNE CRESCENT, ","23, Leybourne Crescent, ",1.0,128500,S,N,F,F,B,33,87,Normal,3.0,0.0,,60.0,NODATA!,2020,July,Wednesday,0,2020,June,Tuesday,0
+WV95QL,"8, LEYBOURNE CRESCENT, ","8, Leybourne Crescent, ",1.0,80000,F,N,L,E,C,47,76,Normal,3.0,3.0,,53.0,1st,2020,February,Thursday,0,2019,May,Thursday,0
+WV111SN,"4, HELENNY CLOSE, ","4, Helenny Close, ",1.0,130500,D,N,F,D,B,61,86,Normal,4.0,4.0,,67.0,NODATA!,2020,June,Wednesday,0,2017,May,Tuesday,0
+WV69DH,"4, ENNERDALE ROAD, ","4, Ennerdale Road, Tettenhall, ",0.92,291750,S,N,F,C,B,75,81,Normal,8.0,8.0,,177.0,NODATA!,2020,May,Thursday,0,2020,January,Thursday,0
+WV111TS,"7, HALECROFT AVENUE, ","7, Halecroft Avenue, ",1.0,243000,D,N,F,D,B,65,82,Normal,6.0,6.0,,104.0,NODATA!,2020,February,Friday,0,2014,March,Tuesday,0
+WV111TS,"21, HALECROFT AVENUE, ","21, Halecroft Avenue, ",1.0,200000,D,N,F,D,C,61,72,Normal,5.0,5.0,,82.875,NO DATA!,2020,February,Friday,0,2010,September,Monday,0
+WV133NH,"25, DEANS GATE, ","25, Deans Gate, ",1.0,92500,S,N,F,C,B,74,85,Normal,6.0,6.0,,104.0,NODATA!,2020,April,Friday,0,2012,August,Tuesday,0
+WV45PN,"24, CHURCH HILL, ","24, Church Hill, ",1.0,250000,D,N,F,F,C,36,79,Normal,6.0,6.0,,156.0,NODATA!,2020,January,Friday,0,2013,March,Friday,0
+WV149RQ,"27, HIGH VIEW, ","27, High View, ",1.0,160000,T,N,F,D,B,66,87,Normal,4.0,4.0,,68.0,NODATA!,2020,July,Monday,0,2019,November,Monday,0
+WV30AB,"19, COPTHORNE ROAD, ","19, Copthorne Road, ",1.0,550000,D,N,F,E,C,52,75,Normal,8.0,8.0,,190.0,NODATA!,2020,February,Friday,0,2018,January,Tuesday,0
+WV148GW,"38, MULLION DRIVE, ","38, Mullion Drive, ",1.0,165000,S,N,F,C,B,76,90,NO DATA!,,,,73.0,NO DATA!,2020,January,Friday,0,2014,July,Friday,0
+WV46GA,"BEACON COURT, FLAT 4, CHARLES HAYWARD DRIVE, ","14 Beacon Court, Charles Hayward Drive, ",0.79,137000,F,N,L,B,B,81,81,Normal,4.0,4.0,,61.0,Ground,2020,February,Friday,0,2019,September,Monday,0
+WV113NY,"34, WYRLEY ROAD, ","34, Wyrley Road, ",1.0,113000,T,N,F,C,B,75,90,Normal,3.0,3.0,,70.0,NODATA!,2020,January,Monday,0,2013,July,Tuesday,0
+WV147PB,"115, FRASER STREET, ","115, Fraser Street, ",1.0,74000,T,N,F,D,B,65,87,Normal,4.0,4.0,,72.0,NODATA!,2020,May,Friday,0,2013,May,Thursday,0
+WV147PB,"113, FRASER STREET, ","113, Fraser Street, ",1.0,74000,T,N,F,D,B,59,86,Normal,4.0,4.0,,72.0,NODATA!,2020,May,Friday,0,2013,May,Thursday,0
+WV22ER,"4, WESSEX ROAD, ","4, Wessex Road, ",1.0,140000,S,N,F,D,C,65,80,Normal,4.0,4.0,,78.0,NODATA!,2020,April,Thursday,0,2016,January,Thursday,0
+WV44DT,"49, MASON CRESCENT, ","49, Mason Crescent, ",1.0,198600,S,N,F,D,B,65,81,Normal,5.0,5.0,,95.0,NODATA!,2020,July,Friday,0,2020,March,Wednesday,0
+WV21HB,"99, DERRY STREET, ","97, Derry Street, ",0.97,125000,T,N,F,D,B,64,84,Normal,4.0,4.0,,81.0,NODATA!,2020,March,Monday,0,2013,October,Thursday,0
+WV133ES,"15, MARDEN CLOSE, ","15, Marden Close, ",1.0,195000,S,N,F,D,C,65,74,Normal,6.0,6.0,,102.4,NO DATA!,2020,March,Friday,0,2011,April,Sunday,0
+WV113QJ,"24, HART ROAD, ","24, Hart Road, ",1.0,108000,T,N,F,F,C,34,74,Normal,6.0,3.0,,96.0,NODATA!,2020,June,Monday,0,2013,January,Thursday,0
+WV38HL,"6, STONEACRE CLOSE, ","6, Stoneacre Close, ",1.0,212000,D,N,F,F,D,22,60,Normal,3.0,3.0,,82.0,NODATA!,2020,March,Friday,0,2019,September,Monday,0
+WV37AL,"81, SKIDMORE AVENUE, ","81, Skidmore Avenue, ",1.0,145000,T,N,F,D,B,65,87,Normal,5.0,5.0,,83.0,NODATA!,2020,February,Friday,0,2019,August,Friday,0
+WV108EF,"21, WENTWORTH ROAD, ","21, Wentworth Road, ",1.0,145000,S,N,F,D,B,66,82,Normal,5.0,5.0,,82.0,NODATA!,2020,February,Friday,0,2019,May,Wednesday,0
+WV38AS,"8, WOODLAND CRESCENT, ","8, Woodland Crescent, ",1.0,120000,S,N,F,E,B,41,84,Normal,5.0,5.0,,81.0,NODATA!,2020,January,Friday,0,2015,May,Tuesday,0
+WV44AD,"THE GALLERY, 282, FLAT 2, PENN ROAD, ","Flat 18, The Gallery, 282, Penn Road, ",0.87,115000,F,N,L,C,C,73,76,Normal,3.0,3.0,,75.0,2nd,2020,February,Friday,0,2018,April,Thursday,0
+WV133EY,"23, DILLOWAYS LANE, ","23, Dilloways Lane, ",1.0,118000,S,N,L,D,B,60,87,Normal,4.0,4.0,,53.0,NODATA!,2020,January,Friday,0,2019,July,Monday,0
+WV133EY,"17, DILLOWAYS LANE, ","17, Dilloways Lane, ",1.0,151000,S,N,F,C,B,74,88,Normal,3.0,3.0,,57.0,NODATA!,2020,May,Friday,0,2020,January,Monday,0
+WV69JQ,"16, SANDFORD RISE, ","16, Sandford Rise, ",1.0,200000,S,N,F,D,B,55,83,Normal,5.0,5.0,,97.0,NODATA!,2020,June,Friday,0,2013,May,Saturday,0
+WV108TU,"47, WESTERING PARKWAY, ","47, Westering Parkway, ",1.0,155000,S,N,F,D,C,66,71,Normal,5.0,5.0,,73.936,NODATA!,2020,February,Friday,0,2011,July,Thursday,0
+WV44EP,"126, PINFOLD LANE, ","126, Pinfold Lane, ",1.0,190000,S,N,F,E,C,47,73,Normal,5.0,5.0,,100.0,NODATA!,2020,February,Friday,0,2019,August,Thursday,0
+WV147PD,"83, FRASER STREET, ","83, Fraser Street, ",1.0,74000,T,N,F,D,B,65,85,Much More Than Typical,4.0,4.0,,68.0,NODATA!,2020,February,Tuesday,0,2019,September,Friday,0
+WV100SY,"64, DEYNCOURT ROAD, ","64, Deyncourt Road, ",1.0,197500,T,N,F,C,B,69,83,Normal,6.0,6.0,,91.0,NODATA!,2020,June,Monday,0,2018,September,Tuesday,0
+WV100SY,"79, DEYNCOURT ROAD, ","79, Deyncourt Road, ",1.0,195000,S,N,F,D,B,57,81,Normal,5.0,5.0,,85.0,NODATA!,2020,February,Friday,0,2013,February,Wednesday,0
+WV14RQ,"51, SHERWOOD STREET, ","51, Sherwood Street, ",1.0,70000,T,N,F,E,C,50,74,Normal,5.0,5.0,,93.0,NODATA!,2020,February,Wednesday,0,2019,June,Friday,0
+WV14RQ,"67, SHERWOOD STREET, ","67, Sherwood Street, ",1.0,120000,T,N,F,D,B,67,86,Normal,5.0,5.0,,97.0,NODATA!,2020,March,Friday,0,2019,March,Friday,0
+WV147BL,"ST THOMAS MORE RC SCHOOL, ALL WEATHER SPORTS CENTRE, DARLASTON LANE, ","56, Darlaston Lane, ",0.42,13000,O,N,L,D,B,61,84,Normal,5.0,5.0,,86.0,NODATA!,2020,June,Friday,0,2015,September,Wednesday,0
+WV100SX,"28, DEYNCOURT ROAD, ","28, Deyncourt Road, ",1.0,175000,S,N,F,D,B,65,81,More Than Typical,5.0,5.0,,82.0,NODATA!,2020,March,Wednesday,0,2019,September,Wednesday,0
+WV22AS,"7, PARKYN STREET, ","7, Parkyn Street, ",1.0,142500,S,N,F,C,B,72,84,Normal,5.0,5.0,,91.0,NODATA!,2020,March,Friday,0,2020,March,Tuesday,0
+WV37JF,"58, TRYSULL ROAD, ","58, Trysull Road, ",1.0,148000,S,N,F,D,B,59,87,Normal,5.0,5.0,,79.0,NODATA!,2020,March,Thursday,0,2016,August,Thursday,0
+WV37JF,"122, TRYSULL ROAD, ","122, Trysull Road, ",1.0,230000,D,N,F,D,B,64,84,Normal,4.0,4.0,,91.0,NODATA!,2020,March,Friday,0,2019,January,Saturday,0
+WV111PW,"112, WODEN AVENUE, ","112, Woden Avenue, ",1.0,159995,T,N,F,D,B,56,83,Normal,5.0,3.0,,75.0,NODATA!,2020,May,Monday,0,2014,January,Wednesday,0
+WV68NZ,"230, HENWOOD ROAD, ","230, Henwood Road, ",1.0,243000,D,N,F,D,C,63,79,Normal,5.0,5.0,,77.0,NODATA!,2020,January,Friday,0,2019,April,Thursday,0
+WV68NZ,"236, HENWOOD ROAD, ","236, Henwood Road, ",1.0,360000,S,N,F,D,C,64,74,Normal,8.0,8.0,,165.0,NODATA!,2020,June,Monday,0,2019,February,Wednesday,0
+WV68NZ,"290, HENWOOD ROAD, ","290, Henwood Road, ",1.0,169000,T,N,F,D,B,57,85,Normal,4.0,3.0,,72.0,NODATA!,2020,March,Monday,0,2015,September,Monday,0
+WV44BA,"11, OSBORNE ROAD, ","11, Osborne Road, ",1.0,315000,S,N,F,D,C,64,80,Normal,7.0,7.0,,147.0,NODATA!,2020,February,Friday,0,2018,November,Thursday,0
+WV100UF,"17, AUDLEM WALK, ","17, Audlem Walk, ",1.0,100000,T,N,F,D,B,67,83,Normal,5.0,5.0,,85.0,NODATA!,2020,March,Tuesday,0,2020,February,Wednesday,0
+WV106SW,"23, ST ANNES ROAD, ","23, St. Annes Road, ",0.99,112000,T,N,F,D,C,59,78,Normal,5.0,5.0,,84.0,NODATA!,2020,May,Friday,0,2020,February,Monday,0
+WV106LJ,"14, ORIEL DRIVE, ","14, Oriel Drive, ",1.0,128000,S,N,F,E,C,45,75,Normal,4.0,4.0,,73.0,NODATA!,2020,January,Friday,0,2019,November,Thursday,0
+WV45RA,"61, WAKELEY HILL, ","61, Wakeley Hill, ",1.0,300000,D,N,F,E,C,51,69,Normal,6.0,6.0,,97.66,NO DATA!,2020,June,Friday,0,2010,October,Wednesday,0
+WV113RY,"26A, BROAD LANE SOUTH, ","26a, Broad Lane South, ",1.0,360000,D,N,F,D,C,66,78,Normal,6.0,6.0,,188.0,NODATA!,2020,January,Thursday,0,2013,July,Tuesday,0
+WV113SE,"21, WADDENS BROOK LANE, ","21, Waddens Brook Lane, ",1.0,100000,T,N,F,E,B,42,85,Normal,5.0,5.0,,82.0,NODATA!,2020,May,Tuesday,0,2020,January,Wednesday,0
+WV12BQ,"141, DEANS ROAD, ","141, Deans Road, ",1.0,104000,S,N,F,B,A,88,95,Normal,3.0,3.0,,68.0,NODATA!,2020,January,Wednesday,0,2013,July,Wednesday,0
+WV69PN,"5, LOTHIANS ROAD, ","5, Lothians Road, ",1.0,350000,D,N,F,E,B,51,81,Normal,6.0,6.0,,128.0,NODATA!,2020,February,Friday,0,2017,August,Thursday,0
+WV109SW,"57, HAWKSFORD CRESCENT, ","57, Hawksford Crescent, ",1.0,140000,S,N,F,D,B,68,85,Normal,5.0,5.0,,66.0,NODATA!,2020,July,Tuesday,0,2018,July,Wednesday,0
+WV37EN,"109, CHURCH ROAD, ","109, Church Road, Bradmore, ",0.93,188000,T,N,F,C,B,76,88,More Than Typical,5.0,5.0,,81.0,NODATA!,2020,March,Thursday,0,2019,February,Thursday,0
+WV60QS,"6, DEVORAN CLOSE, ","6, Devoran Close, ",1.0,110000,S,N,F,D,B,68,85,Normal,4.0,4.0,,66.0,NODATA!,2020,July,Wednesday,0,2020,May,Tuesday,0
+WV108LX,"100, POPE ROAD, ","100, Pope Road, ",1.0,152500,S,N,F,C,B,72,85,Normal,3.0,3.0,,83.0,NODATA!,2020,March,Tuesday,0,2019,December,Tuesday,0
+WV37DH,"20, CHEQUERFIELD DRIVE, ","20, Chequerfield Drive, ",1.0,76000,F,N,L,D,C,64,77,Normal,3.0,3.0,,59.0,1st,2020,February,Wednesday,0,2019,September,Thursday,0
+WV109PR,"5, OLD FALLINGS CRESCENT, ","5, Old Fallings Crescent, ",1.0,110000,T,N,F,C,B,71,85,Normal,5.0,5.0,,89.0,NODATA!,2020,January,Thursday,0,2019,August,Thursday,0
+WV106DZ,"19, CAPSTONE AVENUE, ","19, Capstone Avenue, ",1.0,167500,S,N,F,D,B,56,86,Normal,5.0,5.0,,80.0,NODATA!,2020,January,Tuesday,0,2019,September,Friday,0
+WV106DZ,"38, CAPSTONE AVENUE, ","38, Capstone Avenue, ",1.0,132000,D,N,F,G,B,1,87,Normal,4.0,1.0,,82.0,NODATA!,2020,July,Thursday,0,2019,February,Saturday,0
+WV148GE,"25, PENTIRE CLOSE, ","25, Pentire Close, ",1.0,245000,D,N,F,B,A,81,92,NO DATA!,,,,113.0,NO DATA!,2020,July,Friday,0,2015,September,Monday,0
+WV24QF,"COTSWOLD COURT, FLAT 12, GOLDTHORN HILL, ","Flat 12 Cotswold Court, Goldthorn Hill, ",0.83,68000,F,N,L,C,C,70,79,Normal,2.0,2.0,2.0,37.36,Ground,2020,January,Wednesday,0,2010,May,Monday,0
+WV46JT,"110, SPRING ROAD, ","119, Spring Road, Ettingshall, ",0.86,100000,O,N,F,D,B,66,82,Normal,4.0,4.0,,77.0,NODATA!,2020,July,Thursday,0,2015,February,Thursday,0
+WV39NS,"26, RUPERT STREET, ","26, Rupert Street, ",1.0,184500,T,N,F,D,C,61,78,Normal,4.0,4.0,,106.0,NODATA!,2020,March,Friday,0,2015,April,Wednesday,0
+WV100NA,"166, BUSHBURY ROAD, ","166, Bushbury Road, ",1.0,192000,S,N,F,D,B,64,81,Normal,5.0,5.0,,114.0,NODATA!,2020,May,Friday,0,2020,January,Wednesday,0
+WV37ND,"151, COALWAY ROAD, ","151, Coalway Road, ",1.0,350000,D,N,F,E,B,54,81,Normal,7.0,7.0,,142.0,NODATA!,2020,January,Thursday,0,2016,June,Tuesday,0
+WV37ND,"187, COALWAY ROAD, ","187, Coalway Road, ",1.0,215000,T,N,F,D,C,59,79,Normal,7.0,7.0,,118.0,NODATA!,2020,July,Thursday,0,2020,February,Monday,0
+WV106LN,"7, CALVIN CLOSE, ","7, Calvin Close, ",1.0,180000,S,N,F,C,B,70,87,Normal,3.0,3.0,,57.0,NODATA!,2020,June,Friday,0,2019,November,Friday,0
+WV22BB,"60, KENT ROAD, ","6, Kent Road, ",0.98,506554,O,N,F,E,B,54,89,Normal,4.0,4.0,,70.0,NODATA!,2020,March,Friday,0,2014,April,Friday,0
+WV146LN,"20, SPRINGFIELD ROAD, ","20, Springfield Road, ",1.0,225000,D,N,F,E,B,53,81,Normal,4.0,4.0,,91.0,NODATA!,2020,March,Friday,0,2019,June,Monday,0
+WV30RW,"81, MERRIDALE STREET WEST, ","81, Merridale Street West, ",1.0,74000,T,N,F,D,C,58,79,Normal,4.0,4.0,,81.0,NODATA!,2020,June,Thursday,0,2020,February,Wednesday,0
+WV39QQ,"172, COMPTON ROAD, ","172, Compton Road, ",1.0,410000,D,N,F,D,C,60,78,Normal,8.0,8.0,,209.0,NODATA!,2020,June,Monday,0,2012,August,Monday,0
+WV22HD,"36, CHEVIOT ROAD, ","36, Cheviot Road, ",1.0,190000,S,N,F,C,B,71,87,Normal,3.0,3.0,,73.0,NODATA!,2020,August,Monday,0,2012,September,Tuesday,0
+WV68QG,"42, UPPER STREET, ","42, Upper Street, ",1.0,128000,F,N,L,E,C,46,70,Normal,4.0,4.0,,85.0,2nd,2020,July,Wednesday,0,2019,October,Wednesday,0
+WV46PT,"35, PRUDEN AVENUE, ","35, Pruden Avenue, Lanesfield, ",0.92,147500,S,N,F,E,B,41,88,Normal,3.0,3.0,,47.0,NODATA!,2020,March,Friday,0,2019,February,Wednesday,0
+WV100NE,"61, MILTON ROAD, ","61, Milton Road, ",1.0,195000,D,N,F,E,B,48,81,Normal,5.0,5.0,,125.0,NODATA!,2020,February,Monday,0,2016,February,Friday,0
+WV109HW,"44, WINGFOOT AVENUE, ","44, Wingfoot Avenue, ",1.0,155000,S,N,F,D,B,64,88,Normal,4.0,4.0,,75.0,NODATA!,2020,January,Monday,0,2019,August,Thursday,0
+WV111EH,"4, BEECH TREE AVENUE, ","4, Beech Tree Avenue, ",1.0,121000,S,N,F,C,B,69,84,Normal,3.0,3.0,,67.0,NODATA!,2020,February,Wednesday,0,2019,August,Friday,0
+WV46QR,"61, CAMBERLEY CRESCENT, ","61, Camberley Crescent, ",1.0,189950,S,N,F,D,B,67,84,Normal,6.0,6.0,,85.0,NODATA!,2020,March,Friday,0,2019,October,Wednesday,0
+WV140LB,"30, PICKWICK PLACE, ","30, Pickwick Place, ",1.0,77000,F,N,L,C,C,70,76,Normal,3.0,3.0,,46.0,1st,2020,May,Friday,0,2019,February,Friday,0
+WV112NJ,"3, DRUMMOND CLOSE, ","3, Drummond Close, ",1.0,132000,S,N,F,C,B,71,85,Normal,5.0,5.0,,78.0,NODATA!,2020,March,Friday,0,2019,September,Tuesday,0
+WV112NJ,"9, DRUMMOND CLOSE, ","9, Drummond Close, ",1.0,130000,S,N,F,D,B,65,82,Normal,5.0,5.0,,99.0,NODATA!,2020,June,Friday,0,2020,February,Wednesday,0
+WV95LB,"6, CLEWLEY DRIVE, ","6, Clewley Drive, ",1.0,190000,D,N,F,D,B,66,87,Normal,4.0,4.0,,78.0,NODATA!,2020,March,Friday,0,2020,February,Tuesday,0
+WV113PJ,"12, WARDS BRIDGE DRIVE, ","12, Wards Bridge Drive, ",1.0,303500,D,N,F,B,A,84,93,NO DATA!,,,,123.0,NO DATA!,2020,May,Wednesday,0,2016,March,Friday,0
+WV148PR,"30, DEREHAM WALK, ","30, Dereham Walk, ",1.0,75000,F,N,L,C,C,70,79,Normal,3.0,3.0,,51.0,1st,2020,February,Friday,0,2019,February,Wednesday,0
+WV148PR,"26, DEREHAM WALK, ","26, Dereham Walk, ",1.0,45000,O,N,L,D,C,64,75,Normal,3.0,2.0,,51.0,1st,2020,July,Thursday,0,2020,February,Thursday,0
+WV108AZ,"4, EGERTON ROAD, ","4, Egerton Road, ",1.0,160000,S,N,F,D,B,67,82,Normal,4.0,4.0,,83.0,NODATA!,2020,June,Tuesday,0,2020,February,Tuesday,0
+WV109AE,"15, NINE ELMS LANE, ","15, Nine Elms Lane, ",1.0,83700,T,N,F,D,C,58,78,Normal,5.0,5.0,,80.0,NODATA!,2020,June,Friday,0,2020,March,Friday,0
+WV38BG,"33, FINCHDENE GROVE, ","33, Finchdene Grove, ",1.0,90000,D,N,F,E,B,52,85,Normal,4.0,4.0,,56.0,NODATA!,2020,April,Thursday,0,2016,January,Tuesday,0
+WV22RT,"19, HENDON AVENUE, ","19, Hendon Avenue, ",1.0,161000,S,N,F,C,C,80,80,NO DATA!,,,,74.0,NO DATA!,2020,June,Tuesday,0,2013,November,Thursday,0
+WV38HT,"40, WINDMILL CRESCENT, ","40, Windmill Crescent, ",1.0,130000,S,N,F,E,C,52,76,Normal,6.0,6.0,,95.0,NODATA!,2020,May,Friday,0,2015,May,Sunday,0
+WV146AL,"AGLOVALE, DOVER STREET, ","Aglovale, Dover Street, ",1.0,190000,D,N,F,E,D,44,63,Normal,8.0,8.0,,200.0,NODATA!,2020,June,Monday,0,2012,August,Wednesday,0
+WV111JP,"40, LOWER PRESTWOOD ROAD, ","40, Lower Prestwood Road, ",1.0,193000,S,N,F,E,B,54,84,Normal,5.0,5.0,,83.0,NODATA!,2020,March,Wednesday,0,2015,April,Tuesday,0
+WV112PW,"46, TOWNSON ROAD, ","46, Townson Road, ",1.0,77500,F,N,L,C,C,72,77,Normal,2.0,2.0,,50.0,Ground,2020,June,Thursday,0,2020,March,Thursday,0
+WV37AH,"234, JEFFCOCK ROAD, ","234, Jeffcock Road, ",1.0,355000,D,N,F,D,C,58,78,Normal,7.0,7.0,,167.0,NODATA!,2020,April,Thursday,0,2019,September,Monday,0
+WV140NB,"17, LAWLEY ROAD, ","17, Lawley Road, ",1.0,122000,S,N,F,D,B,60,85,Normal,4.0,4.0,,74.0,NODATA!,2020,July,Friday,0,2019,December,Wednesday,0
+WV140NB,"14, LAWLEY ROAD, ","14, Lawley Road, ",1.0,86500,T,N,F,D,B,60,86,Normal,4.0,4.0,,76.0,NODATA!,2020,March,Friday,0,2019,August,Tuesday,0
+WV39PD,"124, CLARK ROAD, ","124, Clark Road, ",1.0,365000,D,N,F,E,C,50,71,Normal,6.0,6.0,,144.0,NODATA!,2020,February,Friday,0,2018,October,Thursday,0
+WV39PD,"157, CLARK ROAD, ","157, Clark Road, ",1.0,220000,S,N,F,E,B,49,85,More Than Typical,3.0,3.0,,95.0,NODATA!,2020,January,Monday,0,2015,July,Thursday,0
+WV108LA,"69, MORETON ROAD, ","69, Moreton Road, ",1.0,145000,S,N,F,D,B,61,84,Normal,4.0,4.0,,94.0,NODATA!,2020,May,Friday,0,2012,November,Saturday,0
+WV108LA,"59, MORETON ROAD, ","59, Moreton Road, ",1.0,120000,S,N,F,E,B,47,85,More Than Typical,4.0,2.0,,73.0,NODATA!,2020,May,Friday,0,2019,December,Thursday,0
+WV108LA,"13, MORETON ROAD, ","13, Moreton Road, ",1.0,179950,S,N,F,D,B,59,81,Normal,6.0,6.0,,102.0,NODATA!,2020,March,Friday,0,2020,January,Tuesday,0
+WV111TL,"43, TAYLOR STREET, ","43, Taylor Street, ",1.0,179995,T,N,F,B,B,83,90,NO DATA!,,,,128.0,NO DATA!,2020,January,Friday,0,2017,November,Wednesday,0
+WV60TY,"8, SKIPTON GREEN, ","8, Skipton Green, ",1.0,50000,F,N,L,D,C,56,75,Normal,3.0,3.0,,55.0,1st,2020,June,Friday,0,2015,May,Wednesday,0
+WV109NJ,"103, OTHELLO ROAD, ","103, Othello Road, ",1.0,144000,S,N,F,C,B,74,84,Normal,6.0,6.0,,106.0,NODATA!,2020,January,Friday,0,2019,September,Friday,0
+WV146RN,"129, WELLINGTON ROAD, ","129, Wellington Road, ",1.0,122500,S,N,F,D,B,60,87,Normal,5.0,5.0,,87.0,NODATA!,2020,January,Friday,0,2019,September,Saturday,0
+WV22QY,"36, BANSTEAD CLOSE, ","36, Banstead Close, ",1.0,50000,F,N,L,D,C,58,74,Normal,3.0,2.0,,46.0,3rd,2020,June,Friday,0,2012,April,Saturday,0
+WV22QY,"3, BANSTEAD CLOSE, ","3, Banstead Close, ",1.0,85000,F,N,F,C,A,73,92,Normal,3.0,3.0,,42.0,NODATA!,2020,February,Wednesday,0,2020,March,Monday,0
+WV100RQ,"476, CANNOCK ROAD, ","476, Cannock Road, ",1.0,150000,S,N,F,F,C,37,77,Normal,5.0,5.0,,100.0,NODATA!,2020,July,Friday,0,2019,September,Tuesday,0
+WV133HD,"11, CROXLEY GARDENS, ","11, Croxley Gardens, ",1.0,142500,S,N,F,D,B,67,88,Normal,4.0,4.0,,57.0,NODATA!,2020,January,Friday,0,2013,August,Tuesday,0
+WV133HD,"15, CROXLEY GARDENS, ","15, Croxley Gardens, ",1.0,240000,S,N,L,D,B,66,85,Normal,7.0,7.0,,106.0,NODATA!,2020,July,Friday,0,2020,February,Tuesday,0
+WV113RT,"53, COLMAN AVENUE, ","53, Colman Avenue, ",1.0,155000,S,N,F,D,B,65,84,Normal,4.0,4.0,,96.0,NODATA!,2020,February,Friday,0,2019,June,Monday,0
+WV45DX,"3, SHERINGTON DRIVE, ","3, Sherington Drive, ",1.0,114500,D,N,F,D,C,64,79,Normal,4.0,4.0,,80.0,NODATA!,2020,July,Wednesday,0,2019,January,Thursday,0
+WV106EE,"28, DONINGTON GROVE, ","28, Donington Grove, ",1.0,108800,F,N,L,B,B,82,82,NO DATA!,,,,60.0,top floor,2020,January,Friday,0,2015,January,Tuesday,0
+WV106EE,"66, DONINGTON GROVE, ","66, Donington Grove, ",1.0,107500,F,N,L,B,B,83,83,NO DATA!,,,,60.0,mid floor,2020,April,Friday,0,2015,April,Thursday,0
+WV68QB,"ROCK HOUSE DENTAL PRACTICE, OLD HILL, ","Flat 2 Ivy House, Old Hill, ",0.65,800000,F,N,F,E,D,50,64,Normal,5.0,5.0,3.0,101.42,1st,2020,June,Friday,0,2010,March,Tuesday,0
+WV45RF,"40, LINKS ROAD, ","40, Links Road, ",1.0,230000,S,N,F,D,B,57,83,Normal,4.0,4.0,,92.0,NODATA!,2020,February,Monday,0,2016,November,Wednesday,0
+WV133QU,"NEACHELLS COURT, FLAT 11, WILLENHALL ROAD, ","Flat 19 Neachells Court, Willenhall Road, ",0.84,44000,F,N,L,C,B,76,84,Normal,3.0,3.0,2.0,54.79,1st,2020,January,Wednesday,0,2010,February,Tuesday,0
+WV69NE,"87, ALDERSLEY ROAD, ","87, Aldersley Road, ",1.0,95000,T,N,F,D,B,67,88,Normal,5.0,5.0,,85.0,NODATA!,2020,February,Monday,0,2020,April,Thursday,0
+WV108TZ,"5, BETTANY GLADE, ","5, Bettany Glade, ",1.0,205000,D,N,F,D,B,61,86,Normal,5.0,5.0,,78.0,NODATA!,2020,February,Friday,0,2015,April,Tuesday,0
+WV60RW,"210, NEWHAMPTON ROAD WEST, ","201, Newhampton Road West, ",0.99,191000,O,N,F,D,C,59,76,Normal,5.0,5.0,,100.0,NODATA!,2020,June,Sunday,0,2017,April,Tuesday,0
+WV68RU,"9, THE VILLAGE MEWS, ","9 The Village Mews, Regis Road, ",0.87,225000,T,N,F,D,C,64,72,Normal,5.0,5.0,,87.33,NO DATA!,2020,February,Friday,0,2011,February,Wednesday,0
+WV68RU,"2, THE VILLAGE MEWS, ","2 The Village Mews, Regis Road, ",0.87,207500,T,N,F,D,B,67,82,Normal,3.0,3.0,,66.0,NODATA!,2020,January,Friday,0,2016,May,Monday,0
+WV68RU,"1, THE VILLAGE MEWS, ","1 The Village Mews, Regis Road, ",0.87,233000,S,N,F,D,B,68,83,Normal,4.0,4.0,,88.0,NODATA!,2020,January,Thursday,0,2019,July,Friday,0
+WV23HL,"57, WANDERERS AVENUE, ","57, Wanderers Avenue, ",1.0,142000,S,N,F,D,B,66,85,Normal,4.0,4.0,,81.0,NODATA!,2020,June,Wednesday,0,2020,January,Wednesday,0
+WV112JB,"48, KITCHEN LANE, ","48, Kitchen Lane, Wednesfield, ",0.92,140000,S,N,F,D,C,55,75,Normal,7.0,6.0,,112.0,NODATA!,2020,May,Thursday,0,2019,June,Tuesday,0
+WV106HB,"85, WINCHESTER ROAD, ","85, Winchester Road, ",1.0,170000,T,N,F,D,B,61,84,Normal,4.0,4.0,,77.0,NODATA!,2020,March,Friday,0,2019,October,Thursday,0
+WV111AJ,"47, BELTON AVENUE, ","47, Belton Avenue, ",1.0,179950,S,N,F,D,B,68,83,Normal,5.0,5.0,,84.0,NODATA!,2020,April,Wednesday,0,2020,February,Wednesday,0
+WV111AJ,"31, BELTON AVENUE, ","31, Belton Avenue, ",1.0,150000,S,N,F,D,B,60,82,Normal,4.0,4.0,,76.0,NODATA!,2020,February,Thursday,0,2019,November,Tuesday,0
+WV113JE,"29, LYNDALE DRIVE, ","29, Lyndale Drive, ",1.0,167000,D,N,F,D,B,57,85,Normal,3.0,3.0,,66.0,NODATA!,2020,June,Friday,0,2014,November,Tuesday,0
+WV113JE,"45, LYNDALE DRIVE, ","45, Lyndale Drive, ",1.0,242000,S,N,F,C,B,71,82,Normal,6.0,6.0,,127.0,NODATA!,2020,May,Friday,0,2012,July,Wednesday,0
+WV111ND,"60, AMOS LANE, ","60, Amos Lane, ",1.0,652500,D,N,F,D,C,58,71,Normal,10.0,10.0,,266.0,NODATA!,2020,March,Wednesday,0,2018,April,Friday,0
+WV44AL,"58, WYNN ROAD, ","58, Wynn Road, ",1.0,265000,S,N,F,D,D,65,67,Normal,6.0,6.0,,114.78,NODATA!,2020,June,Friday,0,2012,February,Wednesday,0
+WV111SB,"31, VICARAGE ROAD, ","31, Vicarage Road, Wednesfield, ",0.92,285000,D,N,F,E,C,47,74,More Than Typical,6.0,6.0,,162.0,NODATA!,2020,June,Friday,0,2019,April,Friday,0
+WV60BH,"BALFOUR COURT, FLAT 44, BALFOUR CRESCENT, ","Flat 44 Balfour Court, Balfour Crescent, ",0.84,98000,F,N,L,D,C,68,79,Normal,4.0,4.0,,61.0,2nd,2020,March,Friday,0,2014,January,Tuesday,0
+WV108HX,"21, SCHOOL LANE, ","21, School Lane, ",1.0,85000,D,N,F,D,C,61,80,Normal,3.0,3.0,,61.0,NODATA!,2020,April,Friday,0,2020,January,Wednesday,0
+WV69DP,"26, GRASMERE CLOSE, ","26, Grasmere Close, Tettenhall, ",0.92,152000,S,N,F,D,B,61,86,Normal,5.0,5.0,,82.0,NODATA!,2020,May,Monday,0,2019,May,Thursday,0
+WV69DP,"18, GRASMERE CLOSE, ","18, Grasmere Close, Tettenhall, ",0.92,170000,S,N,F,F,B,31,88,Normal,3.0,3.0,,56.0,NODATA!,2020,June,Friday,0,2020,April,Monday,0
+WV69LP,"9, GROTTO LANE, ","9, Grotto Lane, ",1.0,320000,D,N,F,D,C,60,74,Normal,6.0,6.0,,120.0,NODATA!,2020,June,Friday,0,2020,February,Thursday,0
+WV45PQ,"29, TRIMPLEY GARDENS, ","29, Trimpley Gardens, ",1.0,300000,D,N,F,E,D,51,64,Normal,4.0,4.0,,105.0,NODATA!,2020,January,Friday,0,2017,September,Thursday,0
+WV100RB,"378, CANNOCK ROAD, ","378, Cannock Road, ",1.0,116000,S,N,F,D,B,64,87,Normal,5.0,5.0,,92.0,NODATA!,2020,January,Thursday,0,2019,September,Tuesday,0
+WV100RB,"368, CANNOCK ROAD, ","368, Cannock Road, ",1.0,160000,S,N,F,E,C,54,77,Normal,6.0,6.0,,132.0,NODATA!,2020,February,Friday,0,2016,March,Friday,0
+WV46HT,"41, WINDSOR ROAD, ","41, Windsor Road, ",1.0,110000,S,N,F,G,C,19,76,Normal,4.0,4.0,,78.0,NODATA!,2020,February,Friday,0,2018,November,Saturday,0
+WV108DT,"25, HATHERTON GARDENS, ","25, Hatherton Gardens, ",1.0,130000,D,N,F,E,C,49,80,More Than Typical,5.0,5.0,,83.0,NODATA!,2020,February,Monday,0,2019,December,Friday,0
+WV68QW,"BLUEBELL COURT, FLAT 1, HIGH STREET, ","Flat 1 Bluebell Court, High Street, ",0.84,290000,F,N,L,B,B,86,86,NO DATA!,,,,73.0,ground floor,2020,July,Monday,0,2015,November,Tuesday,0
+WV149UG,"104, ETTINGSHALL ROAD, ","104, Ettingshall Road, ",1.0,102500,F,N,L,C,B,73,85,Normal,3.0,3.0,,66.0,1st,2020,February,Friday,0,2013,November,Thursday,0
+WV68AW,"44, BRAMSTEAD AVENUE, ","44, Bramstead Avenue, ",1.0,290000,D,N,F,D,B,58,83,Normal,5.0,5.0,,96.0,NODATA!,2020,May,Tuesday,0,2019,October,Monday,0
+WV46HD,"4D, HARDON ROAD, ","4d, Hardon Road, ",1.0,167000,S,N,F,D,B,67,85,Normal,3.0,3.0,,67.0,NODATA!,2020,June,Friday,0,2019,September,Tuesday,0
+WV111LY,"57A, ORCHARD ROAD, ","57a Orchard Road, ",0.99,175000,D,N,F,C,B,73,86,Normal,4.0,4.0,,74.0,NODATA!,2020,June,Friday,0,2019,November,Wednesday,0
+WV146LY,"20, FIELDSIDE WALK, ","20, Fieldside Walk, ",1.0,160000,S,N,F,D,C,55,80,Normal,5.0,4.0,,82.0,NODATA!,2020,February,Friday,0,2019,February,Monday,0
+WV106LL,"10, GROVELANDS CRESCENT, ","10, Grovelands Crescent, ",1.0,178000,S,N,F,D,B,60,86,Normal,3.0,3.0,,59.0,NODATA!,2020,March,Friday,0,2019,December,Thursday,0
+WV106LL,"2, GROVELANDS CRESCENT, ","2, Grovelands Crescent, ",1.0,275000,S,N,F,D,B,59,85,Normal,4.0,4.0,,72.0,NODATA!,2020,March,Tuesday,0,2020,February,Sunday,0
+WV106UR,"53, RENTON ROAD, ","53, Renton Road, ",1.0,145000,S,N,F,D,B,66,85,Normal,5.0,5.0,,84.0,NODATA!,2020,June,Monday,0,2015,June,Thursday,0
+WV106UR,"70, RENTON ROAD, ","70, Renton Road, ",1.0,140000,S,N,F,D,B,58,82,Normal,5.0,5.0,,87.0,NODATA!,2020,February,Wednesday,0,2019,November,Tuesday,0
+WV39BW,"83, BROAD LANE, ","83, Broad Lane, ",1.0,180000,S,N,F,E,C,39,73,Normal,5.0,2.0,,85.0,NODATA!,2020,March,Thursday,0,2019,August,Wednesday,0
+WV39BW,"75, BROAD LANE, ","75, Broad Lane, ",1.0,325000,D,N,F,D,B,61,85,Normal,5.0,5.0,,102.0,NODATA!,2020,June,Thursday,0,2020,February,Wednesday,0
+WV133QD,"19, MARSHALL ROAD, ","19, Marshall Road, ",1.0,135000,S,N,F,E,C,51,78,Normal,5.0,5.0,,92.0,NODATA!,2020,March,Friday,0,2013,March,Friday,0
+WV44LB,"286, WARSTONES ROAD, ","286, Warstones Road, Penn, ",0.96,175000,S,N,F,D,B,58,83,More Than Typical,5.0,5.0,,83.0,NODATA!,2020,March,Friday,0,2019,October,Wednesday,0
+WV37JD,"7, MAPLE ROAD, ","7, Maple Road, ",1.0,65000,T,N,L,C,C,71,78,Normal,3.0,3.0,,57.0,1st,2020,May,Friday,0,2019,September,Monday,0
+WV37BG,"114, BIRCHES BARN ROAD, ","114, Birches Barn Road, ",1.0,250000,D,N,F,D,B,68,84,Normal,4.0,4.0,,74.0,NODATA!,2020,January,Tuesday,0,2019,June,Friday,0
+WV30HF,"8, DALTON STREET, ","8, Dalton Street, ",1.0,122000,T,N,F,D,C,58,76,Normal,6.0,6.0,,111.0,NODATA!,2020,July,Friday,0,2016,March,Wednesday,0
+WV68HJ,"DIPPONS HOUSE, FLAT 5, DIPPONS DRIVE, ","Flat 5 Dippons House, Dippons Drive, ",0.84,87500,F,N,L,E,D,40,65,Normal,3.0,3.0,,81.0,3rd,2020,January,Friday,0,2019,April,Thursday,0
+WV68HJ,"2, DIPPONS DRIVE, ","2, Dippons Drive, ",1.0,323750,D,N,F,E,C,52,72,Normal,5.0,5.0,,129.0,NODATA!,2020,April,Friday,0,2019,September,Friday,0
+WV112HN,"40, CLARE AVENUE, ","40, Clare Avenue, ",1.0,80000,F,N,L,E,C,50,76,Normal,2.0,2.0,,51.0,1st,2020,February,Tuesday,0,2012,November,Thursday,0
+WV37EP,"17, WELLINGTON AVENUE, ","17, Wellington Avenue, ",1.0,163000,S,N,F,D,B,62,86,Normal,4.0,4.0,,69.0,NODATA!,2020,June,Friday,0,2019,November,Thursday,0
+WV108RT,"35, WORDSWORTH ROAD, ","35, Wordsworth Road, ",1.0,118000,S,N,F,E,B,54,83,Normal,5.0,5.0,,58.0,NODATA!,2020,January,Friday,0,2018,October,Wednesday,0
+WV112LA,"23, RUSSELL CLOSE, ","23, Russell Close, ",1.0,69000,F,N,L,E,C,52,70,Normal,2.0,2.0,,47.0,Ground,2020,March,Friday,0,2015,July,Wednesday,0
+WV44LG,"171A, WARSTONES ROAD, ","171a, Warstones Road, Penn, ",0.95,230000,D,N,F,D,B,59,86,Normal,5.0,5.0,,67.0,NODATA!,2020,May,Monday,0,2013,January,Thursday,0
+WV111BJ,"98, BLACKHALVE LANE, ","98, Blackhalve Lane, ",1.0,144000,S,N,F,D,C,57,80,Normal,4.0,4.0,,82.0,NODATA!,2020,February,Friday,0,2019,July,Tuesday,0
+WV113DJ,"72, LICHWOOD ROAD, ","72, Lichwood Road, ",1.0,139000,S,N,F,D,B,68,81,Normal,5.0,5.0,,113.0,NODATA!,2020,January,Tuesday,0,2018,May,Thursday,0
+WV46AJ,"12, VERONICA AVENUE, ","12, Veronica Avenue, ",1.0,115000,S,N,F,D,B,60,87,Normal,5.0,5.0,,74.0,NODATA!,2020,February,Friday,0,2020,January,Friday,0
+WV146QB,"83, PROUDS LANE, ","83, Prouds Lane, ",1.0,62000,F,N,L,D,C,67,72,Normal,2.0,2.0,,47.0,1st,2020,February,Friday,0,2019,September,Wednesday,0
+WV37DX,"13, HOLLY GROVE, ","13, Holly Grove, ",1.0,168000,S,N,F,E,B,52,87,Normal,4.0,4.0,,72.0,NODATA!,2020,July,Monday,0,2015,March,Monday,0
+WV14PR,"2, SUMMERFIELD ROAD, ","2, Summerfield Road, ",1.0,237000,T,N,F,E,C,50,70,Normal,11.0,11.0,,226.0,NODATA!,2020,January,Tuesday,0,2016,June,Tuesday,0
+WV68XP,"16, CHILGROVE GARDENS, ","16, Chilgrove Gardens, ",1.0,390000,D,N,F,C,B,69,82,Normal,6.0,6.0,,133.0,NODATA!,2020,June,Monday,0,2019,December,Tuesday,0
+WV69EG,"27, PENDEFORD AVENUE, ","27, Pendeford Avenue, ",1.0,175000,S,N,F,E,B,41,84,Normal,5.0,5.0,,94.0,NODATA!,2020,March,Monday,0,2019,October,Thursday,0
+WV69EG,"35, PENDEFORD AVENUE, ","35, Pendeford Avenue, ",1.0,175000,S,N,F,D,B,65,81,Normal,6.0,6.0,,100.0,NODATA!,2020,May,Friday,0,2019,December,Friday,0
+WV113LP,"18, FIRSVALE ROAD, ","18, Firsvale Road, ",1.0,192000,S,N,F,D,B,55,83,Normal,6.0,6.0,,91.0,NODATA!,2020,February,Thursday,0,2019,August,Thursday,0
+WV140QX,"99, MILLFIELDS ROAD, ","99, Millfields Road, ",1.0,85000,S,N,F,D,B,61,83,Normal,6.0,6.0,,100.0,NODATA!,2020,January,Friday,0,2019,November,Monday,0
+WV132JT,"35, BILSTON ROAD, ","35, Bilston Road, ",1.0,440000,D,N,F,D,C,65,75,Normal,9.0,9.0,,225.0,NODATA!,2020,June,Friday,0,2019,January,Friday,0
+WV106FG,"16, KNOCKHILL GARDENS, ","16, Knockhill Gardens, ",1.0,232500,D,N,F,B,A,83,94,NO DATA!,,,,92.0,NO DATA!,2020,January,Friday,0,2019,December,Wednesday,0
+WV106PQ,"38, GREENFIELD LANE, ","38, Greenfield Lane, ",1.0,210000,D,N,F,C,B,72,87,Normal,5.0,5.0,,75.0,NODATA!,2020,June,Friday,0,2019,December,Wednesday,0
+WV111DT,"34, BEECHWOOD AVENUE, ","34, Beechwood Avenue, ",1.0,185000,S,N,F,D,B,60,86,Normal,5.0,5.0,,83.0,NODATA!,2020,March,Tuesday,0,2019,September,Monday,0
+WV109LW,"6, OPHELIA GARDENS, ","6, Ophelia Gardens, ",1.0,160000,S,N,F,C,B,79,87,Normal,6.0,6.0,,117.0,NODATA!,2020,March,Friday,0,2020,January,Monday,0
+WV109LW,"20, OPHELIA GARDENS, ","20, Ophelia Gardens, ",1.0,160000,S,N,F,C,B,80,89,Normal,7.0,7.0,,118.0,NODATA!,2020,January,Friday,0,2019,August,Thursday,0
+WV109LW,"6, OPHELIA GARDENS, ","6, Ophelia Gardens, ",1.0,160000,S,N,F,C,B,79,87,Normal,6.0,6.0,,117.0,NODATA!,2020,July,Thursday,0,2020,January,Monday,0
+WV22LZ,"64, GEORGE STREET, ","64, George Street, Ettingshall, ",0.92,110000,S,N,F,C,B,71,85,Normal,4.0,4.0,,64.0,NODATA!,2020,July,Friday,0,2019,November,Thursday,0
+WV44JY,"325, WARSTONES ROAD, ","325, Warstones Road, Penn, ",0.96,199950,S,N,F,E,D,47,62,Normal,4.0,4.0,,100.55,NODATA!,2020,July,Thursday,0,2012,February,Monday,0
+WV111RT,"20, BRAMERTON CLOSE, ","20, Bramerton Close, ",1.0,140000,T,N,F,C,B,75,88,Normal,5.0,5.0,,88.0,NODATA!,2020,January,Thursday,0,2019,July,Thursday,0
+WV113RX,"75, BROAD LANE SOUTH, ","75, Broad Lane South, ",1.0,315000,S,N,F,E,B,49,81,Normal,5.0,5.0,,112.0,NODATA!,2020,February,Friday,0,2018,October,Thursday,0
+WV146RD,"3, FELLOWS ROAD, ","3, Fellows Road, ",1.0,140000,S,N,F,D,B,67,83,Normal,4.0,4.0,,79.0,NODATA!,2020,January,Monday,0,2019,August,Wednesday,0
+WV146QR,"20, MARCHANT ROAD, ","20, Marchant Road, ",1.0,149995,S,N,F,D,C,65,78,Normal,3.0,3.0,,79.0,NODATA!,2020,March,Friday,0,2019,July,Monday,0
+WV113EX,"8A, HYLSTONE CRESCENT, ","8a, Hylstone Crescent, ",1.0,71000,T,N,L,C,C,75,76,Normal,3.0,3.0,,46.0,1st,2020,June,Monday,0,2020,June,Saturday,0
+WV106UY,"4, HENLEY ROAD, ","4, Henley Road, ",1.0,109000,S,N,F,C,B,69,84,Normal,5.0,5.0,,85.0,NODATA!,2020,March,Monday,0,2019,October,Thursday,0
+WV108RS,"18, PRIMROSE LANE, ","18, Primrose Lane, ",1.0,177000,S,N,F,E,C,39,78,Normal,6.0,6.0,,95.0,NODATA!,2020,January,Friday,0,2019,October,Wednesday,0
+WV108RS,"20, PRIMROSE LANE, ","20, Primrose Lane, ",1.0,224000,S,N,F,D,B,60,85,Normal,6.0,6.0,,116.0,NODATA!,2020,January,Friday,0,2019,June,Friday,0
+WV113TP,"157, LINTHOUSE LANE, ","157, Linthouse Lane, ",1.0,178000,S,N,F,D,B,67,81,Normal,5.0,5.0,,102.0,NODATA!,2020,January,Friday,0,2012,July,Friday,0
+WV149EX,"48, HURST ROAD, ","48, Hurst Road, ",1.0,116500,S,N,F,D,B,64,86,Normal,5.0,5.0,,89.0,NODATA!,2020,May,Thursday,0,2019,August,Wednesday,0
+WV149EX,"48, HURST ROAD, ","48, Hurst Road, ",1.0,166000,S,N,F,D,B,64,86,Normal,5.0,5.0,,89.0,NODATA!,2020,July,Thursday,0,2019,August,Wednesday,0
+WV69JP,"51, BLACKBURN AVENUE, ","51, Blackburn Avenue, ",1.0,156000,S,N,F,D,B,65,84,Normal,5.0,5.0,,73.0,NODATA!,2020,February,Tuesday,0,2019,October,Wednesday,0
+WV95QZ,"9, NEWCOTT CLOSE, ","9, Newcott Close, ",1.0,155000,S,N,F,D,B,63,86,Normal,3.0,3.0,,52.0,NODATA!,2020,July,Friday,0,2015,August,Friday,0
+WV38JZ,"22, POOL HALL ROAD, ","6, Pool Hall Road, ",0.95,178000,S,N,F,C,B,72,87,Normal,4.0,4.0,,85.0,NODATA!,2020,May,Monday,0,2020,March,Wednesday,0
+WV113DQ,"49, LICH AVENUE, ","49, Lich Avenue, ",1.0,127000,S,N,F,E,B,52,83,Normal,6.0,6.0,,111.0,NODATA!,2020,January,Friday,0,2019,August,Thursday,0
+WV23JD,"97, FOWLER STREET, ","97, Fowler Street, ",1.0,100000,T,N,F,D,B,57,85,Normal,5.0,5.0,,91.0,NODATA!,2020,March,Wednesday,0,2013,August,Wednesday,0
+WV38BB,"65, FINCHFIELD ROAD WEST, ","65, Finchfield Road West, ",1.0,185000,T,N,F,D,B,56,83,Normal,4.0,4.0,,66.0,NODATA!,2020,March,Monday,0,2020,January,Wednesday,0
+WV60QZ,"11, HUNTER STREET, ","11, Hunter Street, ",1.0,105000,T,N,F,D,B,67,89,Normal,5.0,5.0,,70.0,NODATA!,2020,April,Monday,0,2019,November,Wednesday,0
+WV148DW,"123, BRADLEY LANE, ","123, Bradley Lane, ",1.0,81000,S,N,F,E,B,52,88,Normal,3.0,3.0,,50.0,NODATA!,2020,April,Wednesday,0,2020,January,Friday,0
+WV69NA,"35, ALDERSLEY ROAD, ","35, Aldersley Road, ",1.0,199950,S,N,F,D,B,67,85,Normal,5.0,5.0,,114.0,NODATA!,2020,January,Friday,0,2019,October,Friday,0
+WV113ED,"29, LINTHOUSE LANE, ","29, Linthouse Lane, ",1.0,130000,S,N,F,D,B,58,83,Normal,4.0,4.0,,98.0,NODATA!,2020,June,Wednesday,0,2020,May,Wednesday,0
+WV22EZ,"108, DURBERVILLE ROAD, ","108, Durberville Road, ",1.0,104000,S,N,F,D,C,57,76,Normal,5.0,5.0,,109.0,NODATA!,2020,January,Friday,0,2013,February,Saturday,0
+WV109HU,"37, HAMMOND AVENUE, ","37, Hammond Avenue, ",1.0,93000,S,N,F,E,C,45,76,Normal,5.0,5.0,,75.0,NODATA!,2020,May,Monday,0,2019,August,Saturday,0
+WV140JR,"84, CARDER CRESCENT, ","84, Carder Crescent, ",1.0,158000,S,N,F,B,A,83,96,NO DATA!,,,,64.0,NO DATA!,2020,March,Friday,0,2017,September,Wednesday,0
+WV46DY,"9, ROSNEATH CLOSE, ","9, Rosneath Close, ",1.0,89000,F,N,L,C,C,79,79,Normal,3.0,3.0,,52.0,2nd,2020,January,Friday,0,2018,September,Wednesday,0
+WV23JT,"12, PHOENIX STREET, ","12, Phoenix Street, ",1.0,136000,D,N,F,D,B,59,84,Normal,3.0,3.0,,61.0,NODATA!,2020,January,Friday,0,2019,September,Tuesday,0
+WV113HU,"25, WEM GARDENS, ","25, Wem Gardens, ",1.0,179000,S,N,F,D,B,66,82,Normal,5.0,5.0,,90.0,NODATA!,2020,May,Friday,0,2018,May,Thursday,0
+WV146LQ,"BEACON VIEW, HOLLAND ROAD, ","Beacon View, Holland Road, ",1.0,180000,S,N,F,D,B,59,83,Normal,4.0,4.0,,84.0,NODATA!,2020,March,Monday,0,2019,May,Thursday,0
+WV146LQ,"THE KYLES, HOLLAND ROAD, ","The Kyles, Holland Road, ",1.0,107000,T,N,F,D,B,55,85,Normal,5.0,5.0,,87.0,NODATA!,2020,April,Friday,0,2019,October,Thursday,0
+WV106RZ,"186, MARSH LANE, ","186, Marsh Lane, ",1.0,169000,T,N,F,D,B,61,86,Normal,5.0,5.0,,66.0,NODATA!,2020,March,Friday,0,2019,June,Wednesday,0
+WV106EQ,"69, AKRON DRIVE, ","69, Akron Drive, ",1.0,220000,D,N,F,C,B,79,89,NO DATA!,,,,114.0,NO DATA!,2020,March,Friday,0,2016,December,Wednesday,0
+WV106EQ,"75, AKRON DRIVE, ","75, Akron Drive, ",1.0,135000,S,N,F,C,A,79,94,NO DATA!,,,,51.0,NO DATA!,2020,March,Friday,0,2016,December,Wednesday,0
+WV146EG,"34, BROADMEADOW GREEN, ","34, Broadmeadow Green, ",1.0,92000,S,N,F,D,C,66,72,Normal,5.0,5.0,,88.2,NODATA!,2020,January,Friday,0,2011,May,Tuesday,0
+WV140EP,"50, HIGH STREET, ","44a, High Street, ",0.91,150000,O,N,F,G,F,7,34,Normal,2.0,2.0,2.0,52.0,1st,2020,March,Wednesday,0,2010,April,Tuesday,0
+WV37JH,"36, MARNEL DRIVE, ","36, Marnel Drive, ",1.0,206000,D,N,F,D,B,66,82,Normal,4.0,4.0,,79.0,NODATA!,2020,March,Friday,0,2019,October,Friday,0
+WV45AA,"13, GOLDTHORN AVENUE, ","13, Goldthorn Avenue, ",1.0,223000,S,N,F,D,B,58,86,Normal,5.0,5.0,,87.0,NODATA!,2020,July,Friday,0,2020,January,Thursday,0
+WV39BL,"52, STAR STREET, ","52, Star Street, ",1.0,184000,S,N,F,E,D,49,57,Normal,5.0,5.0,,97.72,NODATA!,2020,July,Tuesday,0,2011,May,Saturday,0
+WV39BL,"24, STAR STREET, ","24, Star Street, ",1.0,97500,F,N,L,D,C,59,76,Normal,4.0,4.0,,85.0,Ground,2020,July,Tuesday,0,2012,May,Wednesday,0
+WV24QB,"183, GOLDTHORN HILL, ","183, Goldthorn Hill, ",1.0,190000,T,N,F,E,B,46,82,Normal,6.0,6.0,,105.0,NODATA!,2020,May,Friday,0,2016,November,Wednesday,0
+WV24QB,"187, GOLDTHORN HILL, ","187, Goldthorn Hill, ",1.0,193600,T,N,F,D,B,58,83,Normal,6.0,6.0,,117.0,NODATA!,2020,February,Friday,0,2014,April,Tuesday,0
+WV69NY,"WILLOWDALE GRANGE, 3, ALDERSLEY ROAD, ","9, Willowdale Grange, ",0.67,75000,F,N,L,C,C,70,74,Normal,3.0,3.0,,40.2,Ground,2020,January,Monday,0,2011,December,Friday,0
+WV147EZ,"27, ROSEMARY AVENUE, ","27, Rosemary Avenue, ",1.0,120000,S,N,F,D,B,60,90,Normal,5.0,5.0,,61.0,NODATA!,2020,January,Wednesday,0,2020,January,Friday,0
+WV111AH,"157, BLACKHALVE LANE, ","157, Blackhalve Lane, ",1.0,220000,D,N,F,D,C,57,80,Normal,5.0,5.0,,94.0,NODATA!,2020,June,Friday,0,2019,April,Saturday,0
+WV106QL,"62, PATSHULL AVENUE, ","68, Patshull Avenue, ",0.97,150000,T,N,F,D,B,68,87,Normal,4.0,4.0,,73.0,NODATA!,2020,June,Wednesday,0,2020,June,Friday,0
+WV100ND,"48, MILTON ROAD, ","48, Milton Road, ",1.0,85000,T,N,F,E,B,50,85,Normal,4.0,4.0,,89.0,NODATA!,2020,March,Tuesday,0,2019,October,Thursday,0
+WV100ND,"66, MILTON ROAD, ","66, Milton Road, ",1.0,119500,T,N,F,D,B,64,82,Normal,5.0,5.0,,77.0,NODATA!,2020,January,Friday,0,2019,July,Wednesday,0
+WV45EU,"39, HORNBY ROAD, ","39, Hornby Road, Goldthorn Park, ",0.9,272500,D,N,F,D,B,57,83,Normal,4.0,4.0,,84.0,NODATA!,2020,January,Thursday,0,2014,July,Tuesday,0
+WV46GB,"75, CHARLES HAYWARD DRIVE, ","72, Charles Hayward Drive, ",0.98,137950,F,N,L,C,C,78,79,NO DATA!,,,,141.06,NO DATA!,2020,January,Friday,0,2011,September,Wednesday,0
+WV68LD,"96, THE CRESCENT, ","96, The Crescent, ",1.0,165000,S,N,F,F,B,37,87,Normal,5.0,2.0,,72.0,NODATA!,2020,March,Friday,0,2019,September,Wednesday,0
+WV148GR,"22, KYNANCE GROVE, ","22 Kynance Grove, ",0.99,135000,S,N,F,B,B,81,82,NO DATA!,,,,58.04,NO DATA!,2020,March,Monday,0,2011,January,Wednesday,0
+WV21HX,"11, MILLS ROAD, ","11, Mills Road, ",1.0,84000,S,N,F,C,C,72,75,Normal,4.0,4.0,,68.6,NO DATA!,2020,March,Monday,0,2010,December,Friday,0
+WV112NQ,"31, COPPICE CLOSE, ","31, Coppice Close, ",1.0,110000,T,N,F,C,B,71,85,Normal,5.0,5.0,,81.0,NODATA!,2020,June,Wednesday,0,2020,February,Friday,0
+WV132JL,"BIG PAN, 94, BILSTON ROAD, ","34, Bilston Road, ",0.7,564000,O,N,F,D,B,56,87,Normal,4.0,4.0,,76.0,NODATA!,2020,January,Monday,0,2018,November,Monday,0
+WV45UB,"50A, ALEXANDRA ROAD, ","50a, Alexandra Road, ",1.0,200000,D,N,F,D,C,61,79,Normal,7.0,7.0,,123.0,NODATA!,2020,May,Friday,0,2012,September,Tuesday,0
+WV45SE,"29, MUCHALL ROAD, ","29, Muchall Road, ",1.0,375000,D,N,F,E,C,51,80,Normal,7.0,7.0,,173.0,NODATA!,2020,June,Friday,0,2019,October,Friday,0
+WV68RW,"52, REGIS ROAD, ","52, Regis Road, ",1.0,190000,T,N,F,E,C,52,77,Normal,5.0,5.0,,96.0,NODATA!,2020,April,Friday,0,2019,January,Wednesday,0
+WV68RW,"50, REGIS ROAD, ","50, Regis Road, ",1.0,192000,T,N,F,D,B,63,81,Normal,5.0,5.0,,92.0,NODATA!,2020,March,Friday,0,2014,January,Wednesday,0
+WV81XJ,"58, CATISFIELD CRESCENT, ","58, Catisfield Crescent, Pendeford, ",0.94,119000,T,N,F,D,B,62,85,Normal,5.0,5.0,,89.0,NODATA!,2020,January,Monday,0,2019,October,Thursday,0
+WV148BX,"66, WALLACE ROAD, ","66, Wallace Road, ",1.0,120000,T,N,F,D,B,68,82,Normal,5.0,5.0,,85.0,NODATA!,2020,January,Friday,0,2019,April,Monday,0
+WV68SB,"11, WROTTESLEY ROAD, ","11, Wrottesley Road, ",1.0,265000,S,N,F,E,C,41,77,Normal,4.0,4.0,,98.0,NODATA!,2020,June,Monday,0,2014,April,Tuesday,0
+WV109UD,"253, BUSHBURY LANE, ","253, Bushbury Lane, ",1.0,116000,T,N,F,C,B,71,88,Normal,4.0,4.0,,70.0,NODATA!,2020,April,Tuesday,0,2014,September,Thursday,0
+WV95NF,"41, PENSHAW CLOSE, ","41, Penshaw Close, ",1.0,90000,S,N,F,C,B,69,87,Normal,5.0,5.0,,78.0,NODATA!,2020,February,Monday,0,2015,October,Monday,0
+WV12DQ,"19, PLASCOM ROAD, ","19, Plascom Road, ",1.0,155000,S,N,F,D,B,60,85,Normal,5.0,5.0,,97.0,NODATA!,2020,February,Friday,0,2019,October,Monday,0
+WV12DQ,"17, PLASCOM ROAD, ","17, Plascom Road, ",1.0,143000,S,N,F,E,B,54,84,Normal,4.0,4.0,,86.0,NODATA!,2020,March,Friday,0,2017,September,Wednesday,0
+WV133JS,"8, FIVE OAKS ROAD, ","8, Five Oaks Road, ",1.0,129000,S,N,F,D,B,65,81,Normal,4.0,4.0,,75.0,NODATA!,2020,January,Tuesday,0,2019,May,Thursday,0
+WV133JS,"52, FIVE OAKS ROAD, ","52, Five Oaks Road, ",1.0,148000,S,N,F,E,B,44,86,Normal,4.0,4.0,,73.0,NODATA!,2020,February,Thursday,0,2013,February,Thursday,0
+WV140JU,"7A, ARLIDGE CLOSE, ","7a, Arlidge Close, ",1.0,65000,F,N,L,C,C,72,77,Normal,3.0,3.0,,66.0,Ground,2020,May,Wednesday,0,2012,May,Friday,0
+WV38LT,"73, YORK ROAD, ","73, York Road, ",1.0,245000,S,N,F,D,C,62,78,Normal,4.0,4.0,,104.0,NODATA!,2020,March,Friday,0,2019,August,Tuesday,0
+WV149BE,"4, FALCON CRESCENT, ","4, Falcon Crescent, ",1.0,88000,F,N,L,D,C,63,78,Normal,3.0,1.0,,64.0,1st,2020,March,Friday,0,2017,August,Friday,0
+WV37DU,"38, ST PHILIPS AVENUE, ","38, St. Philips Avenue, ",0.99,190000,S,N,F,F,C,38,74,Normal,6.0,6.0,,128.0,NODATA!,2020,March,Thursday,0,2017,August,Wednesday,0
+WV140HU,"84, ALBANY CRESCENT, ","84, Albany Crescent, ",1.0,90000,S,N,F,D,B,55,88,Normal,4.0,4.0,,66.0,NODATA!,2020,March,Thursday,0,2019,August,Thursday,0
+WV140HU,"84, ALBANY CRESCENT, ","84, Albany Crescent, ",1.0,79000,S,N,F,D,B,55,88,Normal,4.0,4.0,,66.0,NODATA!,2020,January,Friday,0,2019,August,Thursday,0
+WV37NQ,"6, GRENDON GARDENS, ","6, Grendon Gardens, ",1.0,223000,D,N,F,D,C,67,80,Normal,4.0,4.0,,99.0,NODATA!,2020,June,Monday,0,2019,September,Friday,0
+WV60AD,"7, ALBERT ROAD, ","7, Albert Road, ",1.0,187000,S,N,F,D,B,58,85,Normal,5.0,5.0,,96.0,NODATA!,2020,June,Monday,0,2020,February,Friday,0
+WV60AD,"21, ALBERT ROAD, ","21, Albert Road, ",1.0,142000,S,N,F,D,C,58,77,Normal,4.0,4.0,,87.0,NODATA!,2020,June,Monday,0,2019,January,Wednesday,0
+WV113NT,"118, CASTLEBRIDGE ROAD, ","118, Castlebridge Road, ",1.0,108000,T,N,F,C,B,70,84,Normal,5.0,4.0,,107.0,NODATA!,2020,March,Friday,0,2013,December,Friday,0
+WV146BG,"206, WELLINGTON ROAD, ","206, Wellington Road, ",1.0,171000,S,N,F,E,C,51,74,Normal,6.0,6.0,,143.0,NODATA!,2020,July,Friday,0,2013,September,Monday,0
+WV149PR,"364, FLAT 10, BIRMINGHAM NEW ROAD, ","Flat 10, 364, Birmingham New Road, ",0.95,80000,F,N,L,D,C,68,80,Normal,3.0,3.0,,72.0,Ground,2020,July,Thursday,0,2020,February,Wednesday,0
+WV149PR,"368, BIRMINGHAM NEW ROAD, ","368, Birmingham New Road, ",1.0,175000,T,N,F,D,D,56,66,Normal,6.0,6.0,,122.0,NODATA!,2020,April,Friday,0,2019,May,Monday,0
+WV149PR,"364, FLAT 4, BIRMINGHAM NEW ROAD, ","Flat 4, 364, Birmingham New Road, ",0.96,92500,F,N,L,C,B,79,82,Normal,3.0,3.0,,56.0,1st,2020,February,Friday,0,2014,October,Tuesday,0
+WV109PE,"49A, SECOND AVENUE, ","49a, Second Avenue, ",1.0,67000,F,N,L,C,C,74,74,Normal,3.0,3.0,,61.0,1st,2020,March,Monday,0,2019,June,Thursday,0
+WV12UE,"24, BURSLEDON WALK, ","24, Bursledon Walk, ",1.0,130000,T,N,F,C,B,70,84,Normal,5.0,2.0,,91.0,NODATA!,2020,January,Friday,0,2019,August,Thursday,0
+WV69ED,"6, CODSALL ROAD, ","6, Codsall Road, ",1.0,162000,T,N,F,D,B,55,83,Normal,3.0,3.0,,46.0,NODATA!,2020,July,Friday,0,2016,March,Monday,0
+WV146NU,"19, CONNAUGHT ROAD, ","19, Connaught Road, ",1.0,85000,S,N,F,E,B,53,86,Normal,3.0,3.0,,71.0,NODATA!,2020,March,Tuesday,0,2019,August,Saturday,0
+WV109SZ,"84, FIFTH AVENUE, ","84, Fifth Avenue, ",1.0,115000,T,N,F,E,B,41,87,Normal,5.0,2.0,,79.0,NODATA!,2020,June,Friday,0,2017,October,Thursday,0
+WV106JA,"5, THE DOWNS, ","5, The Downs, ",1.0,118500,S,N,F,C,B,71,88,Normal,3.0,3.0,,57.0,NODATA!,2020,January,Friday,0,2019,December,Saturday,0
+WV106JA,"32, THE DOWNS, ","32, The Downs, ",1.0,105000,S,N,L,C,C,74,76,Normal,4.0,4.0,,57.32,NO DATA!,2020,April,Friday,0,2010,July,Monday,0
+WV38JR,"55, POOL HALL ROAD, ","5, Pool Hall Road, ",0.99,189950,T,N,F,C,B,69,82,Normal,5.0,5.0,,84.0,NODATA!,2020,February,Monday,0,2020,May,Wednesday,0
+WV37BL,"37, BIRCHES BARN ROAD, ","37, Birches Barn Road, ",1.0,229500,S,N,F,D,B,61,83,Normal,5.0,5.0,,109.0,NODATA!,2020,March,Tuesday,0,2020,January,Monday,0
+WV37BL,"29, BIRCHES BARN ROAD, ","29, Birches Barn Road, ",1.0,210000,S,N,F,E,C,52,77,Normal,8.0,8.0,,149.0,NODATA!,2020,March,Friday,0,2018,November,Wednesday,0
+WV68TS,"36, CRANMERE AVENUE, ","36, Cranmere Avenue, ",1.0,315000,D,N,F,D,C,64,79,Normal,3.0,3.0,,98.0,NODATA!,2020,January,Friday,0,2015,November,Thursday,0
+WV30DA,"36, YEW STREET, ","36, Yew Street, ",1.0,122000,S,N,F,D,C,65,72,Normal,3.0,3.0,,268.0,NODATA!,2020,July,Friday,0,2018,May,Thursday,0
+WV108BS,"3, ST CHADS ROAD, ","3, St. Chads Road, ",0.99,111000,S,N,F,D,B,67,86,Normal,5.0,5.0,,108.0,NODATA!,2020,January,Thursday,0,2019,October,Tuesday,0
+WV149RN,"40, BEACON STREET, ","40, Beacon Street, ",1.0,120000,T,N,F,D,B,66,85,Normal,4.0,4.0,,56.0,NODATA!,2020,April,Tuesday,0,2015,February,Wednesday,0
+WV37NG,"241, COALWAY ROAD, ","241, Coalway Road, ",1.0,133000,T,N,F,E,C,43,69,Normal,4.0,4.0,,97.0,NODATA!,2020,April,Friday,0,2017,February,Tuesday,0
+WV140RW,"2, BROADMOOR CLOSE, ","2, Broadmoor Close, ",1.0,125000,S,N,F,C,B,72,85,Normal,4.0,4.0,,83.0,NODATA!,2020,July,Friday,0,2020,June,Wednesday,0
+WV44JR,"27, BRADEN ROAD, ","27, Braden Road, ",1.0,185000,S,N,F,C,B,69,83,Normal,5.0,5.0,,85.0,NODATA!,2020,July,Friday,0,2016,August,Monday,0
+WV148EG,"11, PRINCE CHARLES ROAD, ","11, Prince Charles Road, ",1.0,83000,S,N,F,E,C,39,76,Normal,3.0,3.0,,80.0,NODATA!,2020,July,Friday,0,2020,January,Friday,0
+WV21JA,"151, CALEDONIA ROAD, ","151, Caledonia Road, ",1.0,120000,T,N,F,E,B,52,84,Normal,5.0,5.0,,97.0,NODATA!,2020,June,Friday,0,2019,August,Tuesday,0
+WV38BD,"8, LINDEN LEA, ","8, Linden Lea, ",1.0,175000,S,N,F,C,B,69,88,Normal,3.0,3.0,,89.0,NODATA!,2020,July,Monday,0,2020,June,Tuesday,0
+WV68NW,"1, TORVALE ROAD, ","1, Torvale Road, ",1.0,308000,D,N,F,E,C,47,73,Normal,4.0,4.0,,110.0,NODATA!,2020,June,Monday,0,2018,October,Thursday,0
+WV148PS,"63, WILKINSON AVENUE, ","63, Wilkinson Avenue, ",1.0,75000,T,N,F,E,C,54,77,Normal,4.0,4.0,,86.0,NODATA!,2020,January,Monday,0,2019,November,Monday,0
+WV148PS,"63, WILKINSON AVENUE, ","63, Wilkinson Avenue, ",1.0,90000,T,N,F,E,C,54,77,Normal,4.0,4.0,,86.0,NODATA!,2020,June,Tuesday,0,2019,November,Monday,0
+WV69EL,"7, CHEAM GARDENS, ","7, Cheam Gardens, ",1.0,157000,S,N,F,E,B,45,82,Normal,5.0,5.0,,76.0,NODATA!,2020,March,Friday,0,2019,December,Friday,0
+WV37ED,"53, ST PHILLIPS AVENUE, ","53, St. Philips Avenue, ",0.98,172000,D,N,F,E,B,39,83,Normal,6.0,5.0,,90.0,NODATA!,2020,February,Monday,0,2019,October,Wednesday,0
+WV69JF,"143, BURLAND AVENUE, ","143, Burland Avenue, ",1.0,299950,S,N,F,C,C,71,80,Normal,8.0,8.0,,141.0,NODATA!,2020,February,Thursday,0,2019,July,Wednesday,0
+WV46PH,"19, WARD GROVE, ","19, Ward Grove, ",1.0,152500,S,N,F,D,B,66,84,Normal,5.0,5.0,,72.0,NODATA!,2020,July,Wednesday,0,2013,September,Tuesday,0
+WV68TE,"33, BIRCHFIELD AVENUE, ","33, Birchfield Avenue, ",1.0,440000,D,N,F,E,C,52,75,Normal,5.0,5.0,,173.0,NODATA!,2020,January,Friday,0,2019,May,Tuesday,0
+WV38AH,"29, HIGHLANDS ROAD, ","29, Highlands Road, ",1.0,418000,D,N,F,C,C,71,79,Normal,8.0,8.0,,143.0,NODATA!,2020,July,Wednesday,0,2020,February,Wednesday,0
+WV38AH,"39, HIGHLANDS ROAD, ","39, Highlands Road, ",1.0,310000,S,N,F,D,C,66,80,Normal,6.0,6.0,,106.0,NODATA!,2020,July,Wednesday,0,2019,December,Thursday,0
+WV38AH,"68, HIGHLANDS ROAD, ","68, Highlands Road, ",1.0,319500,S,N,F,D,D,57,65,Normal,7.0,7.0,,126.46,NODATA!,2020,June,Friday,0,2012,January,Monday,0
+WV12DB,"6, FLAT A, COALPORT ROAD, ","Flat A, 6, Coalport Road, ",0.96,72000,F,N,L,C,C,74,76,Normal,2.0,2.0,,69.0,1st,2020,January,Friday,0,2019,July,Wednesday,0
+WV106TU,"66, OXLEY MOOR ROAD, ","26, Oxley Moor Road, ",0.97,500000,O,N,F,F,C,36,77,Normal,5.0,5.0,,108.0,NODATA!,2020,March,Tuesday,0,2015,January,Wednesday,0
+WV24PP,"3, NEEDWOOD CLOSE, ","3, Needwood Close, ",1.0,285000,D,N,F,D,B,68,81,Normal,6.0,6.0,,154.0,NODATA!,2020,June,Friday,0,2019,November,Monday,0
+WV133EL,"119, HAWKSWELL DRIVE, ","119, Hawkswell Drive, ",1.0,130000,S,N,F,C,B,74,88,Normal,4.0,4.0,,54.0,NODATA!,2020,June,Friday,0,2017,September,Thursday,0
+WV148TS,"61, ROSE STREET, ","61, Rose Street, ",1.0,118000,S,N,F,D,C,65,80,Normal,5.0,5.0,,78.0,NODATA!,2020,March,Friday,0,2019,August,Thursday,0
+WV44BW,"1, HANBURY CRESCENT, ","1, Hanbury Crescent, ",1.0,255000,S,N,F,D,B,62,82,Normal,6.0,6.0,,113.0,NODATA!,2020,February,Thursday,0,2019,August,Thursday,0
+WV46NG,"28, LANE ROAD, ","28, Lane Road, ",1.0,110000,D,N,F,D,B,56,84,Normal,3.0,3.0,,63.0,NODATA!,2020,March,Saturday,0,2019,December,Sunday,0
+WV46NG,"14, LANE ROAD, ","14, Lane Road, ",1.0,160000,S,N,F,D,B,57,82,Normal,5.0,5.0,,85.0,NODATA!,2020,February,Tuesday,0,2019,March,Friday,0
+WV109HA,"12, ELSTON HALL LANE, ","12, Elston Hall Lane, ",1.0,130000,S,N,F,E,B,47,85,More Than Typical,4.0,4.0,,82.0,NODATA!,2020,July,Wednesday,0,2020,February,Wednesday,0
+WV109HA,"16, ELSTON HALL LANE, ","16, Elston Hall Lane, ",1.0,180000,D,N,F,E,C,48,79,Normal,5.0,5.0,,79.0,NODATA!,2020,February,Friday,0,2019,June,Wednesday,0
+WV44AG,"19, WOODFIELD AVENUE, ","19, Woodfield Avenue, ",1.0,257000,S,N,F,E,C,50,77,Normal,6.0,6.0,,122.0,NODATA!,2020,February,Friday,0,2017,March,Wednesday,0
+WV106BD,"16, THREE TUNS LANE, ","16, Three Tuns Lane, ",1.0,96500,S,N,F,D,C,62,80,Normal,3.0,3.0,,63.0,NODATA!,2020,January,Tuesday,0,2019,July,Wednesday,0
+WV106BD,"16, THREE TUNS LANE, ","16, Three Tuns Lane, ",1.0,83000,S,N,F,D,C,62,80,Normal,3.0,3.0,,63.0,NODATA!,2020,March,Thursday,0,2019,July,Wednesday,0
+WV44BP,"182, WINDSOR AVENUE, ","182, Windsor Avenue, ",1.0,225000,T,N,F,E,C,53,79,Normal,5.0,5.0,,95.0,NODATA!,2020,May,Wednesday,0,2018,July,Friday,0
+WV106SB,"15, WATSON ROAD, ","15, Watson Road, ",1.0,157000,S,N,F,E,C,41,75,Normal,5.0,5.0,,94.0,NODATA!,2020,February,Tuesday,0,2018,July,Tuesday,0
+WV100LG,"150, SPRINGFIELD ROAD, ","150, Springfield Road, ",1.0,90000,S,N,F,D,B,55,86,Normal,5.0,5.0,,63.0,NODATA!,2020,March,Friday,0,2020,February,Wednesday,0
+WV81UZ,"5, GRANARY ROAD, ","5, Granary Road, ",1.0,135000,T,N,F,C,B,72,82,Normal,6.0,6.0,,123.0,NODATA!,2020,February,Friday,0,2018,March,Friday,0
+WV39LG,"GLENGARRY, 72, FINCHFIELD ROAD, ","Flat 2, 75, Finchfield Road, ",0.75,700000,O,N,F,D,D,60,62,Normal,2.0,2.0,2.0,44.02,Ground,2020,March,Tuesday,0,2009,November,Wednesday,0
+WV68EL,"2, SHAW LANE, ","2, Shaw Lane, ",1.0,288000,D,N,F,D,D,55,63,Normal,5.0,5.0,,108.0,NODATA!,2020,January,Friday,0,2017,November,Wednesday,0
+WV111NT,"10, HENFIELD CLOSE, ","10, Henfield Close, ",1.0,97000,T,N,F,D,C,59,79,Normal,3.0,3.0,,54.1,NO DATA!,2020,February,Monday,0,2011,March,Wednesday,0
+WV44PE,"85, WARSTONES GARDENS, ","85, Warstones Gardens, ",1.0,90000,F,N,L,D,C,68,77,Normal,3.0,3.0,,67.5,1st,2020,February,Friday,0,2011,June,Tuesday,0
+WV30AW,"54, OWEN ROAD, ","54, Owen Road, ",1.0,118000,T,N,F,C,B,69,86,Normal,4.0,4.0,,77.0,NODATA!,2020,March,Monday,0,2017,May,Tuesday,0
+WV112NG,"30, ACORN ROAD, ","30, Acorn Road, ",1.0,162000,S,N,F,C,B,73,84,Normal,6.0,6.0,,117.0,NODATA!,2020,June,Friday,0,2013,November,Tuesday,0
+WV68SP,"60, REDHOUSE ROAD, ","60, Redhouse Road, ",1.0,650000,D,N,F,D,B,66,82,Normal,9.0,9.0,,217.0,NODATA!,2020,January,Friday,0,2018,September,Thursday,0
+WV44JP,"29, BRYAN AVENUE, ","29, Bryan Avenue, ",1.0,115000,T,N,F,D,C,60,80,Normal,4.0,4.0,,75.0,NODATA!,2020,July,Thursday,0,2019,December,Monday,0
+WV113RZ,"16, ROSALIND GROVE, ","16, Rosalind Grove, ",1.0,220000,S,N,F,D,C,56,75,Normal,5.0,5.0,,90.0,NODATA!,2020,March,Tuesday,0,2019,September,Monday,0
+WV109YQ,"4, BRETTON GARDENS, ","4, Bretton Gardens, ",1.0,156000,S,N,F,D,B,59,82,Normal,3.0,3.0,,69.0,NODATA!,2020,May,Thursday,0,2014,May,Thursday,0
+WV69JH,"1, GLASSFORD DRIVE, ","1, Glassford Drive, ",1.0,234500,D,N,F,C,C,70,80,Normal,5.0,5.0,,105.0,NODATA!,2020,January,Friday,0,2019,September,Wednesday,0
+WV45NE,"PENN GARAGE, 2, LLOYD HILL, ","28a, Lloyd Hill, Stourbridge Road, ",0.63,551500,O,N,F,C,B,80,82,NO DATA!,,,,216.74,NO DATA!,2020,July,Tuesday,0,2011,January,Monday,0
+WV44SL,"2, NORTON CLOSE, ","2, Norton Close, ",1.0,195000,S,N,F,D,B,67,85,Normal,3.0,3.0,,57.0,NODATA!,2020,February,Friday,0,2019,July,Thursday,0
+WV112QP,"15, CLANFIELD AVENUE, ","15, Clanfield Avenue, ",1.0,230000,D,N,F,D,C,63,78,Normal,5.0,5.0,,101.0,NODATA!,2020,June,Friday,0,2019,July,Thursday,0
+WV60JL,"129, COURT ROAD, ","129, Court Road, ",1.0,206000,S,N,F,D,B,66,86,Normal,7.0,7.0,,182.0,NODATA!,2020,February,Wednesday,0,2016,January,Monday,0
+WV106QH,"6, PENKRIDGE GARDENS, ","6 Penkridge Gardens, ",0.99,198000,D,N,F,B,A,82,93,NO DATA!,,,,84.0,NO DATA!,2020,February,Friday,0,2015,October,Tuesday,0
+WV39SH,"LAWTON COURT, FLAT 2, OAKS CRESCENT, ","Flat 2 Lawton Court, Oaks Crescent, ",0.84,74950,F,N,L,E,C,48,75,Normal,2.0,2.0,3.0,42.3,Ground,2020,June,Friday,0,2010,June,Monday,0
+WV111DJ,"5, OAK GROVE, ","5, Oak Grove, ",1.0,165000,S,N,F,F,F,24,26,Normal,5.0,5.0,,71.7,NODATA!,2020,February,Friday,0,2011,May,Tuesday,0
+WV146HL,"16, CHERRYWOOD GREEN, ","1, Cherrywood Green, ",0.99,158000,S,N,F,C,B,72,86,Normal,4.0,4.0,,85.0,NODATA!,2020,July,Monday,0,2014,January,Monday,0
+WV108TT,"31, WESTERING PARKWAY, ","31, Westering Parkway, ",1.0,226000,D,N,F,D,B,67,85,Normal,5.0,5.0,,84.0,NODATA!,2020,April,Wednesday,0,2019,October,Monday,0
+WV113PE,"42, LAWRENCE AVENUE, ","42, Lawrence Avenue, Wednesfield, ",0.92,86000,T,N,F,D,B,65,83,Normal,4.0,4.0,,80.0,NODATA!,2020,January,Wednesday,0,2019,October,Tuesday,0
+WV44EX,"27, WALDEN GARDENS, ","27, Walden Gardens, ",1.0,190000,S,N,F,D,B,65,82,Normal,5.0,5.0,,88.0,NODATA!,2020,January,Friday,0,2020,January,Friday,0
+WV39HF,"10, FINCHFIELD HILL, ","10, Finchfield Hill, ",1.0,360000,D,N,F,E,C,44,77,Normal,6.0,6.0,,155.0,NODATA!,2020,June,Friday,0,2018,December,Saturday,0
+WV108PN,"699, CANNOCK ROAD, ","699, Cannock Road, ",1.0,157000,S,N,F,D,B,68,85,Normal,5.0,5.0,,91.0,NODATA!,2020,March,Tuesday,0,2013,August,Wednesday,0
+WV106NU,"850, STAFFORD ROAD, ","850, Stafford Road, ",1.0,319950,D,N,F,D,B,63,81,Normal,6.0,6.0,,112.0,NODATA!,2020,January,Friday,0,2016,November,Thursday,0
+WV60AL,"37, AVONDALE ROAD, ","37, Avondale Road, ",1.0,140000,T,N,F,D,B,60,84,Normal,6.0,6.0,,114.0,NODATA!,2020,February,Friday,0,2018,December,Friday,0
+WV68BQ,"220, BRIDGNORTH ROAD, ","220, Bridgnorth Road, ",1.0,390000,D,N,F,F,C,34,71,Normal,7.0,7.0,,154.0,NODATA!,2020,June,Friday,0,2020,February,Wednesday,0
+WV95QU,"6, TIFFANY LANE, ","6, Tiffany Lane, ",1.0,130000,S,N,F,D,B,67,89,Normal,4.0,4.0,,56.0,NODATA!,2020,January,Friday,0,2014,November,Friday,0
+WV13RQ,"16, COMMERCIAL ROAD, ","16, Commercial Road, ",1.0,118000,S,N,F,E,C,45,79,Normal,4.0,4.0,,83.0,NODATA!,2020,July,Friday,0,2020,March,Tuesday,0
+WV39HL,"11, WESTHILL, ","11, Westhill, ",1.0,179950,D,N,F,E,C,39,80,Normal,4.0,3.0,,75.0,NODATA!,2020,January,Friday,0,2019,August,Saturday,0
+WV68AU,"8, TEOTTA DRIVE, ","8, Teotta Drive, ",1.0,375000,D,N,F,C,B,80,81,NO DATA!,,,,70.11,NO DATA!,2020,July,Thursday,0,2011,June,Friday,0
+WV68AU,"4, TEOTTA DRIVE, ","4, Teotta Drive, ",1.0,366000,D,N,F,C,B,79,81,NO DATA!,,,,56.24,NO DATA!,2020,March,Monday,0,2011,June,Friday,0
+WV113SB,"133, BROAD LANE SOUTH, ","133, Broad Lane South, ",1.0,170000,S,N,F,E,B,41,87,Normal,4.0,4.0,,67.0,NODATA!,2020,May,Friday,0,2015,December,Friday,0
+WV12EZ,"119, MAYFIELD ROAD, ","119, Mayfield Road, ",1.0,92500,F,N,L,C,C,69,79,Normal,4.0,4.0,,64.0,2nd,2020,June,Friday,0,2018,July,Monday,0
+WV68NE,"4, WOODLAND AVENUE, ","4, Woodland Avenue, ",1.0,188000,S,N,F,E,B,52,87,Normal,4.0,4.0,,74.0,NODATA!,2020,March,Friday,0,2015,March,Thursday,0
+WV30HS,"9, BINGLEY STREET, ","9, Bingley Street, ",1.0,98000,T,N,F,D,B,58,84,Normal,5.0,5.0,,82.0,NODATA!,2020,January,Monday,0,2019,June,Wednesday,0
+WV37HH,"104, OXBARN AVENUE, ","104, Oxbarn Avenue, ",1.0,205000,S,N,F,D,B,61,84,Normal,3.0,3.0,,71.0,NODATA!,2020,January,Tuesday,0,2019,August,Thursday,0
+WV108UL,"4, BRIDGEMARY CLOSE, ","4, Bridgemary Close, ",1.0,192500,S,N,F,C,B,69,82,Normal,4.0,4.0,,80.0,NODATA!,2020,June,Tuesday,0,2020,February,Monday,0
+WV133PB,"53, MARSHALL ROAD, ","53, Marshall Road, ",1.0,168000,S,N,F,D,B,55,82,Normal,5.0,5.0,,96.0,NODATA!,2020,March,Friday,0,2015,May,Wednesday,0
+WV68HQ,"72, MOUNT ROAD, ","72, Mount Road, Tettenhall Wood, ",0.9,330000,D,N,F,E,C,47,76,Normal,6.0,6.0,,132.0,NODATA!,2020,July,Monday,0,2019,September,Monday,0
+WV45RN,"15, DUNSLEY GROVE, ","15, Dunsley Grove, ",1.0,310000,D,N,F,C,C,70,76,Normal,6.0,6.0,,106.35,NO DATA!,2020,February,Tuesday,0,2010,October,Tuesday,0
+WV149YA,"16, TURTONS CROFT, ","16, Turtons Croft, ",1.0,169500,D,N,F,D,B,65,85,Normal,5.0,5.0,,69.0,NODATA!,2020,March,Tuesday,0,2019,August,Monday,0
+WV149YA,"17, TURTONS CROFT, ","17, Turtons Croft, ",1.0,156500,D,N,F,D,B,61,87,Normal,4.0,4.0,,68.0,NODATA!,2020,July,Thursday,0,2019,August,Thursday,0
+WV108NS,"76, UNDERHILL LANE, ","76, Underhill Lane, ",1.0,128000,T,N,F,D,B,64,87,Normal,3.0,3.0,,67.0,NODATA!,2020,March,Thursday,0,2014,November,Friday,0
+WV106XJ,"22, ELMDON ROAD, ","22, Elmdon Road, ",1.0,87500,S,N,F,D,C,56,78,Normal,4.0,4.0,,83.0,NODATA!,2020,June,Monday,0,2014,September,Tuesday,0
+WV106XJ,"40, ELMDON ROAD, ","40, Elmdon Road, ",1.0,135000,S,N,F,D,C,65,80,Normal,5.0,5.0,,85.0,NODATA!,2020,April,Friday,0,2014,February,Friday,0
+WV113EG,"37, FITZMAURICE ROAD, ","37, Fitzmaurice Road, ",1.0,132000,S,N,F,D,B,61,82,Normal,4.0,4.0,,76.0,NODATA!,2020,May,Friday,0,2019,November,Wednesday,0
+WV124PA,"20, FIVE FIELDS ROAD, ","20, Fivefields Road, ",0.93,226000,S,N,L,D,B,68,84,Normal,6.0,6.0,,109.0,NODATA!,2020,May,Friday,0,2020,January,Wednesday,0
+WV124PA,"12, FIVE FIELDS ROAD, ","12, Fivefields Road, ",0.93,205000,S,N,F,D,B,62,81,Normal,5.0,5.0,,82.0,NODATA!,2020,January,Monday,0,2019,July,Saturday,0
+DY31LT,"97, BATH STREET, ","78, Bath Street, Sedgley, ",0.85,340000,D,N,F,D,B,63,84,Normal,5.0,5.0,,68.0,NODATA!,2020,January,Friday,0,2019,June,Monday,0
+WV68EY,"55, LONG LAKE AVENUE, ","55, Long Lake Avenue, ",1.0,185000,T,N,F,C,B,69,85,Normal,5.0,5.0,,100.0,NODATA!,2020,February,Thursday,0,2019,October,Wednesday,0
+WV68HE,"THE OLD MILL, MILL LANE, ","The Old Mill, Mill Lane, ",1.0,250000,D,N,F,E,C,47,78,Normal,4.0,4.0,,93.0,NODATA!,2020,May,Friday,0,2019,July,Monday,0
+WV106PX,"26, SPRINGFIELD LANE, ","26, Springfield Lane, ",1.0,310000,D,N,F,E,B,39,87,Normal,5.0,5.0,,109.0,NODATA!,2020,June,Tuesday,0,2017,May,Tuesday,0
+WV38LB,"4, CLEE HILL DRIVE, ","4, Clee Hill Drive, ",1.0,102000,F,N,L,C,C,71,73,More Than Typical,2.0,2.0,,43.0,Ground,2020,January,Monday,0,2019,July,Monday,0
+WV146LH,"5, GRAFTON PLACE, ","5, Grafton Place, ",1.0,212000,D,N,F,D,C,61,74,Normal,5.0,5.0,,86.0,NODATA!,2020,January,Friday,0,2019,September,Monday,0
+WV24NH,"2, CLAYTON CLOSE, ","2, Clayton Close, ",1.0,100000,S,N,F,D,B,59,83,Normal,5.0,5.0,,78.0,NODATA!,2020,June,Friday,0,2019,July,Friday,0
+WV37AW,"3, BANTOCK AVENUE, ","3, Bantock Avenue, ",1.0,176000,S,N,F,D,B,62,83,Normal,5.0,5.0,,118.0,NODATA!,2020,January,Friday,0,2019,August,Friday,0
+WV106SJ,"10, SANDWELL ROAD, ","10, Sandwell Road, ",1.0,145000,T,N,F,G,B,9,87,Normal,4.0,1.0,,65.0,NODATA!,2020,January,Friday,0,2018,February,Thursday,0
+WV112HW,"13, PALMER CLOSE, ","13, Palmer Close, ",1.0,125000,S,N,F,E,B,39,87,Normal,3.0,3.0,,66.0,NODATA!,2020,February,Friday,0,2013,November,Friday,0
+WV38EL,"40, FARM ROAD, ","40, Farm Road, ",1.0,292000,S,N,F,D,B,62,82,Normal,5.0,5.0,,124.0,NODATA!,2020,February,Friday,0,2015,January,Wednesday,0
+WV37HS,"3, HAVELOCK CLOSE, ","3, Havelock Close, ",1.0,170000,S,N,F,B,A,89,96,Normal,4.0,4.0,,83.0,NODATA!,2020,March,Tuesday,0,2019,April,Wednesday,0
+WV109AW,"99, NINE ELMS LANE, ","99, Nine Elms Lane, ",1.0,171000,S,N,F,D,C,61,74,Normal,8.0,8.0,,138.0,NODATA!,2020,July,Friday,0,2013,September,Tuesday,0
+WV109AW,"101, NINE ELMS LANE, ","101, Nine Elms Lane, ",1.0,175000,S,N,F,C,B,72,81,Normal,8.0,8.0,,148.0,NODATA!,2020,June,Friday,0,2019,June,Monday,0
+WV37BX,"3A, CHURCH WALK, ","3a, Church Walk, Penn Fields, ",0.87,215000,D,N,F,F,C,38,72,Normal,4.0,4.0,,84.0,NODATA!,2020,January,Friday,0,2019,October,Wednesday,0
+WV106QF,"6, NEWBURY ROAD, ","6, Newbury Road, ",1.0,130000,S,N,F,E,B,48,86,Normal,5.0,5.0,,83.0,NODATA!,2020,January,Friday,0,2019,October,Thursday,0
+WV106QF,"14, NEWBURY ROAD, ","14, Newbury Road, ",1.0,115000,D,N,F,E,E,53,54,Normal,5.0,4.0,,72.5,NODATA!,2020,June,Friday,0,2011,September,Wednesday,0
+WV44QP,"12, LUDSTONE AVENUE, ","12, Ludstone Avenue, ",1.0,104000,T,N,F,C,B,71,85,Normal,5.0,5.0,,81.0,NODATA!,2020,June,Wednesday,0,2019,October,Wednesday,0
+WV44QP,"12, LUDSTONE AVENUE, ","12, Ludstone Avenue, ",1.0,90000,T,N,F,C,B,71,85,Normal,5.0,5.0,,81.0,NODATA!,2020,April,Tuesday,0,2019,October,Wednesday,0
+WV46RQ,"12, CRANBOURNE AVENUE, ","12, Cranbourne Avenue, ",1.0,213000,S,N,F,E,B,44,82,Normal,4.0,4.0,,100.0,NODATA!,2020,May,Friday,0,2013,August,Tuesday,0
+WV146BL,"14, WINDSOR STREET, ","14, Windsor Street, ",1.0,112000,S,N,F,D,B,58,85,Normal,5.0,3.0,,90.0,NODATA!,2020,January,Friday,0,2019,April,Monday,0
+WV44QT,"9, WOLVERLEY AVENUE, ","9, Wolverley Avenue, ",1.0,167000,T,N,F,C,C,70,79,Normal,7.0,7.0,,131.0,NODATA!,2020,February,Thursday,0,2019,August,Monday,0
+WV44RW,"42, SWANCOTE DRIVE, ","42, Swancote Drive, ",1.0,160000,S,N,F,C,B,69,85,Normal,5.0,5.0,,86.0,NODATA!,2020,February,Friday,0,2015,October,Friday,0
+WV46PR,"7, LAPPER AVENUE, ","7, Lapper Avenue, ",1.0,210000,T,N,F,D,B,60,85,Normal,5.0,5.0,,86.0,NODATA!,2020,June,Wednesday,0,2020,January,Tuesday,0
+WV45AR,"22, SUTHERLAND ROAD, ","22, Sutherland Road, ",1.0,230000,D,N,F,D,B,55,81,Normal,5.0,5.0,,110.0,NODATA!,2020,April,Friday,0,2014,June,Tuesday,0
+WV22DS,"145, ROOKER AVENUE, ","145, Rooker Avenue, ",1.0,147000,S,N,F,D,B,59,85,Normal,5.0,5.0,,89.0,NODATA!,2020,June,Monday,0,2020,January,Thursday,0
+WV149YN,"21, STONEDOWN CLOSE, ","21, Stonedown Close, ",1.0,186500,D,N,F,D,B,67,83,Normal,5.0,5.0,,74.0,NODATA!,2020,January,Friday,0,2019,August,Thursday,0
+WV45SB,"4, HINSTOCK CLOSE, ","4, Hinstock Close, ",1.0,155000,T,N,F,D,C,56,77,Normal,7.0,5.0,,91.0,NODATA!,2020,March,Friday,0,2019,October,Wednesday,0
+WV109UL,"345, BUSHBURY LANE, ","343a, Bushbury Lane, ",0.96,165000,O,N,F,E,D,48,61,Normal,4.0,4.0,,57.0,1st,2020,January,Monday,0,2014,June,Monday,0
+WV12QL,"169, STOWHEATH LANE, ","169, Stowheath Lane, ",1.0,95000,S,N,F,D,B,62,85,Normal,5.0,5.0,,83.0,NODATA!,2020,February,Thursday,0,2019,November,Thursday,0
+WV12QL,"193, STOWHEATH LANE, ","193, Stowheath Lane, ",1.0,130000,T,N,F,C,B,70,85,Normal,5.0,5.0,,88.0,NODATA!,2020,April,Wednesday,0,2019,November,Wednesday,0
+WV12QL,"169, STOWHEATH LANE, ","169, Stowheath Lane, ",1.0,110000,S,N,F,D,B,62,85,Normal,5.0,5.0,,83.0,NODATA!,2020,March,Thursday,0,2019,November,Thursday,0
+WV45TW,"15, APPLETON CRESCENT, ","18, Appleton Crescent, ",0.97,230000,D,N,F,D,C,68,69,Normal,6.0,6.0,,132.86,NODATA!,2020,July,Wednesday,0,2012,March,Friday,0
+WV146BN,"4, CEMETERY STREET, ","4, Cemetery Street, ",1.0,152000,T,N,F,C,C,74,75,NO DATA!,,,,81.0,NO DATA!,2020,January,Friday,0,2014,March,Wednesday,0
+WV45QY,"19, THE FOLD, ","19, The Fold, ",1.0,185000,S,N,F,C,B,72,85,Normal,4.0,4.0,,82.0,NODATA!,2020,May,Monday,0,2014,March,Monday,0
+WV37AP,"93, HUGHES AVENUE, ","93, Hughes Avenue, ",1.0,160000,S,N,F,G,B,15,84,Normal,5.0,1.0,,85.0,NODATA!,2020,May,Friday,0,2019,March,Friday,0
+WV38HB,"4, HAZELMERE DRIVE, ","4, Hazelmere Drive, ",1.0,250000,D,N,F,C,B,69,85,Normal,3.0,3.0,,60.0,NODATA!,2020,March,Monday,0,2019,August,Thursday,0
+WV44NE,"130A, WARSTONES DRIVE, ","130a, Warstones Drive, ",1.0,69000,F,N,L,D,C,66,73,Normal,2.0,2.0,,52.0,1st,2020,February,Monday,0,2020,January,Saturday,0
+WV13EN,"4, DUDLEY STREET, ","Greggs, 3 Dudley Street, ",0.72,340000,O,N,F,G,F,1,37,Normal,3.0,3.0,,74.0,2nd,2020,February,Friday,0,2013,January,Wednesday,0
+WV38LG,"6, LAMORNA CLOSE, ","6, Lamorna Close, ",1.0,385000,D,N,F,D,C,57,76,Normal,8.0,8.0,,154.0,NODATA!,2020,March,Thursday,0,2019,June,Monday,0
+WV37LB,"242, TRYSULL ROAD, ","242, Trysull Road, ",1.0,227000,D,N,F,C,B,70,84,Normal,5.0,5.0,,80.0,NODATA!,2020,July,Friday,0,2014,March,Saturday,0
+WV68BJ,"21, FIRSWAY, ","21, Firsway, ",1.0,340000,D,N,F,C,C,70,75,Normal,5.0,5.0,,126.0,NODATA!,2020,February,Friday,0,2019,June,Tuesday,0
+WV60UN,"2, HAYDOCK CLOSE, ","2, Haydock Close, ",1.0,122500,S,N,L,D,B,60,85,Normal,4.0,4.0,,85.0,NODATA!,2020,May,Friday,0,2015,April,Tuesday,0
+WV46SF,"26 - 30, HATELEY DRIVE, ","26, Hateley Drive, ",0.83,650000,O,N,F,D,C,59,73,Normal,4.0,4.0,,75.0,1st,2020,March,Tuesday,0,2012,October,Thursday,0
+WV111EA,"BEALEYS COURT, FLAT 8, BEALEYS AVENUE, ","Flat 8 Bealeys Court, Bealeys Avenue, ",0.84,55000,F,N,L,D,C,63,74,Normal,2.0,2.0,,46.0,1st,2020,May,Friday,0,2019,November,Wednesday,0
+WV108SJ,"18, MASEFIELD ROAD, ","18, Masefield Road, ",1.0,120000,T,N,F,D,B,55,85,Normal,4.0,4.0,,85.0,NODATA!,2020,February,Thursday,0,2013,December,Friday,0
+WV113JU,"3, BEAVER CLOSE, ","3, Beaver Close, ",1.0,100000,T,N,F,D,B,67,87,Normal,4.0,4.0,,92.0,NODATA!,2020,May,Friday,0,2014,June,Monday,0
+WV45PE,"58, CHURCH HILL, ","58, Church Hill, ",1.0,291700,D,N,F,D,C,61,73,Normal,6.0,6.0,,119.0,NODATA!,2020,February,Friday,0,2017,September,Tuesday,0
+WV133RA,"606, WILLENHALL ROAD, ","606, Willenhall Road, ",1.0,155000,S,N,F,E,B,53,83,Normal,4.0,4.0,,90.0,NODATA!,2020,March,Thursday,0,2019,November,Wednesday,0
+WV68HD,"45, MILL LANE, ","51, Mill Lane, Tettenhall Wood, ",0.79,337000,T,N,F,F,E,38,48,Normal,5.0,5.0,,123.34,NO DATA!,2020,April,Thursday,0,2010,July,Wednesday,0
+WV39DL,"29, COMPTON HILL DRIVE, ","29, Compton Hill Drive, ",1.0,585000,D,N,F,D,C,61,79,Normal,7.0,7.0,,158.0,NODATA!,2020,January,Tuesday,0,2019,September,Wednesday,0
+WV37HJ,"10, LAUREL GROVE, ","10, Laurel Grove, ",1.0,177000,S,N,F,D,B,61,84,More Than Typical,3.0,3.0,,65.0,NODATA!,2020,February,Friday,0,2019,December,Wednesday,0
+WV68SJ,"92, WROTTESLEY ROAD, ","92, Wrottesley Road, ",1.0,585000,D,N,F,D,C,63,75,Normal,8.0,8.0,,208.0,NODATA!,2020,February,Friday,0,2019,November,Monday,0
+WV81XX,"7, SHOLING CLOSE, ","7, Sholing Close, Pendeford, ",0.92,145000,S,N,F,D,B,66,84,Normal,4.0,4.0,,89.0,NODATA!,2020,March,Tuesday,0,2016,February,Tuesday,0
+WV100AW,"85, TUMBLER GROVE, ","85, Tumbler Grove, ",1.0,186000,T,N,F,C,C,77,80,Normal,5.0,5.0,,105.6,NO DATA!,2020,March,Tuesday,0,2010,July,Monday,0
+WV112PH,"18, WYMERING AVENUE, ","18, Wymering Avenue, ",1.0,186000,S,N,F,C,B,70,85,Normal,5.0,5.0,,93.0,NODATA!,2020,May,Friday,0,2020,March,Tuesday,0
+WV108RN,"48, PRIMROSE LANE, ","48, Primrose Lane, ",1.0,189995,D,N,F,D,B,55,84,Normal,5.0,5.0,,107.0,NODATA!,2020,February,Friday,0,2012,October,Monday,0
+WV39ES,"1, BIRCH GLADE, ","1, Birch Glade, ",1.0,181500,S,N,F,E,B,39,81,Normal,4.0,4.0,,93.0,NODATA!,2020,January,Friday,0,2019,October,Tuesday,0
+WV68HA,"7, END HALL ROAD, ","7, End Hall Road, ",1.0,121000,D,N,F,D,B,63,83,Normal,6.0,6.0,,138.0,NODATA!,2020,February,Thursday,0,2014,January,Wednesday,0
+WV106NX,"2, GREENFIELD LANE, ","2, Greenfield Lane, ",1.0,200000,S,N,F,D,B,60,82,Normal,5.0,5.0,,116.0,NODATA!,2020,May,Friday,0,2014,February,Monday,0
+WV81UA,"12, THE DROVEWAY, ","12, The Droveway, ",1.0,90000,T,N,F,C,B,73,88,Normal,5.0,5.0,,87.0,NODATA!,2020,March,Friday,0,2020,February,Sunday,0
+WV68BG,"10, VIEWLANDS DRIVE, ","10, Viewlands Drive, ",1.0,525000,D,N,F,D,B,68,81,Normal,5.0,5.0,,141.0,NODATA!,2020,June,Wednesday,0,2020,February,Thursday,0
+WV68DP,"4, PERTON ROAD, ","3, Perton Road, ",0.96,298270,D,N,F,D,C,56,79,Normal,6.0,6.0,,163.0,NODATA!,2020,June,Friday,0,2015,December,Friday,0
+WV21JB,"157, POND LANE, ","157, Pond Lane, ",1.0,156000,S,N,F,C,B,77,86,Normal,6.0,6.0,,121.0,NODATA!,2020,April,Wednesday,0,2020,January,Friday,0
+WV68LN,"3, WOOD ROAD, ","3, Wood Road, ",1.0,310000,D,N,F,D,B,58,84,Normal,5.0,5.0,,111.0,NODATA!,2020,April,Friday,0,2014,February,Thursday,0
+WV45EB,"6, LEWTHORN RISE, ","6, Lewthorn Rise, ",1.0,180000,S,N,F,C,B,73,87,Normal,4.0,4.0,,73.0,NODATA!,2020,June,Tuesday,0,2018,October,Wednesday,0
+WV23NH,"106, BIRMINGHAM ROAD, ","102, Birmingham Road, ",0.98,2563288,O,N,F,C,C,71,71,Normal,5.0,5.0,,69.36,NODATA!,2020,March,Tuesday,0,2011,July,Friday,0
+WV23NH,"102, BIRMINGHAM ROAD, ","102, Birmingham Road, ",1.0,67500,S,N,F,C,C,71,71,Normal,5.0,5.0,,69.36,NODATA!,2020,June,Monday,0,2011,July,Friday,0
+WV68BB,"130, BRIDGNORTH ROAD, ","130, Bridgnorth Road, ",1.0,368876,S,N,F,D,B,59,82,Normal,6.0,6.0,,140.0,NODATA!,2020,March,Monday,0,2019,July,Monday,0
+WV108JH,"17, CHARTWELL DRIVE, ","17, Chartwell Drive, ",1.0,165000,S,N,F,D,B,66,84,Normal,3.0,3.0,,52.0,NODATA!,2020,April,Wednesday,0,2020,January,Wednesday,0
+WV22NT,"52, WARD STREET, ","52a Ward Street, Ettingshall, ",0.84,50000,O,N,F,F,C,28,71,Normal,2.0,0.0,,47.0,1st,2020,January,Friday,0,2019,August,Thursday,0
+WV100QL,"6, BATES GROVE, ","6, Bates Grove, ",1.0,200000,S,N,F,D,B,68,84,Normal,6.0,6.0,,96.0,NODATA!,2020,July,Tuesday,0,2020,June,Tuesday,0
+WV22AW,"116 - 126, STEELHOUSE LANE, ","100, Steelhouse Lane, ",0.75,280000,O,N,F,A,A,96,97,NO DATA!,,,,107.0,NO DATA!,2020,May,Tuesday,0,2020,January,Friday,0
+WV108RP,"55, PRIMROSE LANE, ","55, Primrose Lane, ",1.0,162000,S,N,F,C,B,72,85,Normal,5.0,5.0,,102.0,NODATA!,2020,February,Friday,0,2019,September,Monday,0
+WV106BA,"12, THREE TUNS PARADE, ","Flat, 12a, Three Tuns Parade, ",0.76,150000,O,N,F,D,C,57,72,Normal,3.0,3.0,,67.0,Ground,2020,June,Wednesday,0,2019,April,Thursday,0
+WV38NA,"201, CASTLECROFT ROAD, ","201, Castlecroft Road, ",1.0,470000,D,N,F,D,C,56,75,Normal,7.0,7.0,,229.0,NODATA!,2020,April,Monday,0,2014,May,Thursday,0
+WV11HN,"COACH HOUSE, 6, WHEELERS FOLD, ","The Coach House, 6 Wheelers Fold, ",0.79,220000,O,N,F,D,C,56,77,Normal,7.0,7.0,,97.0,NODATA!,2020,June,Monday,0,2020,January,Tuesday,0
